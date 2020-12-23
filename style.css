@@ -1,0 +1,354 @@
+/* le container reprend toute la page */
+#container
+{
+	width: auto;
+	border: 2px solid black;
+}
+
+/* css sur des parti general du code*/
+input
+{
+	color: blue;
+}
+
+ul
+{
+	
+	list-style-type: none;
+}
+
+/* le header qui entoure deux balize entete et Menu*/
+header img
+{
+	width: 50%;
+	display: flex;
+	
+	
+}
+
+#entete
+{
+	display: flex;
+	background-color: ;
+
+}
+
+
+
+nav li
+{
+	margin: 15px;	
+}
+
+nav ul
+{
+	color: blue;
+	display: flex;
+	margin-left: 150%;
+}
+
+nav a
+{
+    font-size: 1.3em;
+    color: #0065FC;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+nav a:hover
+{
+    color: black;
+    border-bottom: 3px solid #760001;
+}
+
+/* la section information qui entourre le titre sous titre et le formulaire de ville */
+#information
+{
+	margin: 0;
+	padding: 0;
+	
+}
+
+#information h2
+{
+	margin-top: 50px;
+	padding: 0;
+}
+
+#information p
+{
+	margin-top: -25px;
+	
+	
+}
+
+#information form
+{
+
+margin: 50px 0 50px 0;
+}
+ 
+/* la section barre qui entourre toute la ligne du filtre*/
+#filtre
+{
+	
+	display: flex;
+	text-align: center;
+	
+	align-items: center;
+}
+
+i
+{
+	color: #0065FC;
+	margin-right: 20px;
+	display: block;
+	border-radius: 50px;
+	border: 2px none black;
+
+
+}
+
+
+#Economique
+{
+	border: 1px solid black;
+	border-radius: 40px;
+	padding: 15px 15px 15px 15px;
+	margin-left: 40px;
+
+	
+}
+
+
+
+#Familial
+{
+	border: 1px solid black;
+	border-radius: 40px;
+	padding: 15px 15px 15px 15px;
+	margin-left: 80px;
+}
+
+#Romantique
+{
+	border: 1px solid black;
+	border-radius: 40px;
+	padding: 15px 15px 15px 15px;
+	margin-left: 80px;
+}
+
+#Animaux
+{
+	border: 1px solid black;
+	border-radius: 40px;
+	padding: 15px 15px 15px 15px;
+	margin-left: 80px;
+}
+
+/* la section Hebergement qui encadre tous ce qui est de l'hergement de marseille  */
+#Hebergement 
+{
+	
+	display: flex;
+}
+
+#Hebergement h3
+{
+	margin-bottom: -10px;
+}
+
+article
+{
+	width: 100%;
+	background-color: #F2F2F2;
+	padding: 10px;
+	margin-right: 20px;
+	border-radius: 30px;
+
+}
+
+article img
+{
+	width: 35%;
+	height: 130px;
+	display: flex;
+	border-radius: 20px;
+	
+}
+
+#auberge
+{
+	background-color: white;
+	padding: 20px 20px 20px 20px;
+	border-radius: 30px; 
+}
+
+#port
+{
+	background-color: white;
+	padding: 20px 20px 20px 20px;
+	border-radius: 30px;
+	margin: 10px 0px 0px 10px;
+}
+
+#mouette
+{
+	background-color: white;
+	padding: 20px 20px 20px 20px;
+	border-radius: 30px;
+	margin: 10px 0px 0px 10px;
+}
+
+#mer
+{
+	background-color: white;
+	padding: 20px 20px 20px 20px;
+	border-radius: 30px;
+	margin: 10px 0px 0px 10px;
+}
+
+#panier
+{
+	background-color: white;
+	padding: 20px 20px 20px 20px;
+	border-radius: 30px;
+	margin: 10px 0px 0px 10px;
+}
+
+#amina
+{
+	background-color: white;
+	padding: 20px 20px 20px 20px;
+	border-radius: 30px;
+	margin: 10px 0px 0px 10px;
+}
+
+/* L'aside qui entourre tous ce qui est a droite de l'hébergement a marseille*/
+aside
+{
+	width: 100%;
+	background-color: #F2F2F2;
+	padding: 20px;
+	border-radius: 30px;
+}
+
+#populaires h3
+{
+	margin-bottom: -13px;
+}
+
+#populaires img
+{
+	display: flex;
+	width: 40%;
+	height: 200px;
+	border-radius: 30px;
+}
+
+#populaires h3
+{
+	
+	
+}
+
+#soleil
+{
+	background-color: white;
+	padding: 20px 20px 20px 20px;
+	border-radius: 30px;
+	margin: 10px 0px 50px 10px;
+	height: 500px;
+}
+
+#coeur
+{
+	background-color: white;
+	padding: 20px 20px 20px 20px;
+	border-radius: 30px;
+	margin: 10px 0px 50px 10px;
+	height: 500px;
+}
+
+#bleu
+{
+	background-color: white;
+	padding: 20px 20px 20px 20px;
+	border-radius: 30px;
+	margin: 10px 0px 50px 10px;
+	height: 500px;	
+}
+
+/* la section marseille qui entourre toute la parti basse avant le footer*/
+#marseille img
+{
+	width: 30%;
+}
+
+#activité
+{
+	display: flex;
+	background-color: grey;
+}
+
+#vieux
+{
+	width: 25%;
+	height: 200px;
+}
+
+#fort
+{
+	width: 25%;
+}
+
+#Calanques
+{
+	width: 25%;
+}
+
+#monument
+{
+	width: 25%;
+}
+
+/* et le footer qui encadre 3 div*/
+footer
+{
+	display: flex;
+	text-align: left;
+	background-color: #F2F2F2;
+	border-radius: 30px;
+	padding: 20px;
+}
+
+footer ul
+{
+	
+	font-size: 1.1em;
+	padding-left: 0px;
+}
+
+#assistance
+{
+	
+	width: 30%;
+}
+
+#héber
+{
+	width: 40%;
+}
+
+#propos
+{
+	width: 40%;
+}
+
+
+
+
+
+
+
+

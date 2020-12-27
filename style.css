@@ -1,9 +1,12 @@
 /* le container reprend toute la page */
-#container
+.container
 {
-	width: auto;
-	border: 2px solid black;
-}
+	
+	border: 4px solid black;
+	font-family: "Raleway", "Sans serif"
+	}
+
+
 
 /* css sur des parti general du code*/
 input
@@ -20,7 +23,8 @@ ul
 /* le header qui entoure deux balize entete et Menu*/
 header img
 {
-	width: 50%;
+	
+	float: left;
 	display: flex;
 	
 	
@@ -28,23 +32,28 @@ header img
 
 #entete
 {
+	height: 105px;
 	display: flex;
-	background-color: ;
-
+	
+	
 }
-
 
 
 nav li
 {
-	margin: 15px;	
+	margin: 15px;
+	
 }
 
 nav ul
 {
-	color: blue;
+	 
+	color: #0065FC;
 	display: flex;
-	margin-left: 150%;
+	margin-top: 0px;
+	margin-left: 60%;
+	
+	
 }
 
 nav a
@@ -58,50 +67,49 @@ nav a
 nav a:hover
 {
     color: black;
-    border-bottom: 3px solid #760001;
+    border-bottom: 3px  #760001;
 }
 
 /* la section information qui entourre le titre sous titre et le formulaire de ville */
 #information
 {
-	margin: 0;
-	padding: 0;
 	
+	width: auto;
 }
 
 #information h2
 {
-	margin-top: 50px;
+	margin-top: 100px;
 	padding: 0;
 }
 
 #information p
 {
-	margin-top: -25px;
-	
-	
+	margin-top: -20px;
 }
 
 #information form
 {
-
-margin: 50px 0 50px 0;
+margin: 20px 0 0px 0;
 }
  
 /* la section barre qui entourre toute la ligne du filtre*/
+#barre
+{
+	margin: 20px 0 20px 0; 
+}
+
 #filtre
 {
-	
 	display: flex;
 	text-align: center;
-	
 	align-items: center;
 }
 
 i
 {
 	color: #0065FC;
-	margin-right: 20px;
+	margin-right: 10px;
 	display: block;
 	border-radius: 50px;
 	border: 2px none black;
@@ -147,169 +155,190 @@ i
 }
 
 /* la section Hebergement qui encadre tous ce qui est de l'hergement de marseille  */
-#Hebergement 
-{
-	
-	display: flex;
-}
-
-#Hebergement h3
-{
-	margin-bottom: -10px;
-}
-
 article
 {
-	width: 100%;
+	width: auto;
 	background-color: #F2F2F2;
-	padding: 10px;
-	margin-right: 20px;
+	padding: 5px;
+	margin-right: 5px;
 	border-radius: 30px;
 
 }
 
 article img
 {
-	width: 35%;
+	
 	height: 130px;
 	display: flex;
 	border-radius: 20px;
 	
 }
 
+#tp
+{
+	display: flex;
+	padding-left: -5px;
+}
+
+#tp2
+{
+	display: flex;
+}
+
+#Hebergement
+{
+	display: flex;	
+}
+
+#Hebergement img
+{
+	width: 250px;
+	height: 150px;
+	border-radius: 10% 10% 0% 0%;
+}
+
+#Hebergement h3
+{
+	display: flex;
+	margin-bottom: -10px;
+}
+
 #auberge
 {
+	border-radius: 30px;
+	margin: 10px 10px 10px 10px;
 	background-color: white;
-	padding: 20px 20px 20px 20px;
-	border-radius: 30px; 
 }
 
-#port
+.auberge_texte
 {
-	background-color: white;
-	padding: 20px 20px 20px 20px;
-	border-radius: 30px;
-	margin: 10px 0px 0px 10px;
+	width: 250px;
+	padding-bottom: : 20px;
 }
 
-#mouette
+#auberge p
 {
-	background-color: white;
-	padding: 20px 20px 20px 20px;
-	border-radius: 30px;
-	margin: 10px 0px 0px 10px;
+	margin-top: -10px;
 }
 
-#mer
+#auberge i
 {
-	background-color: white;
-	padding: 20px 20px 20px 20px;
-	border-radius: 30px;
-	margin: 10px 0px 0px 10px;
-}
-
-#panier
-{
-	background-color: white;
-	padding: 20px 20px 20px 20px;
-	border-radius: 30px;
-	margin: 10px 0px 0px 10px;
-}
-
-#amina
-{
-	background-color: white;
-	padding: 20px 20px 20px 20px;
-	border-radius: 30px;
-	margin: 10px 0px 0px 10px;
+	margin-top: 0px;
 }
 
 /* L'aside qui entourre tous ce qui est a droite de l'hébergement a marseille*/
 aside
 {
-	width: 100%;
 	background-color: #F2F2F2;
-	padding: 20px;
+	padding: 5px;
 	border-radius: 30px;
 }
 
+
 #populaires h3
 {
+	display: flex;
 	margin-bottom: -13px;
 }
 
 #populaires img
 {
-	display: flex;
-	width: 40%;
+	width: 150px;
 	height: 200px;
-	border-radius: 30px;
+	border-radius: 10% 0% 0% 10%;
 }
 
-#populaires h3
-{
-	
-	
-}
+
 
 #soleil
 {
-	background-color: white;
-	padding: 20px 20px 20px 20px;
+	display: flex;
+	padding: 5px 5px 5px 5px;
 	border-radius: 30px;
-	margin: 10px 0px 50px 10px;
-	height: 500px;
+	margin: 10px 0px 50px 0px;
+	height: 200px;
+	background-color: white;
 }
 
-#coeur
+.soleil_texte
 {
-	background-color: white;
-	padding: 20px 20px 20px 20px;
-	border-radius: 30px;
-	margin: 10px 0px 50px 10px;
-	height: 500px;
+	width: 200px;
 }
 
-#bleu
+#soleil p
 {
-	background-color: white;
-	padding: 20px 20px 20px 20px;
-	border-radius: 30px;
-	margin: 10px 0px 50px 10px;
-	height: 500px;	
+	margin-top: -10px;
 }
+
+#soleil i
+{
+	margin-top: 50px;
+}
+
+
+
+
 
 /* la section marseille qui entourre toute la parti basse avant le footer*/
-#marseille img
-{
-	width: 30%;
-}
 
 #activité
 {
 	display: flex;
-	background-color: grey;
-}
+	padding: 0;
+	margin: 0;
+} 
 
 #vieux
 {
-	width: 25%;
-	height: 200px;
+	background-color: white;
+	padding: 5px 5px 5px 5px;
+}
+
+#vieux img
+{
+	width: 290px;
+	height: 500px;
+	border-radius: 10% 10% 0% 0%;
+	padding-top: 20px;
 }
 
 #fort
 {
-	width: 25%;
+	padding: 5px 5px 5px 5px;
 }
 
-#Calanques
+#fort img
 {
-	width: 25%;
+	width: 290px;
+	height: 200px;
+	border-radius: 20% 20% 0% 0%;
+	padding-top: 20px;
+}
+
+#calanques
+{
+	padding: 5px 5px 5px 5px;
+}
+
+#Calanques img
+{
+	width: 290px;
+	height: 500px;
+	border-radius: 10% 10% 0% 0%;
+	padding-top: 20px;
 }
 
 #monument
 {
-	width: 25%;
+	padding: 5px 5px 5px 5px;
+}
+
+#monument img
+{
+	width: 290px;
+	height: 200px;
+	border-radius: 10% 10% 0% 0%;
+	padding-top: 20px;
 }
 
 /* et le footer qui encadre 3 div*/
@@ -325,7 +354,7 @@ footer
 footer ul
 {
 	
-	font-size: 1.1em;
+	
 	padding-left: 0px;
 }
 
@@ -344,6 +373,24 @@ footer ul
 {
 	width: 40%;
 }
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
+}
+
+
 
 
 

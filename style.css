@@ -1,44 +1,14 @@
-@import url ('https://fonts.googleapis.com/css2? family = Raleway: ital @ 1 & display = swap');
-
-
 /* le container reprend toute la page */
-
-
-.container
+#container
 {
-	
-	font-family: "Raleway", Sans serif;
-	justify-content: space-between;
+	width: auto;
+	border: 2px solid black;
 }
-
-
 
 /* css sur des parti general du code*/
-#scroll_to_top {
-  position: fixed;
-  width: 50px;
-  height: 50px;
-  bottom: 50px;
-  right: 30px;
-}
-
-
 input
 {
-	
-	height: 50px;
-	text-align: center;
-	font-size: 1.1em;
-	margin: 5px 0px 5px 0px;
-	border: none;
-
-}
- 
-input[type="submit" i]
-{
-	background-color: #1755d5;
-	border-radius: 0% 50px 50px 0%;
-	color: white;
+	color: blue;
 }
 
 ul
@@ -47,51 +17,34 @@ ul
 	list-style-type: none;
 }
 
-a
-{
-	text-decoration: none;
-}
-
 /* le header qui entoure deux balize entete et Menu*/
 header img
 {
-	
-	float: left;
+	width: 50%;
 	display: flex;
-}
-
-#logo
-{
-justify-content: flex-end;
-}
-
-nav
-{
-	justify-content: flex-end;
+	
+	
 }
 
 #entete
 {
-	
 	display: flex;
-	flex-wrap: wrap;
-	
+	background-color: ;
+
 }
+
 
 
 nav li
 {
-	margin: 15px;
-	
+	margin: 15px;	
 }
 
 nav ul
 {
-	 
-	color: #0065FC;
+	color: blue;
 	display: flex;
-	margin-top: 0px;
-	margin-left: 60%;
+	margin-left: 150%;
 }
 
 nav a
@@ -102,423 +55,295 @@ nav a
     text-decoration: none;
 }
 
-
-
-
+nav a:hover
+{
+    color: black;
+    border-bottom: 3px solid #760001;
+}
 
 /* la section information qui entourre le titre sous titre et le formulaire de ville */
-
+#information
+{
+	margin: 0;
+	padding: 0;
+	
+}
 
 #information h2
 {
-	margin-top: 100px;
+	margin-top: 50px;
 	padding: 0;
 }
 
 #information p
 {
-	margin-top: -20px;
+	margin-top: -25px;
+	
+	
 }
 
 #information form
 {
-margin: 20px 0 0px 0;
-}
 
+margin: 50px 0 50px 0;
+}
  
 /* la section barre qui entourre toute la ligne du filtre*/
-
-
-#barre a
-{
-	padding-left: 20px;
-	color: black;
-}
-
-#barre a:hover
-{
-	color: red;
-}
-
 #filtre
 {
-	display: flex;
-	align-items: center;
-	flex-wrap: wrap;
 	
-}
-
-#filtre ul
-{
 	display: flex;
-}
-
-#filtre i
-{
-	background-color: #a9def4;
-	width: 40px;
-	height: 30px;
 	text-align: center;
-	vertical-align: middle;
-	padding-top: 10px
-
+	
+	align-items: center;
 }
-
-
 
 i
 {
 	color: #0065FC;
+	margin-right: 20px;
 	display: block;
 	border-radius: 50px;
+	border: 2px none black;
 
-	
-}
 
-label i 
-{
-	color: black;
 }
 
 
 #Economique
 {
-	border: 1px solid grey;
+	border: 1px solid black;
 	border-radius: 40px;
-	margin: 20px 0 20px 30px;
-	width: 200px;
+	padding: 15px 15px 15px 15px;
+	margin-left: 40px;
+
 	
 }
 
 
 
-.fa-info:before 
+#Familial
 {
-	padding-right: 20px;
+	border: 1px solid black;
+	border-radius: 40px;
+	padding: 15px 15px 15px 15px;
+	margin-left: 80px;
 }
+
+#Romantique
+{
+	border: 1px solid black;
+	border-radius: 40px;
+	padding: 15px 15px 15px 15px;
+	margin-left: 80px;
+}
+
+#Animaux
+{
+	border: 1px solid black;
+	border-radius: 40px;
+	padding: 15px 15px 15px 15px;
+	margin-left: 80px;
+}
+
 /* la section Hebergement qui encadre tous ce qui est de l'hergement de marseille  */
-#Hebergement
+#Hebergement 
 {
-	display: flex;
-	flex-wrap: wrap;
 	
+	display: flex;
 }
 
-#Hebergement img
+#Hebergement h3
 {
-	width: 250px;
-	height: 150px;
-	border-radius: 10% 10% 0% 0%;
+	margin-bottom: -10px;
 }
 
 article
 {
-	
-	background-color: #cacbcc;
-	padding: 5px;
-	margin-right: 5px;
-	margin-top: 50px;
+	width: 100%;
+	background-color: #F2F2F2;
+	padding: 10px;
+	margin-right: 20px;
 	border-radius: 30px;
-	flex-wrap: wrap;
 
 }
 
 article img
 {
-	
+	width: 35%;
 	height: 130px;
 	display: flex;
 	border-radius: 20px;
 	
 }
 
-#tp
-{
-	display: flex;
-	padding-left: 5px;
-	flex-wrap: wrap;
-	
-}
-
-#tp2
-{
-	display: flex;
-	flex-wrap: wrap;
-	
-}
-
-
-
 #auberge
 {
-	border-radius: 30px;
-	margin: 10px 10px 10px 10px;
 	background-color: white;
+	padding: 20px 20px 20px 20px;
+	border-radius: 30px; 
 }
 
-.auberge_texte
+#port
 {
-	width: 250px;
-	padding-bottom: 20px;
+	background-color: white;
+	padding: 20px 20px 20px 20px;
+	border-radius: 30px;
+	margin: 10px 0px 0px 10px;
 }
 
-#auberge p
+#mouette
 {
-	margin-top: -10px;
+	background-color: white;
+	padding: 20px 20px 20px 20px;
+	border-radius: 30px;
+	margin: 10px 0px 0px 10px;
 }
 
-#auberge i
+#mer
 {
-	margin-top: 0px;
+	background-color: white;
+	padding: 20px 20px 20px 20px;
+	border-radius: 30px;
+	margin: 10px 0px 0px 10px;
+}
+
+#panier
+{
+	background-color: white;
+	padding: 20px 20px 20px 20px;
+	border-radius: 30px;
+	margin: 10px 0px 0px 10px;
+}
+
+#amina
+{
+	background-color: white;
+	padding: 20px 20px 20px 20px;
+	border-radius: 30px;
+	margin: 10px 0px 0px 10px;
 }
 
 /* L'aside qui entourre tous ce qui est a droite de l'hébergement a marseille*/
 aside
 {
-	background-color: #cacbcc;
-	padding: 5px;
+	width: 100%;
+	background-color: #F2F2F2;
+	padding: 20px;
 	border-radius: 30px;
-	margin-top: 50px;
-	flex-wrap: wrap;
 }
-
 
 #populaires h3
 {
-	display: flex;
 	margin-bottom: -13px;
 }
 
 #populaires img
 {
-	width: 150px;
+	display: flex;
+	width: 40%;
 	height: 200px;
-	border-radius: 10% 0% 0% 10%;
-	padding-right: 10px;
+	border-radius: 30px;
 }
 
-
+#populaires h3
+{
+	
+	
+}
 
 #soleil
 {
-	display: flex;
-	padding: 5px 5px 5px 5px;
-	border-radius: 30px;
-	margin: 10px 0px 50px 0px;
-	height: 200px;
 	background-color: white;
+	padding: 20px 20px 20px 20px;
+	border-radius: 30px;
+	margin: 10px 0px 50px 10px;
+	height: 500px;
 }
 
-.soleil_texte
+#coeur
 {
-	width: 200px;
+	background-color: white;
+	padding: 20px 20px 20px 20px;
+	border-radius: 30px;
+	margin: 10px 0px 50px 10px;
+	height: 500px;
 }
 
-#soleil p
+#bleu
 {
-	margin-top: -10px;
+	background-color: white;
+	padding: 20px 20px 20px 20px;
+	border-radius: 30px;
+	margin: 10px 0px 50px 10px;
+	height: 500px;	
 }
-
-#soleil i
-{
-	margin-top: 50px;
-}
-
-
-
-
 
 /* la section marseille qui entourre toute la parti basse avant le footer*/
+#marseille img
+{
+	width: 30%;
+}
 
-#activite
+#activité
 {
 	display: flex;
-	flex-wrap: wrap;
-	padding-left: 0;
-	margin: 0;
-
-} 
-
+	background-color: grey;
+}
 
 #vieux
 {
-	background-color: white;
-	padding: 5px 10px 5px 10px;
-}
-
-#vieux img
-{
-	width: 290px;
-	height: 500px;
-	border-radius: 10% 10% 0% 0%;
-	padding-top: 20px;
+	width: 25%;
+	height: 200px;
 }
 
 #fort
 {
-	background-color: white;
-	padding: 5px 10px 5px 5px;
-}
-
-#fort img
-{
-	width: 290px;
-	height: 200px;
-	border-radius: 20% 20% 0% 0%;
-	padding-top: 20px;
-	margin-top: 5px;
+	width: 25%;
 }
 
 #Calanques
 {
-	background-color: white;
-	padding: 5px 10px 5px 5px;
-}
-
-#Calanques img
-{
-	width: 290px;
-	height: 500px;
-	border-radius: 10% 10% 0% 0%;
-	padding-top: 20px;
+	width: 25%;
 }
 
 #monument
 {
-	background-color: white;
-	padding: 5px 10px 5px 5px;
-}
-
-#monument img
-{
-	width: 290px;
-	height: 200px;
-	border-radius: 20% 20% 0% 0%;
-	padding-top: 20px;
-	margin-top: 5px;
+	width: 25%;
 }
 
 /* et le footer qui encadre 3 div*/
 footer
 {
 	display: flex;
-	flex-wrap: wrap;
-	background-color: #cacbcc;
+	text-align: left;
+	background-color: #F2F2F2;
 	border-radius: 30px;
-	justify-content: space-between;
-	
-
+	padding: 20px;
 }
 
 footer ul
 {
 	
-	
+	font-size: 1.1em;
 	padding-left: 0px;
 }
 
 #assistance
 {
 	
-	
-	margin-left: 20px;
+	width: 30%;
 }
 
-#heber
+#héber
 {
-	
-	margin-left: 20px;
+	width: 40%;
 }
 
 #propos
 {
-	
-	margin-left: 20px;
+	width: 40%;
 }
-
-
-@media screen and (max-device-width:480px) 
-{
-	
-	
-	nav{
-		margin: 0;
-		padding: 0;
-		
-		justify-content: space-between;
-	}
-
-	nav ul
-	{
-		display: inline; 
-		margin-left: 0;
-	}
-
-	#information h2
-	{
-		text-align: justify;
-		justify-content: space-between;
-	}
-
-	#filtre a:hover
-	{
-		color: red;
-	}
-
-	#filtre ul 
-	{
-		display: grid;
-	}
-
-	#Hebergement
-	{
-		flex-direction: column-reverse;
-	}
-
-	#auberge
-	{
-		width: 430px;
-	}
-
-	#auberge img
-	{
-		width: 430px;
-	}
-
-	#vieux img 
-	{
-		width: 430px;
-		height: 200px;
-		border-radius: 20% 20% 0% 0%;
-	}
-
-	#fort img
-	{
-		width: 430px;
-	}
-
-	#Calanques img 
-	{
-		width: 430px;
-		height: 200px;
-		border-radius: 20% 20% 0% 0%;
-	}
-
-	#monument img 
-	{
-		width: 430px;
-	}
-
-	footer
-	{
-		display: flow-root;
-		flex-wrap: wrap;
-		background-color: #cacbcc;
-		border-radius: 30px;
-		justify-content: space-between;
-	}	
-}
-
 
 
 

@@ -28,7 +28,7 @@ input
 	
 	height: 50px;
 	text-align: center;
-	font-size: 1.2em;
+	font-size: 1.1em;
 	margin: 5px 0px 5px 0px;
 	border: none;
 
@@ -60,6 +60,11 @@ header img
 	display: flex;
 }
 
+#logo
+{
+justify-content: flex-end;
+}
+
 nav
 {
 	justify-content: flex-end;
@@ -69,7 +74,7 @@ nav
 {
 	
 	display: flex;
-	
+	flex-wrap: wrap;
 	
 }
 
@@ -102,11 +107,7 @@ nav a
 
 
 /* la section information qui entourre le titre sous titre et le formulaire de ville */
-#information
-{
-	
-	
-}
+
 
 #information h2
 {
@@ -147,6 +148,11 @@ margin: 20px 0 0px 0;
 	
 }
 
+#filtre ul
+{
+	display: flex;
+}
+
 #filtre i
 {
 	background-color: #a9def4;
@@ -181,7 +187,7 @@ label i
 	border-radius: 40px;
 	margin: 20px 0 20px 30px;
 	width: 200px;
-	flex-flow: column wrap;
+	
 }
 
 
@@ -195,6 +201,7 @@ label i
 {
 	display: flex;
 	flex-wrap: wrap;
+	
 }
 
 #Hebergement img
@@ -202,12 +209,6 @@ label i
 	width: 250px;
 	height: 150px;
 	border-radius: 10% 10% 0% 0%;
-}
-
-#Hebergement h3
-{
-	
-	con
 }
 
 article
@@ -236,12 +237,14 @@ article img
 	display: flex;
 	padding-left: 5px;
 	flex-wrap: wrap;
+	
 }
 
 #tp2
 {
 	display: flex;
 	flex-wrap: wrap;
+	
 }
 
 
@@ -400,10 +403,8 @@ footer
 {
 	display: flex;
 	flex-wrap: wrap;
-	text-align: left;
 	background-color: #cacbcc;
 	border-radius: 30px;
-	padding: 30px;
 	justify-content: space-between;
 	
 
@@ -415,12 +416,6 @@ footer ul
 	
 	padding-left: 0px;
 }
-
-
-
-
-
-
 
 #assistance
 {
@@ -442,7 +437,91 @@ footer ul
 }
 
 
+@media screen and (max-device-width:480px) 
+{
+	.container
+	{
+		
+		
+	}
+	
+	nav{
+		margin: 0;
+		padding: 0;
+		
+		justify-content: space-between;
+	}
 
+	nav ul
+	{
+		display: inline; 
+		margin-left: 0;
+	}
+
+	#information h2
+	{
+		text-align: justify;
+		justify-content: space-between;
+	}
+
+	#filtre a:hover
+	{
+		color: red;
+	}
+
+	#filtre ul 
+	{
+		display: grid;
+	}
+
+	#Hebergement
+	{
+		flex-direction: column-reverse;
+	}
+
+	#auberge
+	{
+		width: 430px;
+	}
+
+	#auberge img
+	{
+		width: 430px;
+	}
+
+	#vieux img 
+	{
+		width: 430px;
+		height: 200px;
+		border-radius: 20% 20% 0% 0%;
+	}
+
+	#fort img
+	{
+		width: 430px;
+	}
+
+	#Calanques img 
+	{
+		width: 430px;
+		height: 200px;
+		border-radius: 20% 20% 0% 0%;
+	}
+
+	#monument img 
+	{
+		width: 430px;
+	}
+
+	footer
+	{
+		display: flow-root;
+		flex-wrap: wrap;
+		background-color: #cacbcc;
+		border-radius: 30px;
+		justify-content: space-between;
+	}	
+}
 
 
 

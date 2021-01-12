@@ -1,6 +1,3 @@
-@import url ('https://fonts.googleapis.com/css2? family = Raleway: ital @ 1 & display = swap');
-
-
 /* le container reprend toute la page */
 
 
@@ -12,14 +9,21 @@
 }
 
 
+.element
+{
+	padding-right: 20px;
+}
+ 
+
 
 /* css sur des parti general du code*/
-#scroll_to_top {
-  position: fixed;
-  width: 50px;
-  height: 50px;
-  bottom: 50px;
-  right: 30px;
+#scroll_to_top 
+{
+	position: fixed;
+	width: 50px;
+	height: 50px;
+	bottom: 50px;
+	right: 30px;
 }
 
 
@@ -41,7 +45,7 @@ input[type="submit" i]
 	color: white;
 }
 
-ul
+li
 {
 	
 	list-style-type: none;
@@ -50,12 +54,13 @@ ul
 a
 {
 	text-decoration: none;
+	
 }
 
 /* le header qui entoure deux balize entete et Menu*/
 header img
 {
-	
+	max-width: 50%;
 	float: left;
 	display: flex;
 }
@@ -67,15 +72,16 @@ justify-content: flex-end;
 
 nav
 {
-	justify-content: flex-end;
+	justify-content: space-between;
+	display: flex;
+	padding-right: 20px;
 }
 
 #entete
 {
-	
+	justify-content: space-between;
 	display: flex;
 	flex-wrap: wrap;
-	
 }
 
 
@@ -91,7 +97,7 @@ nav ul
 	color: #0065FC;
 	display: flex;
 	margin-top: 0px;
-	margin-left: 60%;
+	
 }
 
 nav a
@@ -115,10 +121,7 @@ nav a
 	padding: 0;
 }
 
-#information p
-{
-	margin-top: -20px;
-}
+
 
 #information form
 {
@@ -171,8 +174,6 @@ i
 	color: #0065FC;
 	display: block;
 	border-radius: 50px;
-
-	
 }
 
 label i 
@@ -190,12 +191,17 @@ label i
 	
 }
 
-
-
-.fa-info:before 
+.eco1
 {
-	padding-right: 20px;
+	display: flex;
 }
+
+.eco2
+{
+	display: flex;
+}
+
+
 /* la section Hebergement qui encadre tous ce qui est de l'hergement de marseille  */
 #Hebergement
 {
@@ -206,8 +212,8 @@ label i
 
 #Hebergement img
 {
-	width: 250px;
-	height: 150px;
+	width: 100%;
+	height: 250px;
 	border-radius: 10% 10% 0% 0%;
 }
 
@@ -258,7 +264,7 @@ article img
 
 .auberge_texte
 {
-	width: 250px;
+	width: 300px;
 	padding-bottom: 20px;
 }
 
@@ -282,7 +288,6 @@ aside
 	flex-wrap: wrap;
 }
 
-
 #populaires h3
 {
 	display: flex;
@@ -292,53 +297,38 @@ aside
 #populaires img
 {
 	width: 150px;
-	height: 200px;
-	border-radius: 10% 0% 0% 10%;
+	
+	
 	padding-right: 10px;
+	
 }
 
 
 
 #soleil
 {
-	display: flex;
-	padding: 5px 5px 5px 5px;
-	border-radius: 30px;
-	margin: 10px 0px 50px 0px;
-	height: 200px;
 	background-color: white;
+	margin-right: 5px;
+	border-radius: 30px;
+	
 }
-
-.soleil_texte
-{
-	width: 200px;
-}
-
-#soleil p
-{
-	margin-top: -10px;
-}
-
-#soleil i
-{
-	margin-top: 50px;
-}
-
-
-
 
 
 /* la section marseille qui entourre toute la parti basse avant le footer*/
 
+#activite img 
+{
+    max-width: 100%;
+}
+
 #activite
 {
 	display: flex;
-	flex-wrap: wrap;
 	padding-left: 0;
 	margin: 0;
-
+	
+	
 } 
-
 
 #vieux
 {
@@ -349,7 +339,7 @@ aside
 #vieux img
 {
 	width: 290px;
-	height: 500px;
+	height: 300px;
 	border-radius: 10% 10% 0% 0%;
 	padding-top: 20px;
 }
@@ -363,7 +353,7 @@ aside
 #fort img
 {
 	width: 290px;
-	height: 200px;
+	height: 100px;
 	border-radius: 20% 20% 0% 0%;
 	padding-top: 20px;
 	margin-top: 5px;
@@ -378,7 +368,7 @@ aside
 #Calanques img
 {
 	width: 290px;
-	height: 500px;
+	height: 300px;
 	border-radius: 10% 10% 0% 0%;
 	padding-top: 20px;
 }
@@ -392,7 +382,7 @@ aside
 #monument img
 {
 	width: 290px;
-	height: 200px;
+	height: 100px;
 	border-radius: 20% 20% 0% 0%;
 	padding-top: 20px;
 	margin-top: 5px;
@@ -405,9 +395,7 @@ footer
 	flex-wrap: wrap;
 	background-color: #cacbcc;
 	border-radius: 30px;
-	justify-content: space-between;
-	
-
+	max-width: 100%;
 }
 
 footer ul
@@ -426,21 +414,441 @@ footer ul
 
 #heber
 {
-	
+	margin-right: 150px;
 	margin-left: 20px;
 }
 
 #propos
 {
-	
-	margin-left: 20px;
+	margin-left: 10px;
+	margin-right: 150px;
 }
 
+@media all and (min-device-width: 1024px) 
+{
+
+/* la section barre qui entourre toute la ligne du filtre*/
+
+	
+
+	#filtre
+	{
+		flex-wrap: nowrap;
+		width: 100%;
+	}
+
+	#Economique
+	{
+		margin: 5px;
+	}
+
+	#Hebergement
+	{
+	display: flex;
+	flex-wrap: wrap;
+	
+	}
+
+	#Hebergement img
+	{
+		
+		border-radius: 10% 10% 0% 0%;
+	}
+
+	article
+	{
+		width: 65%;
+	}
+
+	aside
+	{
+		width: 32%;
+	}
+
+	aside h2
+	{
+		margin-bottom: 30px;
+	}
+
+	.auberge_texte
+	{
+		width: 180px;
+		padding-bottom: 20px;
+	}
+
+	
+
+	#auberge
+	{
+		width: 30%;
+	}
+
+	#populaires img
+	{
+		width: 170px;
+		border-radius: 10px;
+		padding-right: 10px;
+	}
+
+	#soleil
+	{
+		display: flex;
+		height: 307px;
+		margin-bottom: 25px;
+	}
+
+	#soleil img
+	{
+		height: 307px;
+	}
+
+	#activite img
+	{
+		width: max-content;
+		height: 250px;
+	}
+
+	#vieux img
+	{
+		height: 585px;
+	}
+
+	#Calanques img
+	{
+		height: 585px;
+	}
+
+}
+
+@media all and (min-device-width: 911px) and (max-device-width: 1023px)
+{
+	#logo
+	{
+		width: -moz-available;
+		display: grid;
+		justify-content: center;
+		padding-left: 130px;
+	}
+
+	nav 
+	{
+		width: -moz-available;
+		justify-content: center;
+	}
+
+	.eco1
+	{
+		display: grid;
+	}
+
+	.eco2
+	{
+		display: grid;
+	}
+
+	#Hebergement
+	{
+		flex-direction: column-reverse;
+	}
+
+	#soleil 
+	{
+		display: inline-block;
+	}
+
+	aside 
+	{
+		width:-webkit-fill-available;
+		display:grid;
+	}
+
+	#soleil
+	{
+		
+		width:40%;
+		height: 90%;
+		border-radius: 20% 20% 10% 10%;
+	}
+
+	#soleil img 
+	{
+		width: 100%;
+		flex-wrap: wrap;
+		border-radius: 20% 20% 0% 0%;
+	}
+
+	.soleil_texte
+	{
+		height: 250px;
+	}
+
+	#populaires
+	{
+		height: 100%;
+		display:flex;
+	}
+
+	#auberge  
+	{
+		
+		width:30%;
+	}
+
+	#auberge img 
+	{
+		width: 100%;
+	}
+
+	#auberge h3
+	{
+		width:50%
+	}
+
+	footer 
+	{
+		flex-wrap: nowrap;
+	}
+
+	#propos
+	{
+		margin-right: 0;
+		padding-right: 20px;
+	}
+
+	#heber
+	{
+		margin-right: 0;
+		padding-right: 20px;
+	}
+
+	#assistance
+	{
+		margin-right: 0;
+	}
+
+
+
+}
+
+@media all and (min-device-width: 640px) and (max-device-width: 910px)
+{
+	
+	
+	
+	#logo
+	{
+		
+		width: -moz-available;
+		display: grid;
+		justify-content: center;
+		padding-left: 130px;
+	}
+	
+	nav 
+	{
+		width: -moz-available;
+		justify-content: center;
+	}
+
+
+	.eco1
+	{
+		display: grid;
+	}
+
+	.eco2
+	{
+		display: grid;
+	}
+
+	#Hebergement
+	{
+		flex-direction: column-reverse;
+	}
+
+	#Hebergement img 
+	{
+		width: 100%;
+	}
+
+	#auberge  
+	{
+		
+		width:30%;
+	}
+
+	#auberge img 
+	{
+		width: 100%;
+	}
+
+	#auberge h3
+	{
+		width:50%
+	}
+
+	aside 
+	{
+		width:-webkit-fill-available;
+		display:grid;
+	}
+
+	#soleil
+	{
+		
+		width:40%;
+		display:grid;
+		height: 90%;
+		border-radius: 20% 20% 10% 10%;
+	}
+
+	#soleil img 
+	{
+		width: 100%;
+		flex-wrap: wrap;
+		border-radius: 20% 20% 0% 0%;
+	}
+
+	.soleil_texte
+	{
+		height: 250px;
+	}
+
+	#populaires
+	{
+		height: 100%;
+		display:flex;
+	}
+
+	footer 
+	{
+		flex-wrap: nowrap;
+	}
+
+	#propos
+	{
+		margin-right: 0;
+	}
+
+	#heber
+	{
+		margin-right: 0;
+	}
+
+	#assistance
+	{
+		margin-right: 0;
+	}
+}
+	
+@media all and (min-device-width: 481px) and (max-device-width: 639px)
+{
+
+	#logo
+	{
+		width: -moz-available;
+		display: grid;
+		justify-content: center;
+		padding-left: 130px;
+	}
+
+	nav 
+	{
+		width: -moz-available;
+		justify-content: center;
+	}
+
+	.eco1
+	{
+		display: grid;
+	}
+
+	.eco2
+	{
+		display: grid;
+	}
+
+	#Hebergement
+	{
+		flex-direction: column-reverse;
+	}
+	
+	#Hebergement img 
+	{
+		width: 100%;
+	}
+
+	#auberge  
+	{
+		
+		width:30%;
+		margin: 5px;
+	}
+
+	#auberge img 
+	{
+		width: 100%;
+	}
+
+	#auberge h3
+	{
+		width:50%
+	}
+
+	#soleil
+	{
+		
+		width:40%;
+		display:grid;
+		height: 90%;
+		border-radius: 20% 20% 10% 10%;
+	}
+
+	#soleil img 
+	{
+		width: 100%;
+		flex-wrap: wrap;
+		border-radius: 20% 20% 0% 0%;
+	}
+
+	.soleil_texte
+	{
+		height: 250px;
+	}
+
+	#populaires
+	{
+		height: 100%;
+		display:flex;
+	}
+
+	
+	
+
+}
 
 @media screen and (max-device-width:480px) 
 {
 	
-	
+	#logo
+	{
+		width: -moz-available;
+		display: grid;
+		padding-left: 80px;
+		
+	}
+
+	input
+	{
+		width: 135px;
+		font-size: 1em;
+	}	
+
+	i.fas.fa-info
+	{
+		padding-right: 10px;
+	}
+
 	nav{
 		margin: 0;
 		padding: 0;
@@ -454,15 +862,26 @@ footer ul
 		margin-left: 0;
 	}
 
+
 	#information h2
 	{
-		text-align: justify;
 		justify-content: space-between;
+		font-size: 1em;
 	}
 
-	#filtre a:hover
+	#information p
 	{
-		color: red;
+		font-size: 0.8em;
+	}
+
+	.eco1
+	{
+		display: grid;
+	}
+
+	.eco2
+	{
+		display: grid;
 	}
 
 	#filtre ul 
@@ -472,41 +891,59 @@ footer ul
 
 	#Hebergement
 	{
-		flex-direction: column-reverse;
+		flex-direction:column-reverse	
+	}
+
+	#Hebergement img 
+	{
+		width: 100%;
+	}
+
+	#soleil
+	{
+		margin: 15px 15px 15px 10px;
+	}
+
+	.soleil_texte
+	{
+		padding-bottom: 20px;
 	}
 
 	#auberge
 	{
-		width: 430px;
+		width: 100%;
 	}
 
-	#auberge img
+	#activite
 	{
-		width: 430px;
+		display: grid;
 	}
+	
 
 	#vieux img 
 	{
-		width: 430px;
+		width: 100%;
 		height: 200px;
 		border-radius: 20% 20% 0% 0%;
 	}
 
 	#fort img
 	{
-		width: 430px;
+		width: 100%;
+		height: 200px;
 	}
 
 	#Calanques img 
 	{
-		width: 430px;
+		width: 100%;
 		height: 200px;
 		border-radius: 20% 20% 0% 0%;
 	}
 
 	#monument img 
 	{
-		width: 430px;
+		width: 100%;
+		height: 200px;
 	}
 
 	footer
@@ -518,12 +955,3 @@ footer ul
 		justify-content: space-between;
 	}	
 }
-
-
-
-
-
-
-
-
-

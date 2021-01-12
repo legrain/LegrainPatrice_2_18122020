@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* le container reprend toute la page */
 
 
@@ -955,3 +956,406 @@ footer ul
 		justify-content: space-between;
 	}	
 }
+=======
+/* le container reprend toute la page */
+.container
+{
+	
+	border: 4px solid black;
+	font-family: "Raleway", "Sans serif"
+	}
+
+
+
+/* css sur des parti general du code*/
+input
+{
+	color: blue;
+}
+
+ul
+{
+	
+	list-style-type: none;
+}
+
+/* le header qui entoure deux balize entete et Menu*/
+header img
+{
+	
+	float: left;
+	display: flex;
+	
+	
+}
+
+#entete
+{
+	height: 105px;
+	display: flex;
+	
+	
+}
+
+
+nav li
+{
+	margin: 15px;
+	
+}
+
+nav ul
+{
+	 
+	color: #0065FC;
+	display: flex;
+	margin-top: 0px;
+	margin-left: 60%;
+	
+	
+}
+
+nav a
+{
+    font-size: 1.3em;
+    color: #0065FC;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+nav a:hover
+{
+    color: black;
+    border-bottom: 3px  #760001;
+}
+
+/* la section information qui entourre le titre sous titre et le formulaire de ville */
+#information
+{
+	
+	width: auto;
+}
+
+#information h2
+{
+	margin-top: 100px;
+	padding: 0;
+}
+
+#information p
+{
+	margin-top: -20px;
+}
+
+#information form
+{
+margin: 20px 0 0px 0;
+}
+ 
+/* la section barre qui entourre toute la ligne du filtre*/
+#barre
+{
+	margin: 20px 0 20px 0; 
+}
+
+#filtre
+{
+	display: flex;
+	text-align: center;
+	align-items: center;
+}
+
+i
+{
+	color: #0065FC;
+	margin-right: 10px;
+	display: block;
+	border-radius: 50px;
+	border: 2px none black;
+
+
+}
+
+
+#Economique
+{
+	border: 1px solid black;
+	border-radius: 40px;
+	padding: 15px 15px 15px 15px;
+	margin-left: 40px;
+
+	
+}
+
+
+
+#Familial
+{
+	border: 1px solid black;
+	border-radius: 40px;
+	padding: 15px 15px 15px 15px;
+	margin-left: 80px;
+}
+
+#Romantique
+{
+	border: 1px solid black;
+	border-radius: 40px;
+	padding: 15px 15px 15px 15px;
+	margin-left: 80px;
+}
+
+#Animaux
+{
+	border: 1px solid black;
+	border-radius: 40px;
+	padding: 15px 15px 15px 15px;
+	margin-left: 80px;
+}
+
+/* la section Hebergement qui encadre tous ce qui est de l'hergement de marseille  */
+article
+{
+	width: auto;
+	background-color: #F2F2F2;
+	padding: 5px;
+	margin-right: 5px;
+	border-radius: 30px;
+
+}
+
+article img
+{
+	
+	height: 130px;
+	display: flex;
+	border-radius: 20px;
+	
+}
+
+#tp
+{
+	display: flex;
+	padding-left: -5px;
+}
+
+#tp2
+{
+	display: flex;
+}
+
+#Hebergement
+{
+	display: flex;	
+}
+
+#Hebergement img
+{
+	width: 250px;
+	height: 150px;
+	border-radius: 10% 10% 0% 0%;
+}
+
+#Hebergement h3
+{
+	display: flex;
+	margin-bottom: -10px;
+}
+
+#auberge
+{
+	border-radius: 30px;
+	margin: 10px 10px 10px 10px;
+	background-color: white;
+}
+
+.auberge_texte
+{
+	width: 250px;
+	padding-bottom: : 20px;
+}
+
+#auberge p
+{
+	margin-top: -10px;
+}
+
+#auberge i
+{
+	margin-top: 0px;
+}
+
+/* L'aside qui entourre tous ce qui est a droite de l'hébergement a marseille*/
+aside
+{
+	background-color: #F2F2F2;
+	padding: 5px;
+	border-radius: 30px;
+}
+
+
+#populaires h3
+{
+	display: flex;
+	margin-bottom: -13px;
+}
+
+#populaires img
+{
+	width: 150px;
+	height: 200px;
+	border-radius: 10% 0% 0% 10%;
+}
+
+
+
+#soleil
+{
+	display: flex;
+	padding: 5px 5px 5px 5px;
+	border-radius: 30px;
+	margin: 10px 0px 50px 0px;
+	height: 200px;
+	background-color: white;
+}
+
+.soleil_texte
+{
+	width: 200px;
+}
+
+#soleil p
+{
+	margin-top: -10px;
+}
+
+#soleil i
+{
+	margin-top: 50px;
+}
+
+
+
+
+
+/* la section marseille qui entourre toute la parti basse avant le footer*/
+
+#activité
+{
+	display: flex;
+	padding: 0;
+	margin: 0;
+} 
+
+#vieux
+{
+	background-color: white;
+	padding: 5px 5px 5px 5px;
+}
+
+#vieux img
+{
+	width: 290px;
+	height: 500px;
+	border-radius: 10% 10% 0% 0%;
+	padding-top: 20px;
+}
+
+#fort
+{
+	padding: 5px 5px 5px 5px;
+}
+
+#fort img
+{
+	width: 290px;
+	height: 200px;
+	border-radius: 20% 20% 0% 0%;
+	padding-top: 20px;
+}
+
+#calanques
+{
+	padding: 5px 5px 5px 5px;
+}
+
+#Calanques img
+{
+	width: 290px;
+	height: 500px;
+	border-radius: 10% 10% 0% 0%;
+	padding-top: 20px;
+}
+
+#monument
+{
+	padding: 5px 5px 5px 5px;
+}
+
+#monument img
+{
+	width: 290px;
+	height: 200px;
+	border-radius: 10% 10% 0% 0%;
+	padding-top: 20px;
+}
+
+/* et le footer qui encadre 3 div*/
+footer
+{
+	display: flex;
+	text-align: left;
+	background-color: #F2F2F2;
+	border-radius: 30px;
+	padding: 20px;
+}
+
+footer ul
+{
+	
+	
+	padding-left: 0px;
+}
+
+#assistance
+{
+	
+	width: 30%;
+}
+
+#héber
+{
+	width: 40%;
+}
+
+#propos
+{
+	width: 40%;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+>>>>>>> 05ffbb8f79324fb364602f48b20c02a7506f2882

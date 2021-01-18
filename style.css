@@ -5,14 +5,9 @@
 {
 	
 	font-family: "Raleway", Sans serif;
-	justify-content: space-between;
+	justify-content: space-around;
 }
 
-
-.element
-{
-	padding-right: 20px;
-}
  
 
 
@@ -40,7 +35,7 @@ input
  
 input[type="submit" i]
 {
-	background-color: #1755d5;
+	background-color: #0065FC;
 	border-radius: 0% 50px 50px 0%;
 	color: white;
 }
@@ -57,10 +52,12 @@ a
 	
 }
 
+
+
 /* le header qui entoure deux balize entete et Menu*/
 header img
 {
-	max-width: 50%;
+	max-width: 40%;
 	float: left;
 	display: flex;
 }
@@ -94,15 +91,13 @@ nav li
 nav ul
 {
 	 
-	color: #0065FC;
 	display: flex;
 	margin-top: 0px;
-	
 }
 
 nav a
 {
-    font-size: 1.3em;
+    
     color: #0065FC;
     padding-bottom: 3px;
     text-decoration: none;
@@ -117,7 +112,7 @@ nav a
 
 #information h2
 {
-	margin-top: 100px;
+	margin-top: 70px;
 	padding: 0;
 }
 
@@ -158,7 +153,7 @@ margin: 20px 0 0px 0;
 
 #filtre i
 {
-	background-color: #a9def4;
+	background-color: #DEEBFF;
 	width: 40px;
 	height: 30px;
 	text-align: center;
@@ -215,18 +210,19 @@ label i
 	width: 100%;
 	height: 250px;
 	border-radius: 10% 10% 0% 0%;
+	object-fit: cover;
 }
 
 article
 {
 	
-	background-color: #cacbcc;
+	background-color: #F2F2F2;
 	padding: 5px;
 	margin-right: 5px;
 	margin-top: 50px;
 	border-radius: 30px;
 	flex-wrap: wrap;
-
+	
 }
 
 article img
@@ -241,7 +237,6 @@ article img
 #tp
 {
 	display: flex;
-	padding-left: 5px;
 	flex-wrap: wrap;
 	
 }
@@ -257,21 +252,20 @@ article img
 
 #auberge
 {
-	border-radius: 30px;
+	border-radius: 20px;
 	margin: 10px 10px 10px 10px;
 	background-color: white;
+	box-shadow: 1px 1px 10px black;
 }
 
 .auberge_texte
 {
 	width: 300px;
 	padding-bottom: 20px;
+	
 }
 
-#auberge p
-{
-	margin-top: -10px;
-}
+
 
 #auberge i
 {
@@ -281,11 +275,16 @@ article img
 /* L'aside qui entourre tous ce qui est a droite de l'hébergement a marseille*/
 aside
 {
-	background-color: #cacbcc;
+	background-color: #F2F2F2;
 	padding: 5px;
 	border-radius: 30px;
 	margin-top: 50px;
 	flex-wrap: wrap;
+}
+
+aside i
+{
+	color: black;
 }
 
 #populaires h3
@@ -297,10 +296,7 @@ aside
 #populaires img
 {
 	width: 150px;
-	
-	
 	padding-right: 10px;
-	
 }
 
 
@@ -309,93 +305,152 @@ aside
 {
 	background-color: white;
 	margin-right: 5px;
-	border-radius: 30px;
-	
+	border-radius: 10px;
+	box-shadow: 1px 1px 10px black;
 }
 
 
 /* la section marseille qui entourre toute la parti basse avant le footer*/
 
-#activite img 
-{
-    max-width: 100%;
-}
+	#activite img 
+	{
+		width: 90%;
+		object-fit: cover;
+	}
 
-#activite
-{
-	display: flex;
-	padding-left: 0;
-	margin: 0;
+	#activite
+	{
+		display: flex;
+		padding-left: 0;
+		margin: 0;
+		
+		
+	} 
+
+
+	#vieux
+	{
+		border-radius:10px 10px 10px 10px;
+		background-color: white;
+		padding: 5px 10px 5px 10px;
+		box-shadow: 1px 1px 10px black;
+	}
+
+	#vieux img
+	{
+		height: 380px;
+		padding: 0;
+		border-radius:10px 10px 0 0;
+		width: 290px;
+		padding-top: 20px;
+	}
 	
+	#fort1 img
+	{
+		width: 280px; 
+		height: 150px;
+		border-radius:10px 10px 0px 0px;
+		padding-top: 20px;
+		margin-top: 5px;
+	}
 	
-} 
+	#fort1 
+	{
+		margin-right: 20px;
+		border-radius:10px 10px 10px 10px;
+		height: 210px;
+		box-shadow: 1px 1px 10px black;
+		background-color: white;
+		padding: 5px 10px 5px 5px;
+	}
+	
+	#fort2 img
+	{
+		width: 280px; 
+		height: 150px;
+		border-radius:10px 10px 0px 0px;
+		padding-top: 20px;
+		margin-top: 5px;
+	}
+	
+	#fort2
+	{
+		 
+		height: 210px;
+		margin-right: 20px;
+		border-radius:10px 10px 10px 10px;
+		box-shadow: 1px 1px 5px black;
+		margin-top: 20px;
+		background-color: white;
+		padding: 5px 10px 5px 5px;
+	}
+	
+	#Calanques
+	{
+		margin-right: 20px;
+		border-radius:10px 10px 10px 10px;
+		height: 440px;
+		padding: 0;
+		background-color: white;
+		padding: 5px 10px 5px 5px;
+		box-shadow: 1px 1px 10px black;
+	}
 
-#vieux
-{
-	background-color: white;
-	padding: 5px 10px 5px 10px;
-}
+	#Calanques img
+	{
+		width: 290px;
+		height: 300px;
+		padding: 0;
+		border-radius:10px 10px 0 0;
+	}
+	
+	#monument1 img
+	{
+		width: 290px;
+		height: 100px;
+		border-radius:10px 10px 0px 0px;
+	}
+	
+	#monument1 
+	{
+		margin-right: 20px;
+		border-radius:10px 10px 10px 10px;
+		height: 210px;
+		box-shadow: 1px 1px 5px black;
+		background-color: white;
+		padding: 5px 10px 5px 5px;
+	}
+	
+	#monument2 img
+	{
+		width: 290px;
+		height: 100px;
+		border-radius:10px 10px 0px 0px;
+	}
+	
+	#monument2
+	{
+		 
+		height: 210px;
+		margin-right: 20px;
+		border-radius:10px 10px 10px 10px;
+		box-shadow: 1px 1px 5px black;
+		margin-top: 20px;
+		background-color: white;
+		padding: 5px 10px 5px 5px;
+		
+	}
 
-#vieux img
-{
-	width: 290px;
-	height: 300px;
-	border-radius: 10% 10% 0% 0%;
-	padding-top: 20px;
-}
 
-#fort
-{
-	background-color: white;
-	padding: 5px 10px 5px 5px;
-}
-
-#fort img
-{
-	width: 290px;
-	height: 100px;
-	border-radius: 20% 20% 0% 0%;
-	padding-top: 20px;
-	margin-top: 5px;
-}
-
-#Calanques
-{
-	background-color: white;
-	padding: 5px 10px 5px 5px;
-}
-
-#Calanques img
-{
-	width: 290px;
-	height: 300px;
-	border-radius: 10% 10% 0% 0%;
-	padding-top: 20px;
-}
-
-#monument
-{
-	background-color: white;
-	padding: 5px 10px 5px 5px;
-}
-
-#monument img
-{
-	width: 290px;
-	height: 100px;
-	border-radius: 20% 20% 0% 0%;
-	padding-top: 20px;
-	margin-top: 5px;
-}
 
 /* et le footer qui encadre 3 div*/
 footer
 {
 	display: flex;
 	flex-wrap: wrap;
-	background-color: #cacbcc;
-	border-radius: 30px;
-	max-width: 100%;
+	background-color: #F2F2F2;
+	
+	
 }
 
 footer ul
@@ -424,11 +479,115 @@ footer ul
 	margin-right: 150px;
 }
 
-@media all and (min-device-width: 1024px) 
+@media all and (min-device-width: 1650px) 
 {
+	h2
+	{
+		font-size: 1.2em;
+	}
 
-/* la section barre qui entourre toute la ligne du filtre*/
+	#filtre
+	{
+		flex-wrap: nowrap;
+		width: 100%;
+	}
 
+	#Economique
+	{
+		margin: 5px;
+	}
+
+	#Hebergement
+	{
+	display: flex;
+	flex-wrap: wrap;
+	
+	}
+
+	#Hebergement img
+	{
+		
+		border-radius: 10% 10% 0% 0%;
+	}
+
+	article
+	{
+		width: 65%;
+	}
+
+	aside
+	{
+		width: 32%;
+	}
+
+	aside h2
+	{
+		margin-bottom: 30px;
+	}
+
+	i.fas.fa-chart-line 
+	{
+		padding-left: 67%;
+	}
+
+	.auberge_texte
+	{
+		width: 180px;
+		padding-bottom: 20px;
+	}
+
+	
+
+	#auberge
+	{
+		width: 30%;
+	}
+
+	#populaires img
+	{
+		width: 170px;
+		border-radius: 10px;
+		padding-right: 10px;
+	}
+
+	#soleil
+	{
+		display: flex;
+		height: 307px;
+		margin-bottom: 25px;
+	}
+
+	#soleil img
+	{
+		height: 307px;
+		
+	}
+
+
+	#activite img
+	{
+		width: 100%;
+		height: 250px;
+	}
+
+	#vieux img
+	{
+		height: 585px;
+	}
+
+	#Calanques img
+	{
+		height: 585px;
+	}
+
+	footer
+	{
+		flex-wrap: nowrap;
+	}
+}
+
+@media all and (min-device-width: 1440px) and (max-device-width: 1650px)
+{
 	
 
 	#filtre
@@ -470,6 +629,11 @@ footer ul
 		margin-bottom: 30px;
 	}
 
+	i.fas.fa-chart-line 
+	{
+		padding-left: 40%;
+	}
+
 	.auberge_texte
 	{
 		width: 180px;
@@ -500,11 +664,13 @@ footer ul
 	#soleil img
 	{
 		height: 307px;
+		
 	}
 
+	
 	#activite img
 	{
-		width: max-content;
+		width: 100%;
 		height: 250px;
 	}
 
@@ -518,6 +684,380 @@ footer ul
 		height: 585px;
 	}
 
+	footer
+	{
+		flex-wrap: nowrap;
+	}
+}
+
+@media all and (min-device-width: 1231px) and (max-device-width: 1439px)
+{
+	
+
+	h2
+	{
+		
+		padding-left: 30px;
+	}
+	
+	h3
+	{
+		margin-bottom:0;
+		margin-top:5px;
+		
+	}
+
+	#filtre
+	{
+		flex-wrap: nowrap;
+		width: 100%;
+	}
+
+	#Economique
+	{
+		margin: 5px;
+	}
+	
+	i.fas.fa-info 
+	{
+    background-color: #DEEBFF;
+    width: 40px;
+    height: 30px;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 10px;
+	}
+
+	#Hebergement
+	{
+	display: flex;
+	flex-wrap: wrap;
+	
+	}
+
+	#Hebergement img
+	{
+		height:130px;
+		border-radius: 10% 10% 0% 0%;
+	}
+	
+
+	article
+	{
+		width: 60%;
+		margin-right: 20px;
+		padding: 0 20px 0 20px;
+	}
+	
+	
+
+	aside
+	{
+		width: 32%;
+	}
+
+	aside h2
+	{
+		margin-bottom: 30px;
+	}
+
+	i.fas.fa-chart-line 
+	{
+		padding-left: 30%;
+	}
+
+	.auberge_texte
+	{
+		width: 180px;
+		padding-bottom: 20px;
+		padding-left: 5px;
+	}
+
+	#auberge img 
+	{
+		border-radius: 10% 10% 0% 0%;
+	}
+
+	#auberge
+	{
+		width: 29%;
+		height: 204px;
+		padding: 5px;
+	}
+	
+	#auberge p
+	{
+		
+		margin-top: -15px;
+	}
+
+	#populaires img
+	{
+		width: 100px;
+		border-radius: 10px;
+		padding-right: 10px;
+	}
+	
+
+	#soleil
+	{
+		display: flex;
+		height: 120px;
+		margin: 30px 20px 10px 20px;
+		padding: 5px;
+	}
+
+	#soleil img
+	{
+		height: 307px;
+		height: 120px;
+		border-radius: 10px 0 0 10px;
+	}
+
+	
+
+	#activite img
+	{
+		width: 100%;
+		height: 250px;
+	}
+
+	#vieux img
+	{
+		height: 585px;
+	}
+
+	#Calanques img
+	{
+		height: 585px;
+	}
+
+	footer
+	{
+		flex-wrap: nowrap;
+	}
+}
+
+@media all and (min-device-width: 1024px) and (max-device-width: 1230px)
+{
+
+/* la section barre qui entourre toute la ligne du filtre*/
+
+	h2
+	{
+		
+		padding-left: 20px;
+	}
+	
+	h3
+	{
+		margin-bottom:0;
+		margin-top:5px;
+		
+	}
+
+	#filtre
+	{
+		flex-wrap: nowrap;
+		width: 100%;
+	}
+
+	#Economique
+	{
+		margin: 5px;
+	}
+	
+	i.fas.fa-info {
+    background-color: #DEEBFF;
+    width: 40px;
+    height: 30px;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 10px;
+	}
+
+	#Hebergement
+	{
+	display: flex;
+	flex-wrap: wrap;
+	
+	}
+
+	#Hebergement img
+	{
+		
+		height:130px;
+	}
+	
+	#auberge img 
+	{
+		border-radius: 10% 10% 0% 0%;
+	}
+
+	article
+	{
+		width: 60%;
+		margin-right: 20px;
+		padding: 0 20px 0 20px;
+	}
+
+	aside
+	{
+		width: 32%;
+	}
+
+	aside h2
+	{
+		margin-bottom: 30px;
+	}
+
+	i.fas.fa-chart-line 
+	{
+		padding-left: 20%;
+	}
+
+	.auberge_texte
+	{
+		width: 180px;
+		padding-bottom: 20px;
+		padding-left: 5px;
+	}
+
+	
+
+	#auberge
+	{
+		width: 28%;
+		height: 195px;
+		padding: 5px;
+	}
+
+	#populaires img
+	{ 
+		width: 100px;
+		
+	}
+
+	#soleil
+	{
+		display: flex;
+		height: 120px;
+		margin: 30px 20px 10px 20px;
+		padding: 5px;
+	}
+
+	#soleil img
+	{
+		height: 120px;
+		border-radius: 10px 0 0 10px;
+	}
+
+	#auberge p
+	{
+		margin-top: -15px;
+	}
+
+	
+	
+	#vieux
+	{
+		margin-right: 20px;
+		border-radius:10px 10px 10px 10px;
+		height: 440px;
+		padding: 0;
+	}
+
+	#vieux img
+	{
+		height: 380px;
+		padding: 0;
+		border-radius:10px 10px 0 0;
+	}
+	
+	#fort1 img
+	{
+		width: 280px; 
+		height: 150px;
+		border-radius:10px 10px 0px 0px;
+	}
+	
+	#fort1 
+	{
+		margin-right: 20px;
+		border-radius:10px 10px 10px 10px;
+		height: 210px;
+		box-shadow: 1px 1px 10px black;
+	}
+	
+	#fort2 img
+	{
+		width: 280px; 
+		height: 150px;
+		border-radius:10px 10px 0px 0px;
+	}
+	
+	#fort2
+	{
+		 
+		height: 210px;
+		margin-right: 20px;
+		border-radius:10px 10px 10px 10px;
+		box-shadow: 1px 1px 5px black;
+		margin-top: 20px;
+	}
+	
+	#Calanques
+	{
+		margin-right: 20px;
+		border-radius:10px 10px 10px 10px;
+		height: 440px;
+		padding: 0;
+	}
+
+	#Calanques img
+	{
+		height: 380px;
+		padding: 0;
+		border-radius:10px 10px 0 0;
+	}
+	
+	#monument1 img
+	{
+		width: 280px; 
+		height: 150px;
+		border-radius:10px 10px 0px 0px;
+	}
+	
+	#monument1 
+	{
+		margin-right: 20px;
+		border-radius:10px 10px 10px 10px;
+		height: 210px;
+		box-shadow: 1px 1px 5px black;
+	}
+	
+	#monument2 img
+	{
+		width: 280px; 
+		height: 150px;
+		border-radius:10px 10px 0px 0px;
+	}
+	
+	#monument2
+	{
+		 
+		height: 210px;
+		margin-right: 20px;
+		border-radius:10px 10px 10px 10px;
+		box-shadow: 1px 1px 5px black;
+		margin-top: 20px;
+	}
+
+	footer
+	{
+		flex-wrap: nowrap;
+		margin-top: 30px;
+	}
 }
 
 @media all and (min-device-width: 911px) and (max-device-width: 1023px)
@@ -551,6 +1091,11 @@ footer ul
 		flex-direction: column-reverse;
 	}
 
+	aside h2 i 
+	{
+		padding-left: 60%;
+	}
+
 	#soleil 
 	{
 		display: inline-block;
@@ -558,7 +1103,7 @@ footer ul
 
 	aside 
 	{
-		width:-webkit-fill-available;
+		
 		display:grid;
 	}
 
@@ -634,7 +1179,6 @@ footer ul
 {
 	
 	
-	
 	#logo
 	{
 		
@@ -659,6 +1203,11 @@ footer ul
 	.eco2
 	{
 		display: grid;
+	}
+
+	aside h2 i 
+	{
+		padding-left: 50%;
 	}
 
 	#Hebergement
@@ -689,8 +1238,10 @@ footer ul
 
 	aside 
 	{
-		width:-webkit-fill-available;
+		width:98%;
 		display:grid;
+		padding: 10px 20px 0px 20px;
+		margin-left: 20px;
 	}
 
 	#soleil
@@ -718,6 +1269,16 @@ footer ul
 	{
 		height: 100%;
 		display:flex;
+	}
+
+	#monument img 
+	{
+		height: 110px;
+	}
+
+	#fort img 
+	{
+		height: 110px;
 	}
 
 	footer 
@@ -741,102 +1302,73 @@ footer ul
 	}
 }
 	
-@media all and (min-device-width: 481px) and (max-device-width: 639px)
+
+@media screen and (max-device-width:639px) 
 {
+	.top li
+	{
+		
+		width: 150px;
+	}
 
 	#logo
 	{
-		width: -moz-available;
-		display: grid;
-		justify-content: center;
-		padding-left: 130px;
+		position: absolute;
 	}
 
-	nav 
-	{
-		width: -moz-available;
-		justify-content: center;
-	}
-
-	.eco1
+	.top 
 	{
 		display: grid;
-	}
-
-	.eco2
-	{
-		display: grid;
-	}
-
-	#Hebergement
-	{
-		flex-direction: column-reverse;
+		grid-template-columns: repeat(3, 1fr);
+  		grid-gap: 5px;
+  		padding-left: 0;
+		font-size: 1.2em;
 	}
 	
-	#Hebergement img 
+
+	.one 
 	{
-		width: 100%;
+		grid-column: 1;
+		grid-row: 11;
+		padding-left: 0;
+		margin-left: 0;
+		border-bottom: 2px solid blue;
+		height: 150%;
+		text-align: center;
+		margin: 0;
+		width: 50%;
+	 }
+
+	.two
+	{
+		grid-column: 2;
+		grid-row: 11; 
+		margin-left: 20%;
+		text-align: left;
+		border-bottom: 2px solid blue;
+		height: 150%;
+		text-align: center;
+		margin: 0;
+		width: 50%;
 	}
 
-	#auberge  
+	.tree
 	{
-		
-		width:30%;
-		margin: 5px;
+		grid-column: 2;
+	 	margin-top: 40px;
+		margin-left: 10%;
+		text-align: center;
+		text-align: center;
+		margin: 40px 0 0 0;
+		padding-left: 30px;
 	}
 
-	#auberge img 
+	.tree li 
 	{
-		width: 100%;
+		width: 100px;
 	}
-
-	#auberge h3
-	{
-		width:50%
-	}
-
-	#soleil
-	{
-		
-		width:40%;
-		display:grid;
-		height: 90%;
-		border-radius: 20% 20% 10% 10%;
-	}
-
-	#soleil img 
-	{
-		width: 100%;
-		flex-wrap: wrap;
-		border-radius: 20% 20% 0% 0%;
-	}
-
-	.soleil_texte
-	{
-		height: 250px;
-	}
-
-	#populaires
-	{
-		height: 100%;
-		display:flex;
-	}
-
 	
 	
-
-}
-
-@media screen and (max-device-width:480px) 
-{
-	
-	#logo
-	{
-		width: -moz-available;
-		display: grid;
-		padding-left: 80px;
-		
-	}
 
 	input
 	{
@@ -853,12 +1385,10 @@ footer ul
 		margin: 0;
 		padding: 0;
 		
-		justify-content: space-between;
 	}
 
 	nav ul
-	{
-		display: inline; 
+	{ 
 		margin-left: 0;
 	}
 
@@ -866,42 +1396,112 @@ footer ul
 	#information h2
 	{
 		justify-content: space-between;
-		font-size: 1em;
 	}
 
-	#information p
-	{
-		font-size: 0.8em;
-	}
-
-	.eco1
-	{
-		display: grid;
-	}
+	
 
 	.eco2
 	{
-		display: grid;
+		display:inline;
+		margin-top: -20px;
+		padding: 0;
+	}
+
+	#filtre
+	{
+		display:flow-root;
 	}
 
 	#filtre ul 
 	{
 		display: grid;
+		padding-left: 0;
+	}
+
+	#Economique
+	{
+		margin-left: 0;
+		width: 170px;
+		margin-right: 5px;
+	}
+
+	#barre a 
+	{
+		padding-left: 5px;
 	}
 
 	#Hebergement
 	{
-		flex-direction:column-reverse	
+		flex-direction:column-reverse;	
+	}
+	
+	#Hergement img
+	{
+		border-radius: 10% 0% 0% 10%;
+		margin: 0;
+	}
+	
+	article
+	{
+		background-color: white;
+	}
+	
+	aside
+	{
+		width: 90%;
+		padding-right: 20px;
+	}
+	
+	aside h2 i
+	{
+		padding-left: 30%;
+	}
+	
+	#populaires h3
+	{
+		
+		font-size: 1em;
 	}
 
-	#Hebergement img 
-	{
-		width: 100%;
-	}
 
 	#soleil
 	{
 		margin: 15px 15px 15px 10px;
+		display: flex;
+		width: 97%;
+		height: 250px;
+		border-radius: 10% 10% 10% 10%;
+		height: 150px;
+	}
+
+	#soleil img
+	{
+		width: 140px;
+		height: 150px;
+		border-radius: 10% 0% 0% 10%;
+		padding: 0;
+		margin:0;
+		padding-right: 5px;
+	}
+	
+	#soleil p
+	{
+		margin: 0;
+	}
+	
+	#soleil .nuit i
+	{
+		padding-top: 30px;
+	}
+	
+	#soleil .coeur i
+	{
+		padding-top: 10px;
+	}
+	
+	#soleil .blanc i
+	{
+		padding-top: 30px;
 	}
 
 	.soleil_texte
@@ -912,11 +1512,50 @@ footer ul
 	#auberge
 	{
 		width: 100%;
+		height: 230px;
+		border-radius: 10% 10% 10% 10%;
 	}
+	
+	#auberge h3
+	{
+		margin: 0;
+	}
+	
+	#auberge p
+	{
+		padding: 0;
+		margin: 0;
+	}
+	
+	.auberge_texte
+	{
+		padding-left: 10px;
+	}
+	
+	#auberge img 
+	{
+		padding: 0;
+		margin: 0;
+		height: 150px;
+	}	
 
 	#activite
 	{
 		display: grid;
+	}
+	
+	#vieux
+	{
+		padding: 0;
+		margin-bottom: 20px;
+		margin-left: 20px;
+		border-radius: 10% 10% 10% 10%;
+		width: 100%;
+	}
+	
+	#vieux p 
+	{
+		padding-left: 20px;
 	}
 	
 
@@ -924,34 +1563,155 @@ footer ul
 	{
 		width: 100%;
 		height: 200px;
-		border-radius: 20% 20% 0% 0%;
+		border-radius: 10% 10% 0% 0%;
+		padding: 0;
+	}
+	
+	#fort1 
+	{
+		margin-left: 20px;
+		width: 100%;
+		padding: 0;
+		height: 260px;
+		border-radius: 10% 10% 10% 10%;
 	}
 
-	#fort img
+	#fort1 img
 	{
 		width: 100%;
 		height: 200px;
+		padding-top: 0;
+		border-radius: 10% 10% 0% 0%;
+		margin: 0;
+	}
+	
+	#fort1 p 
+	{
+		padding-left: 20px;
+	}
+	
+	#fort2
+	{
+		width: 100%;
+		height: 250px;
+		padding-top: 0;
+		border-radius: 10% 10% 10% 10%;
+		padding: 0;
+		margin-left: 20px;
+		
+	}
+	
+	#fort2 img
+	{
+		width: 100%;
+		height: 200px;
+		padding-top: 0;
+		border-radius: 10% 10% 0% 0%;
+		margin: 0;
+	}
+	
+	#fort2 p 
+	{
+		padding-left: 20px;
+	}
+	
+	#Calanques
+	{
+		padding: 0;
+		margin-bottom: 20px;
+		margin-left: 20px;
+		border-radius: 10% 10% 10% 10%;
+		width: 100%;
+		height: 250px;
+		margin-top: 20px;
 	}
 
 	#Calanques img 
 	{
 		width: 100%;
 		height: 200px;
-		border-radius: 20% 20% 0% 0%;
+		border-radius: 10% 10% 0% 0%;
+	}
+	
+	#Calanques p 
+	{
+		padding-left: 20px;
+	}
+	
+	#monument1
+	{
+		margin-left: 20px;
+		width: 100%;
+		padding: 0;
+		height: 260px;
+		border-radius: 10% 10% 10% 10%;
 	}
 
-	#monument img 
+	#monument1 img 
 	{
 		width: 100%;
 		height: 200px;
+		border-radius: 10% 10% 0% 0%;
 	}
-
+	
+	#monument1 p
+	{
+		padding-left: 20px;
+	}
+	
+	#monument2
+	{
+		margin-left: 20px;
+		width: 100%;
+		padding: 0;
+		height: 260px;
+		border-radius: 10% 10% 10% 10%;
+	}
+	
+	#monument2 img
+	{
+		width: 100%;
+		height: 200px;
+		border-radius: 10% 10% 0% 0%;
+	}
+	
+	#monument2 p
+	{
+		padding-left: 20px;
+	}
+	
 	footer
 	{
+		margin-top: 20px;
 		display: flow-root;
 		flex-wrap: wrap;
-		background-color: #cacbcc;
-		border-radius: 30px;
+		background-color: #F2F2F2;
 		justify-content: space-between;
+		width: 120%;
+		padding-left: 30px;
 	}	
+	
+	#propos ul
+	{
+		
+		width: 120%;
+	}
+	
+	#propos
+	{
+		margin: 0;
+		padding-top: 30px;
+	}
+	
+	#heber
+	{
+		margin: 0;
+		padding-top: 30px;
+	}
+	
+	#assistance
+	{
+		margin: 0;
+		padding-top: 30px;
+	}
 }

@@ -24,7 +24,7 @@
 				<nav class="col-lg-4 col-md-4 col-sm-12" >
  				<ul class="top">
  					<li class="one"><a href="#Hebergement">Hébergement</a></li>
- 					<li class="two"><a href="#Activités">Activités</a></li>
+ 					<li class="two"><a href="#Activites">Activités</a></li>
  					<li class="tree"><a href="">S'inscrire</a></li>
 				</ul>
  				</nav>
@@ -32,14 +32,16 @@
 		</div>
 	</header>
 		<section id="information">
-			<h2>Trouvez votre hébergement pour les vacances de rêve</h2>
+			<h1>Trouvez votre hébergement pour les vacances de rêve</h1>
 			<p>En plein centre ville ou en pleine nature</p>
 			<form method="post" action="page de recuperation des donné.php">
 				
 	              <label for="pseudo"><i class="fas fa-map-marker-alt"></i></label>
 	              <input type="text" name="pseudo" id="pseudo" maxlength="50" placeholder="Marseille,Paris...">
-	              <input type="submit"  value="Rechercher" />
-           	</form>
+	              <input class="recherche" type="submit"  value="Rechercher" />
+				  <button class="recherche_loupe" <span><i class="fas fa-search"></i></span>
+
+			</form>
 		</section>
 		<section id="barre">
 			<div id="filtre"><p>Filtres</p>
@@ -50,7 +52,7 @@
 				</div>
 				<div class="eco2">
 				<li id="Economique"><i class="fas fa-heart"></i><a href="">Romantique</a></li>
-				<li id="Economique"><i class="fas fa-dog"></i><a href="">Animaux</a></li>
+				<li id="Economique" class="chien"><i class="fas fa-dog"></i><a href="">Animaux autorisés</a></li>
 				</div>
 			</ul>
 			</div>
@@ -116,7 +118,7 @@
 				</div>
 			</aside>
 		</section>
-		<section id="Activités">
+		<section id="Activites">
 			
 			<h2>Activité à Marseille</h2>
 			<div id="activite">

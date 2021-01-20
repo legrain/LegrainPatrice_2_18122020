@@ -123,9 +123,23 @@
 	nav a
 	{
 		
-		color: #0065FC;
 		padding-bottom: 3px;
 		text-decoration: none;
+	}
+
+	li.one a 
+	{
+		color: #0065FC;
+	}
+
+	li.two a
+	{
+		color: #f2f2f2;
+	}
+
+	li.tree a
+	{
+		color:  #f2f2f2;
 	}
 
 

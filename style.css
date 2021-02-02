@@ -1,6 +1,10 @@
 /* le container reprend toute la page */
+<<<<<<< HEAD
 
 
+=======
+	
+>>>>>>> 826d3ca7634339608255904a1cb0fc431837a180
 	.container
 	{
 		font-family: "Raleway", Sans serif;
@@ -11,6 +15,7 @@
 
 
 /* css sur des parti general du code*/
+<<<<<<< HEAD
 	#scroll_to_top 
 	{
 		position: fixed;
@@ -20,6 +25,10 @@
 		right: 30px;
 	}
 	
+=======
+	
+	
+>>>>>>> 826d3ca7634339608255904a1cb0fc431837a180
 	i.fas.fa-map-marker-alt
 	{
 		border: 1px  #f2f2f2;
@@ -33,6 +42,48 @@
 		background-color: #f2f2f2;
 		padding-top: 3px;
 	}
+<<<<<<< HEAD
+
+
+	input
+	{
+		
+		height: 50px;
+		text-align: center;
+		font-size: 1.1em;
+		margin: 5px -5px 5px -5px;
+		border: 1px solid #f2f2f2;
+		padding-bottom: 2px;
+		padding-top: -2px;
+	}
+	 
+	input[type="submit" i]
+	{
+		background-color: #0065FC;
+		border-radius: 0% 15px 15px 0%;
+		color: white;
+		height: 55px;
+		padding-bottom: 1px;
+	}
+	
+	.rechercher_loupe 
+	{
+    display: none;
+	}
+
+	li
+	{
+		
+		list-style-type: none;
+	}
+
+	a
+	{
+		text-decoration: none;
+		color: black;
+	}
+
+=======
 
 
 	input
@@ -88,9 +139,23 @@
 		float: left;
 		display: flex;
 	}
+>>>>>>> 826d3ca7634339608255904a1cb0fc431837a180
 
 
+/* le header qui entoure deux balize entete et Menu*/
+	header
+	{
+		width: 100%;
+	}
 
+<<<<<<< HEAD
+
+	header img
+	{
+		max-width: 200%;
+		float: left;
+		display: flex;
+=======
 	nav
 	{
 		justify-content: space-between;
@@ -104,6 +169,7 @@
 		justify-content: space-between;
 		display: flex;
 		flex-wrap: wrap;
+>>>>>>> 826d3ca7634339608255904a1cb0fc431837a180
 	}
 
 
@@ -120,12 +186,67 @@
 		margin-top: 0px;
 	}
 
+<<<<<<< HEAD
+	nav
+	{
+		justify-content: space-between;
+		display: flex;
+		padding-right: 20px;
+		width: 100%;
+	}
+
+	#entete
+	{
+		justify-content: space-between;
+		display: flex;
+		flex-wrap: wrap;
+=======
 	nav a
 	{
 		
 		padding-bottom: 3px;
 		text-decoration: none;
 	}
+
+	li.one a 
+	{
+		color: #0065FC;
+>>>>>>> 826d3ca7634339608255904a1cb0fc431837a180
+	}
+
+	li.two a
+	{
+		color: black;
+	}
+
+<<<<<<< HEAD
+	nav li
+	{
+		margin-right: 20px;
+		
+=======
+	li.tree a
+	{
+		color:  #0065FC;
+>>>>>>> 826d3ca7634339608255904a1cb0fc431837a180
+	}
+
+	nav ul
+	{
+		 
+		display: flex;
+		margin-top: 0px;
+	}
+
+<<<<<<< HEAD
+	nav a
+	{
+		
+		padding-bottom: 3px;
+		text-decoration: none;
+	}
+=======
+>>>>>>> 826d3ca7634339608255904a1cb0fc431837a180
 
 	li.one a 
 	{
@@ -137,13 +258,29 @@
 		color: black;
 	}
 
+<<<<<<< HEAD
 	li.tree a
 	{
 		color:  #0065FC;
+=======
+/* la section information qui entourre le titre sous titre et le formulaire de ville */
+
+
+	#information h2
+	{
+		margin-top: 70px;
+		padding: 0;
+	}
+
+	#information form
+	{
+		margin: 20px 0 0px 0;
+>>>>>>> 826d3ca7634339608255904a1cb0fc431837a180
 	}
 
 
 
+<<<<<<< HEAD
 
 
 /* la section information qui entourre le titre sous titre et le formulaire de ville */
@@ -158,12 +295,7 @@
 	#information form
 	{
 		margin: 20px 0 0px 0;
-	}
-
- 
-/* la section barre qui entourre toute la ligne du filtre*/
-
-
+=======
 	#barre a
 	{
 		padding-left: 20px;
@@ -195,8 +327,94 @@
 		height: 30px;
 		text-align: center;
 		vertical-align: middle;
+		padding-top: 10px;
+	}
+
+	i.fas.fa-info
+	{
+		padding-right: 10px;
+		background-color: #DEEBFF;
+		width: 15px;
+		height: 30px;
+		text-align: center;
+		vertical-align: middle;
+		padding-left: 10px;
+		padding-top: 5px;
+		margin-right: 5px;
+			
+>>>>>>> 826d3ca7634339608255904a1cb0fc431837a180
+	}
+
+ 
+/* la section barre qui entourre toute la ligne du filtre*/
+
+
+<<<<<<< HEAD
+	#barre a
+	{
+		padding-left: 20px;
+		color: black;
+	}
+
+	#barre a:hover
+	{
+		color: red;
+=======
+	i
+	{
+		color: #0065FC;
+		display: block;
+		border-radius: 50px;
+	}
+
+	label i 
+	{
+		color: black;
+>>>>>>> 826d3ca7634339608255904a1cb0fc431837a180
+	}
+
+	#filtre
+	{
+		display: flex;
+		align-items: center;
+		flex-wrap: wrap;
+		
+	}
+
+<<<<<<< HEAD
+	#filtre ul
+	{
+		display: flex;
+	}
+
+	#filtre i
+	{
+		background-color: #DEEBFF;
+		width: 40px;
+		height: 30px;
+		text-align: center;
+		vertical-align: middle;
 		padding-top: 10px
 
+=======
+	#Economique
+	{
+		border: 1px solid grey;
+		border-radius: 40px;
+		margin: 20px 0 20px 30px;
+		width: 200px;
+		
+	}
+
+	.eco1
+	{
+		display: flex;
+	}
+
+	.eco2
+	{
+		display: flex;
+>>>>>>> 826d3ca7634339608255904a1cb0fc431837a180
 	}
 
 	i.fas.fa-info
@@ -213,6 +431,7 @@
 			
 	}
 
+<<<<<<< HEAD
 
 
 	i
@@ -250,6 +469,9 @@
 
 /* la section Hebergement qui encadre tous ce qui est de l'hergement de marseille  */
 	
+=======
+/* la section Hebergement qui encadre tous ce qui est de l'hergement de marseille  */
+	
 
 	i.fas.fa-star
 	{
@@ -275,6 +497,158 @@
 	#Hebergement
 	{
 		display: flex;
+		flex-wrap: wrap;
+	}
+
+	#Hebergement img
+	{
+		width: 100%;
+		height: 250px;
+		border-radius: 10% 10% 0% 0%;
+		object-fit: cover;
+	}
+
+
+	article
+	{
+		
+		background-color: #F2F2F2;
+		margin-top: 50px;
+		border-radius: 30px;
+		flex-wrap: wrap;
+		
+	}
+
+	article img
+	{
+		
+		height: 130px;
+		display: flex;
+		border-radius: 20px;
+		
+	}
+
+	#tp
+	{
+		display: flex;
+		flex-wrap: wrap;
+		
+	}
+
+	#tp2
+	{
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+
+
+	#auberge
+	{
+		border-radius: 20px;
+		margin: 10px 0px 10px 0px;
+		background-color: white;
+		box-shadow: 1px 1px 5px black;
+	}
+
+	.auberge_texte
+	{
+		width: 100%;
+		padding-bottom: 20px;
+	}
+
+>>>>>>> 826d3ca7634339608255904a1cb0fc431837a180
+
+	i.fas.fa-star
+	{
+		color: #0065FC;
+	}
+
+<<<<<<< HEAD
+=======
+	#auberge i
+	{
+		margin-top: 0px;
+	}
+
+/* L'aside qui entourre tous ce qui est a droite de l'hébergement a marseille*/
+	aside
+	{
+		background-color: #F2F2F2;
+		padding: 5px;
+		border-radius: 30px;
+		margin-top: 50px;
+		flex-wrap: wrap;
+		width:100%;
+	}
+
+	aside .chart
+	{
+		width:90%;
+	}
+
+	aside h2
+	{
+		display:flex;
+	}
+
+	i.fas.fa-chart-line
+	{
+		line-height: 4;
+	}
+
+	aside i
+	{
+		color: black;
+	}
+
+	#populaires h3
+	{
+		display: flex;
+		margin-bottom: -13px;
+	}
+
+	#populaires img
+	{
+		width: 150px;
+		padding-right: 10px;
+	}
+
+
+
+	#soleil
+	{
+		background-color: white;
+		margin-right: 5px;
+		border-radius: 10px;
+		box-shadow: 1px 1px 5px black;
+	}
+>>>>>>> 826d3ca7634339608255904a1cb0fc431837a180
+
+	i.fas.fa-star.ok
+	{
+		color: #F2F2F2; 
+	}
+
+	#soleil i.fas.fa-star
+	{
+		color: #0065FC;
+	}
+
+	#soleil i.fas.fa-star.ok
+	{
+<<<<<<< HEAD
+		color: #F2F2F2;
+=======
+		
+		object-fit: cover;
+>>>>>>> 826d3ca7634339608255904a1cb0fc431837a180
+	}
+
+	#Hebergement
+	{
+		display: flex;
+<<<<<<< HEAD
 		flex-wrap: wrap;
 	}
 
@@ -407,6 +781,8 @@
 	#activite
 	{
 		display: flex;
+=======
+>>>>>>> 826d3ca7634339608255904a1cb0fc431837a180
 		width: 98%;
 		margin: 10px;
 	} 
@@ -417,8 +793,13 @@
 		border-radius:10px 10px 10px 10px;
 		background-color: white;
 		box-shadow: 1px 1px 5px black;
+<<<<<<< HEAD
 		width: 100%;
 		margin-right: 10px;
+=======
+		width: 40%;
+		margin-right: 20px;
+>>>>>>> 826d3ca7634339608255904a1cb0fc431837a180
 	}
 
 	#vieux img
@@ -475,7 +856,13 @@
 		padding: 0;
 		background-color: white;
 		box-shadow: 1px 1px 5px black;
+<<<<<<< HEAD
 		width: 100%;
+=======
+		width: 40%;
+		margin-left: 20px;
+		margin-right: 20px;
+>>>>>>> 826d3ca7634339608255904a1cb0fc431837a180
 	}
 
 	#Calanques img
@@ -737,7 +1124,11 @@
 
 	aside
 	{
+<<<<<<< HEAD
 		width: 32%;
+=======
+		width: 36%;
+>>>>>>> 826d3ca7634339608255904a1cb0fc431837a180
 		font-size: 0.92em;
 	}
 
@@ -879,11 +1270,18 @@
 	
 	#vieux
 	{
+<<<<<<< HEAD
 		margin-right: 20px;
 		border-radius:10px 10px 10px 10px;
 		height: 620px;
 		padding: 0;
 		width: 100%;
+=======
+		
+		border-radius:10px 10px 10px 10px;
+		height: 620px;
+		padding: 0;
+>>>>>>> 826d3ca7634339608255904a1cb0fc431837a180
 		font-size: 1.3em;
 	}
 
@@ -892,6 +1290,10 @@
 		height: 480px;
 		padding: 0;
 		border-radius:10px 10px 0 0;
+<<<<<<< HEAD
+=======
+		width: 100%;
+>>>>>>> 826d3ca7634339608255904a1cb0fc431837a180
 	}
 	
 	#fort1 img
@@ -930,12 +1332,20 @@
 	
 	#Calanques
 	{
+<<<<<<< HEAD
 		margin-right: 20px;
 		margin-left: 20px;
+=======
+		
+>>>>>>> 826d3ca7634339608255904a1cb0fc431837a180
 		border-radius:10px 10px 10px 10px;
 		height: 620px;
 		padding: 0;
 		font-size: 1.3em;
+<<<<<<< HEAD
+=======
+		
+>>>>>>> 826d3ca7634339608255904a1cb0fc431837a180
 	}
 
 	#Calanques img
@@ -1137,7 +1547,11 @@
 
 	aside
 	{
+<<<<<<< HEAD
 		width: 32%;
+=======
+		width: 35%;
+>>>>>>> 826d3ca7634339608255904a1cb0fc431837a180
 		font-size: 0.92em;
 	}
 
@@ -1261,11 +1675,19 @@
 	
 	#vieux
 	{
+<<<<<<< HEAD
 		margin-right: 20px;
 		border-radius:10px 10px 10px 10px;
 		height: 480px;
 		padding: 0;
 		width: 100%;
+=======
+		
+		border-radius:10px 10px 10px 10px;
+		height: 480px;
+		padding: 0;
+		
+>>>>>>> 826d3ca7634339608255904a1cb0fc431837a180
 	}
 
 	#vieux img
@@ -1309,11 +1731,19 @@
 	
 	#Calanques
 	{
+<<<<<<< HEAD
 		margin-right: 20px;
 		margin-left: 20px;
 		border-radius:10px 10px 10px 10px;
 		height: 480px;
 		padding: 0;
+=======
+		
+		border-radius:10px 10px 10px 10px;
+		height: 480px;
+		padding: 0;
+		
+>>>>>>> 826d3ca7634339608255904a1cb0fc431837a180
 	}
 
 	#Calanques img
@@ -1493,7 +1923,11 @@
 
 	article
 	{
+<<<<<<< HEAD
 		width: 60%;
+=======
+		width: 62%;
+>>>>>>> 826d3ca7634339608255904a1cb0fc431837a180
 		margin-right: 20px;
 		padding: 0 20px 0 10px;
 	}
@@ -1538,6 +1972,7 @@
 	{
 		padding-top: 0;
 		margin-top: 0;
+<<<<<<< HEAD
 	}
 
 	p.hotel 
@@ -1613,6 +2048,242 @@
 	.blanc i.fas.fa-star 
 	{
 		margin-top: 30px;
+=======
+	}
+
+	p.hotel 
+	{
+		padding-top: 0;
+		margin-top: 0;
+>>>>>>> 826d3ca7634339608255904a1cb0fc431837a180
+	}
+
+	p.mouette 
+	{
+<<<<<<< HEAD
+		display: flex;
+		height: 160px;
+		margin: 30px 20px 10px 20px;
+		padding: 5px;
+		
+	}
+	
+	#soleil a 
+	{
+		width: 80%;
+=======
+		padding-top: 0;
+		margin-top: 0;
+>>>>>>> 826d3ca7634339608255904a1cb0fc431837a180
+	}
+
+	p.mer
+	{
+		margin-top: 0;
+	}
+
+	p.panier
+	{
+<<<<<<< HEAD
+		height: 160px;
+		border-radius: 10px 0 0 10px;
+		width: 100%;
+	}
+	
+	.soleil_texte
+	{
+		width: 100%;
+		margin-left: 5px;
+	}
+	
+	#Activite
+	{
+		width: 100%;
+	}
+
+	#activite p
+	{
+		margin-left: 10px;
+		font-size: 0.9em;
+	}
+	
+	#vieux
+	{
+		margin-right: 20px;
+		border-radius:10px 10px 10px 10px;
+		height: 460px;
+		padding: 0;
+		width: 100%;
+=======
+		margin-top: 0;
+	}
+
+	p.amina
+	{
+		margin-top: 0;
+	}
+
+	#tp2
+	{
+		margin-right: -20px;
+	}
+
+
+	#populaires img
+	{ 
+		width: 100px;
+		
+	}
+
+	#populaires h3
+	{
+		margin-bottom: 0;
+		font-size: 1.1em;
+	}
+
+	p.nuit 
+	{
+		margin-top: -15px;
+>>>>>>> 826d3ca7634339608255904a1cb0fc431837a180
+	}
+
+	.nuit i.fas.fa-star 
+	{
+<<<<<<< HEAD
+		height: 380px;
+		padding: 0;
+		border-radius:10px 10px 0 0;
+	}
+	
+	#fort1 img
+	{
+		width: 100%; 
+		height: 150px;
+		border-radius:10px 10px 0px 0px;
+	}
+	
+	#fort1 
+	{
+		margin-right: 20px;
+		border-radius:10px 10px 10px 10px;
+		height: 220px;
+		box-shadow: 1px 1px 10px black;
+	}
+	
+	#fort2 img
+	{
+		width: 100%; 
+		height: 150px;
+		border-radius:10px 10px 0px 0px;
+	}
+	
+	#fort2
+	{
+		 
+		height: 220px;
+		margin-right: 20px;
+		border-radius:10px 10px 10px 10px;
+		box-shadow: 1px 1px 5px black;
+		margin-top: 20px;
+	}
+	
+	#Calanques
+	{
+		margin-right: 20px;
+		margin-left: 20px;
+		border-radius:10px 10px 10px 10px;
+		height: 460px;
+		padding: 0;
+=======
+		margin-top: 30px;
+>>>>>>> 826d3ca7634339608255904a1cb0fc431837a180
+	}
+
+	p.coeur
+	{
+<<<<<<< HEAD
+		height: 380px;
+		padding: 0;
+		border-radius:10px 10px 0 0;
+		width: 100%;
+	}
+	
+	#monument1 img
+	{
+		width: 100%; 
+		height: 150px;
+		border-radius:10px 10px 0px 0px;
+	}
+	
+	#monument1 
+	{
+		margin-right: 20px;
+		border-radius:10px 10px 10px 10px;
+		height: 220px;
+		box-shadow: 1px 1px 5px black;
+	}
+	
+	#monument2 img
+	{
+		width: 100%; 
+		height: 150px;
+		border-radius:10px 10px 0px 0px;
+	}
+	
+	#monument2
+	{
+		 
+		height: 220px;
+		margin-right: 20px;
+		border-radius:10px 10px 10px 10px;
+		box-shadow: 1px 1px 5px black;
+		margin-top: 20px;
+	}
+
+	footer
+	{
+		flex-wrap: nowrap;
+		margin-top: 30px;
+	}
+}
+
+@media all and (min-device-width: 1024px) and (max-device-width: 1230px)
+{
+
+/* la section barre qui entourre toute la ligne du filtre*/
+
+	header img
+	{
+		width: 100%;
+	}
+	
+	#entete 
+	{
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+	}
+	
+	#logo
+	{
+=======
+		margin-top: -15px;
+	}
+
+	.coeur i.fas.fa-star 
+	{
+		margin-top: 30px;
+	}
+
+	p.blanc
+	{
+		margin-top: -15px;
+	}
+
+	.blanc i.fas.fa-star 
+	{
+		margin-top: 30px;
 	}
 
 	#soleil
@@ -1655,11 +2326,11 @@
 	
 	#vieux
 	{
-		margin-right: 20px;
+		
 		border-radius:10px 10px 10px 10px;
 		height: 460px;
 		padding: 0;
-		width: 100%;
+		width: 60%;
 	}
 
 	#vieux img
@@ -1703,8 +2374,7 @@
 	
 	#Calanques
 	{
-		margin-right: 20px;
-		margin-left: 20px;
+		width: 60%;
 		border-radius:10px 10px 10px 10px;
 		height: 460px;
 		padding: 0;
@@ -1777,6 +2447,7 @@
 	
 	#logo
 	{
+>>>>>>> 826d3ca7634339608255904a1cb0fc431837a180
 		width: 30%;
 		display: flex;
 		padding-top: 20px;
@@ -1873,6 +2544,7 @@
 	display: flex;
 	flex-wrap: wrap;
 	width: 100%;
+<<<<<<< HEAD
 	}
 	
 	#tp
@@ -1911,6 +2583,118 @@
 
 	i.fas.fa-chart-line 
 	{
+		line-height: 3;
+	}
+
+	aside
+	{
+		width: 32%;
+		font-size: 0.92em;
+=======
+	}
+	
+	#tp
+	{
+		
+		margin-right: -20px;
+	}
+	
+	#auberge
+	{
+		width: 30%;
+		height: 280px;
+		padding: 5px;
+		margin-right: 10px;
+		font-size: 0.92em;
+	}
+	
+	#auberge img 
+	{
+		
+		width: 100%;
+		height: 150px;
+>>>>>>> 826d3ca7634339608255904a1cb0fc431837a180
+	}
+
+	article
+	{
+<<<<<<< HEAD
+		margin-bottom: -20px;
+		margin-top: 0;
+		font-size: 1.3em;
+	}
+	
+	aside .chart 
+	{
+		width: 83%;
+		margin-left: 25px;
+		margin-top: 20px;
+		
+	}
+
+	i.fas.fa-chart-line
+	{
+		height: 0;
+=======
+		width: 60%;
+		margin-right: 20px;
+		padding: 0 20px 0 10px;
+	}
+
+	article h2
+	{
+		font-size: 1.3em;
+>>>>>>> 826d3ca7634339608255904a1cb0fc431837a180
+	}
+
+	i.fas.fa-chart-line 
+	{
+<<<<<<< HEAD
+		
+		padding-bottom: 20px;
+		
+	}
+
+	#tp2
+	{
+		margin-right: -20px;
+	}
+
+	#populaires h3
+	{
+		font-size: 1em;
+	}
+
+	#populaires img
+	{ 
+		width: 100px;
+		
+	}
+
+	#soleil
+	{
+		display: flex;
+		height: 180px;
+		margin: 30px 20px 10px 20px;
+		padding: 5px;
+		
+	}
+	
+	#soleil a 
+	{
+		width: 80%;
+	}
+
+	#soleil img
+	{
+		height: 180px;
+		border-radius: 10px 0 0 10px;
+		width: 100%;
+	}
+	
+	.soleil_texte
+	{
+=======
 		line-height: 3;
 	}
 
@@ -1981,8 +2765,26 @@
 	{
 		height: 180px;
 		border-radius: 10px 0 0 10px;
+>>>>>>> 826d3ca7634339608255904a1cb0fc431837a180
 		width: 100%;
+		margin-left: 5px;
 	}
+<<<<<<< HEAD
+
+	p.nuit 
+	{
+		font-size: 0.84em;
+		margin-top: 0;
+	}
+	
+	.nuit i.fas.fa-star 
+	{
+		margin-top: 40px;
+		font-size: 1.2em;
+	}
+
+	p.coeur 
+=======
 	
 	.soleil_texte
 	{
@@ -1991,10 +2793,81 @@
 	}
 
 	p.nuit 
+>>>>>>> 826d3ca7634339608255904a1cb0fc431837a180
 	{
 		font-size: 0.84em;
 		margin-top: 0;
 	}
+<<<<<<< HEAD
+
+	.coeur i.fas.fa-star
+	{
+		margin-top: 40px;
+    	font-size: 1.2em;
+	}
+
+	p.blanc
+	{
+		font-size: 0.84em;
+		margin-top: 0;
+	}
+
+	.blanc i.fas.fa-star
+	{
+		margin-top: 40px;
+    	font-size: 1.2em;
+	}
+
+	#auberge h3 
+	{
+		margin-bottom: -10px;
+		font-size: 1em;
+	}
+
+	p.hotel 
+	{
+		padding-top: 23px;
+	}
+
+	p.mouette 
+	{
+		padding-top: 23px;
+	}
+
+	p.mer 
+	{
+		padding-top: 20px;
+	}
+
+	p.panier 
+	{
+		padding-top: 20px;
+	}
+
+	p.amina 
+	{
+		padding-top: 20px;
+	}
+	
+	section#Activites 
+	{
+		width: 98%;
+	}
+
+	#activite p
+	{
+		margin-left: 10px;
+		font-size: 0.9em;
+	}
+	
+	#vieux
+	{
+		margin-right: 10px;
+		border-radius:10px 10px 10px 10px;
+		height: 460px;
+		padding: 0;
+		width: 100%;
+=======
 	
 	.nuit i.fas.fa-star 
 	{
@@ -2070,11 +2943,12 @@
 	
 	#vieux
 	{
-		margin-right: 10px;
+		width: 60%;
 		border-radius:10px 10px 10px 10px;
 		height: 460px;
 		padding: 0;
-		width: 100%;
+		
+>>>>>>> 826d3ca7634339608255904a1cb0fc431837a180
 	}
 
 	#vieux img
@@ -2118,12 +2992,20 @@
 	
 	#Calanques
 	{
+<<<<<<< HEAD
 		margin-right: 10px;
 		margin-left: 10px;
 		border-radius:10px 10px 10px 10px;
 		height: 460px;
 		padding: 0;
 		width: 100%;
+=======
+		width: 60%;
+		border-radius:10px 10px 10px 10px;
+		height: 460px;
+		padding: 0;
+		
+>>>>>>> 826d3ca7634339608255904a1cb0fc431837a180
 	}
 
 	#Calanques img
@@ -2297,6 +3179,7 @@
 	}
 
 	#auberge img 
+<<<<<<< HEAD
 	{
 		width: 100%;
 		height: 200px;
@@ -2310,6 +3193,21 @@
 	
 	#auberge h3
 	{
+=======
+	{
+		width: 100%;
+		height: 200px;
+		border-radius: 10% 10% 0% 0%;
+	}
+	
+	.auberge_texte
+	{
+		margin-left: 10px;
+	}
+	
+	#auberge h3
+	{
+>>>>>>> 826d3ca7634339608255904a1cb0fc431837a180
 		width:100%
 	}
 
@@ -2383,6 +3281,7 @@
 	}
 
 	section#Activites
+<<<<<<< HEAD
 	{
 		width: 98%;
 	}
@@ -2435,6 +3334,63 @@
 		font-size: 0.8em;
 	}
 
+=======
+	{
+		width: 98%;
+	}
+
+	
+	#Hebergement .plus
+	{
+		padding-left: 20px;
+	}
+	
+	#vieux
+	{
+		height: 340px;
+		font-size: 0.8em;
+		width: 70%;
+		
+	}
+
+	#vieux img
+	{
+		height: 270px;
+	}
+	
+	
+	#fort1 
+	{
+		height: 160px;
+		font-size: 0.8em;
+	}
+	
+	#fort1 img
+	{
+		height: 100px;
+	}
+	
+	#fort2
+	{
+		height: 160px;
+		font-size: 0.8em;
+	}
+	
+	#fort2 img
+	{
+		height: 100px;
+	}
+	
+	#Calanques
+	{
+		height: 340px;
+		margin-left: 10px;
+		margin-right: 10px;
+		font-size: 0.8em;
+		width: 70%;
+	}
+
+>>>>>>> 826d3ca7634339608255904a1cb0fc431837a180
 	#Calanques img
 	{
 		height: 270px;
@@ -2473,6 +3429,8 @@
 	{
 		flex-wrap: nowrap;
 		margin-top: 40px;
+<<<<<<< HEAD
+=======
 	}
 
 	#propos
@@ -2520,10 +3478,61 @@
 	{
     width: 40%;
     text-align: left;
+>>>>>>> 826d3ca7634339608255904a1cb0fc431837a180
 	}
 	
 	nav
 	{
+<<<<<<< HEAD
+		margin-right: 0;
+		padding-right: 20px;
+	}
+
+	#heber
+	{
+		margin-right: 0;
+		padding-right: 20px;
+	}
+
+	#assistance
+	{
+		margin-right: 0;
+	}
+
+
+
+}
+
+@media all and (min-device-width: 630px) and (max-device-width: 910px)
+{
+	
+	
+	
+	#entete 
+	{
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+	}
+	
+	#logo
+	{
+		width: 30%;
+		display: flex;
+		padding-top: 20px;
+	}
+	
+	#logo p 
+	{
+    width: 40%;
+    text-align: left;
+	}
+	
+	nav
+	{
+=======
+>>>>>>> 826d3ca7634339608255904a1cb0fc431837a180
 		justify-content: left;
 		display: flex;
 		padding-right: 20px;
@@ -2592,6 +3601,7 @@
 	}
 	
 	aside h2 
+<<<<<<< HEAD
 	{
 		width: 100%;
 		display: flex;
@@ -2602,6 +3612,13 @@
 	#auberge
 	{
 		margin-left: -10px;
+=======
+	{
+		width: 100%;
+		display: flex;
+		flex-wrap:wrap;
+		padding-left: 20px;
+>>>>>>> 826d3ca7634339608255904a1cb0fc431837a180
 	}
 
 	#Hebergement
@@ -2619,6 +3636,7 @@
 	{
 		margin: 0 10px 10px 10px;
 		width:30%;
+		border-radius: 30px;
 	}
 
 	#auberge img 
@@ -2648,6 +3666,10 @@
 		width:99%;
 		display:grid;
 		height: 440px;
+<<<<<<< HEAD
+=======
+		padding-bottom: 30px;
+>>>>>>> 826d3ca7634339608255904a1cb0fc431837a180
 	}
 	
 	#tp
@@ -2668,6 +3690,10 @@
 	#tp2
 	{
 		margin-left: 0;
+<<<<<<< HEAD
+=======
+		margin-top: 10px;
+>>>>>>> 826d3ca7634339608255904a1cb0fc431837a180
 	}
 
 	#soleil
@@ -2697,6 +3723,7 @@
 	#soleil .coeur 
 	{
 		padding-top: 5px;
+<<<<<<< HEAD
 	}
 	
 	#soleil .blanc 
@@ -2704,6 +3731,15 @@
 		padding-top: 5px;
 	}
 	
+=======
+	}
+	
+	#soleil .blanc 
+	{
+		padding-top: 5px;
+	}
+	
+>>>>>>> 826d3ca7634339608255904a1cb0fc431837a180
 
 	.soleil_texte
 	{
@@ -2742,6 +3778,10 @@
 	#vieux
 	{
 		height: 340px;
+<<<<<<< HEAD
+=======
+		width: 100%;
+>>>>>>> 826d3ca7634339608255904a1cb0fc431837a180
 	}
 
 	#vieux img
@@ -2773,8 +3813,12 @@
 	#Calanques
 	{
 		height: 340px;
+<<<<<<< HEAD
 		margin-left: 10px;
 		margin-right: 10px;
+=======
+		width: 100%;
+>>>>>>> 826d3ca7634339608255904a1cb0fc431837a180
 	}
 
 	#Calanques img
@@ -3039,12 +4083,21 @@
 	}
 	
 	aside h2
+<<<<<<< HEAD
 	{
 		padding-left: 10px;
 	}
 
 	p.chart 
 	{
+=======
+	{
+		padding-left: 10px;
+	}
+
+	p.chart 
+	{
+>>>>>>> 826d3ca7634339608255904a1cb0fc431837a180
 		font-size: 0.76em;
 	}
 	
@@ -3227,6 +4280,7 @@
 		width: 98%;
 		height: 270px;
 		margin-top: 20px;
+		margin-left: 0;
 	}
 
 	#Calanques img 

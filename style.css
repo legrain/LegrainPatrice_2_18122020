@@ -10,14 +10,7 @@
 
 
 /* css sur des parti general du code*/
-	#scroll_to_top 
-	{
-		position: fixed;
-		width: 50px;
-		height: 50px;
-		bottom: 50px;
-		right: 30px;
-	}
+	
 	
 	i.fas.fa-map-marker-alt
 	{
@@ -365,7 +358,7 @@
 
 	i.fas.fa-chart-line
 	{
-		line-height: 2;
+		line-height: 4;
 	}
 
 	aside i
@@ -417,8 +410,8 @@
 		border-radius:10px 10px 10px 10px;
 		background-color: white;
 		box-shadow: 1px 1px 5px black;
-		width: 100%;
-		margin-right: 10px;
+		width: 40%;
+		margin-right: 20px;
 	}
 
 	#vieux img
@@ -475,7 +468,9 @@
 		padding: 0;
 		background-color: white;
 		box-shadow: 1px 1px 5px black;
-		width: 100%;
+		width: 40%;
+		margin-left: 20px;
+		margin-right: 20px;
 	}
 
 	#Calanques img
@@ -879,11 +874,10 @@
 	
 	#vieux
 	{
-		margin-right: 20px;
+		
 		border-radius:10px 10px 10px 10px;
 		height: 620px;
 		padding: 0;
-		width: 100%;
 		font-size: 1.3em;
 	}
 
@@ -892,6 +886,7 @@
 		height: 480px;
 		padding: 0;
 		border-radius:10px 10px 0 0;
+		width: 100%;
 	}
 	
 	#fort1 img
@@ -930,12 +925,12 @@
 	
 	#Calanques
 	{
-		margin-right: 20px;
-		margin-left: 20px;
+		
 		border-radius:10px 10px 10px 10px;
 		height: 620px;
 		padding: 0;
 		font-size: 1.3em;
+		
 	}
 
 	#Calanques img
@@ -1261,11 +1256,11 @@
 	
 	#vieux
 	{
-		margin-right: 20px;
+		
 		border-radius:10px 10px 10px 10px;
 		height: 480px;
 		padding: 0;
-		width: 100%;
+		
 	}
 
 	#vieux img
@@ -1309,11 +1304,11 @@
 	
 	#Calanques
 	{
-		margin-right: 20px;
-		margin-left: 20px;
+		
 		border-radius:10px 10px 10px 10px;
 		height: 480px;
 		padding: 0;
+		
 	}
 
 	#Calanques img
@@ -1655,11 +1650,11 @@
 	
 	#vieux
 	{
-		margin-right: 20px;
+		
 		border-radius:10px 10px 10px 10px;
 		height: 460px;
 		padding: 0;
-		width: 100%;
+		width: 60%;
 	}
 
 	#vieux img
@@ -1703,8 +1698,7 @@
 	
 	#Calanques
 	{
-		margin-right: 20px;
-		margin-left: 20px;
+		width: 60%;
 		border-radius:10px 10px 10px 10px;
 		height: 460px;
 		padding: 0;
@@ -2070,11 +2064,11 @@
 	
 	#vieux
 	{
-		margin-right: 10px;
+		width: 60%;
 		border-radius:10px 10px 10px 10px;
 		height: 460px;
 		padding: 0;
-		width: 100%;
+		
 	}
 
 	#vieux img
@@ -2118,12 +2112,11 @@
 	
 	#Calanques
 	{
-		margin-right: 10px;
-		margin-left: 10px;
+		width: 60%;
 		border-radius:10px 10px 10px 10px;
 		height: 460px;
 		padding: 0;
-		width: 100%;
+		
 	}
 
 	#Calanques img
@@ -2397,6 +2390,8 @@
 	{
 		height: 340px;
 		font-size: 0.8em;
+		width: 70%;
+		
 	}
 
 	#vieux img
@@ -2433,6 +2428,7 @@
 		margin-left: 10px;
 		margin-right: 10px;
 		font-size: 0.8em;
+		width: 70%;
 	}
 
 	#Calanques img
@@ -2598,11 +2594,6 @@
 		flex-wrap:wrap;
 		padding-left: 20px;
 	}
-	
-	#auberge
-	{
-		margin-left: -10px;
-	}
 
 	#Hebergement
 	{
@@ -2619,6 +2610,7 @@
 	{
 		margin: 0 10px 10px 10px;
 		width:30%;
+		border-radius: 30px;
 	}
 
 	#auberge img 
@@ -2648,6 +2640,7 @@
 		width:99%;
 		display:grid;
 		height: 440px;
+		padding-bottom: 30px;
 	}
 	
 	#tp
@@ -2668,6 +2661,7 @@
 	#tp2
 	{
 		margin-left: 0;
+		margin-top: 10px;
 	}
 
 	#soleil
@@ -2742,6 +2736,7 @@
 	#vieux
 	{
 		height: 340px;
+		width: 100%;
 	}
 
 	#vieux img
@@ -2773,8 +2768,7 @@
 	#Calanques
 	{
 		height: 340px;
-		margin-left: 10px;
-		margin-right: 10px;
+		width: 100%;
 	}
 
 	#Calanques img
@@ -3227,6 +3221,7 @@
 		width: 98%;
 		height: 270px;
 		margin-top: 20px;
+		margin-left: 0;
 	}
 
 	#Calanques img 

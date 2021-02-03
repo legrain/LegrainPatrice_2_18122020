@@ -722,6 +722,11 @@
 		margin-right: 20px;
 		padding: 0 20px 0 10px;
 	}
+	
+	i.fas.fa-chart-line 
+	{
+   	 line-height: 1;
+	}
 
 	#Hebergement h2
 	{

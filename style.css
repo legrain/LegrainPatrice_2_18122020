@@ -2939,6 +2939,11 @@
 	{
 		color: white;
 	}
+	
+	i.fas.fa-chart-line 
+	{
+    	line-height: 2;
+	}
 
 	nav
 	{

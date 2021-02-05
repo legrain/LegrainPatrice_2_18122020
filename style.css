@@ -3,7 +3,8 @@
 	.container
 	{
 		font-family: "Raleway", Sans serif;
-		justify-content: space-around;
+		margin: 0;
+		padding: 0;
 	}
 
  
@@ -41,7 +42,7 @@
 	input[type="submit" i]
 	{
 		background-color: #0065FC;
-		border-radius: 0% 15px 15px 0%;
+		border-radius: 0 15px 15px 0;
 		color: white;
 		height: 55px;
 		padding-bottom: 1px;
@@ -49,7 +50,7 @@
 	
 	.rechercher_loupe 
 	{
-    display: none;
+    	display: none;
 	}
 
 	li
@@ -121,6 +122,8 @@
 	li.one a 
 	{
 		color: #0065FC;
+		border-top: 3px solid #0065FC;
+    	padding-top: 32px;
 	}
 
 	li.two a
@@ -605,7 +608,6 @@
 	li.one
 	{
 		padding-top: 20px;
-		border-top: 1px solid blue;
 	}
 	
 	li.two
@@ -1051,7 +1053,6 @@
 	li.one
 	{
 		padding-top: 20px;
-		border-top: 1px solid blue;
 	}
 	
 	li.two
@@ -1413,7 +1414,6 @@
 	li.one
 	{
 		padding-top: 20px;
-		border-top: 1px solid blue;
 	}
 	
 	li.two
@@ -1807,7 +1807,13 @@
 	li.one
 	{
 		padding-top: 20px;
-		border-top: 1px solid blue;
+	}
+
+	li.one a 
+	{
+    color: #0065FC;
+    border-top: 3px solid #0065FC;
+    padding-top: 34px;
 	}
 	
 	li.two
@@ -2223,13 +2229,11 @@
 		width: 100%;
 		justify-content: center;
 		display: flex;
-		margin: 0;
 		padding: 0;
 	}
 
 	li.one
 	{
-		border-top: 1px solid blue;
 		padding-top: 20px;
 	}
 
@@ -2543,7 +2547,13 @@
 	li.one
 	{
 		padding-top: 20px;
-		border-top: 1px solid blue;
+	}
+
+	li.one a 
+	{
+    color: #0065FC;
+    border-top: 3px solid #0065FC;
+    padding-top: 35px;
 	}
 	
 	li.two
@@ -2868,6 +2878,11 @@
 		margin: 0;
 		width: 110%;
 	 }
+
+	 li.one a 
+	 {
+    	border-top: none;
+	}
 
 	.two
 	{

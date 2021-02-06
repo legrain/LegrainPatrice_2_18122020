@@ -76,9 +76,10 @@
 
 	header img
 	{
-		max-width: 200%;
+		max-width: 100px;
 		float: left;
 		display: flex;
+		margin-top: -20px;
 	}
 
 
@@ -2195,7 +2196,8 @@
 	
 	header img
 	{
-		width: 70%;
+		width: 100px;
+		margin: 0;
 	}
 	
 	#entete 
@@ -2204,13 +2206,6 @@
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-	}
-	
-	#logo
-	{
-		width: 40%;
-		display: flex;
-		justify-content: center;
 	}
 
 	nav
@@ -2553,13 +2548,13 @@
 	{
     color: #0065FC;
     border-top: 3px solid #0065FC;
-    padding-top: 35px;
+    padding: 35px 20px 0 20px;
 	}
 	
 	li.two
 	{
 		padding-top: 20px;
-		color: transparent;
+		padding-right: 20px;
 	}
 	
 	li.tree
@@ -2842,17 +2837,18 @@
 @media screen and (max-device-width:629px) 
 {
 
-	#logo
+	header img 
 	{
-		width: 40%;
-		display: flex;
-		position: absolute;
+		max-width: 130px;
+		padding-left: 5px;
+		margin-top: -25px;
 	}
 	
-	#logo p 
+	#logo
 	{
-    width: 40%;
-    text-align: left;
+		display: flex;
+		position: absolute;
+		padding-top: 27px;
 	}
 
 	.top 
@@ -2877,10 +2873,10 @@
 		text-align: center;
 		margin: 0;
 		width: 110%;
-	 }
+	}
 
-	 li.one a 
-	 {
+ 	li.one a 
+	{
     	border-top: none;
 	}
 
@@ -2906,6 +2902,7 @@
 		margin: 40px 0 0 0;
 		padding-left: 30px;
 		width: 80%;
+		font-weight: 600;
 	}
 
 	.tree li 
@@ -2913,12 +2910,20 @@
 		width: 100px;
 	}
 	
-	
+	section#information 
+	{
+		text-align: center;
+		font-weight: bold;
+	}
+
 
 	input
 	{
-		width: 135px;
-		font-size: 1em;
+		width: 60%;
+		font-size: 1.3em;
+		margin: 5px -20px 5px -5px;
+		height: 55px;
+		vertical-align: middle;
 	}	
 
 	i.fas.fa-info
@@ -2932,7 +2937,12 @@
 		margin-right: 5px;
 		line-height: 30px;
 		font-size: 0.8em;
-		
+	}
+
+	i.fas.fa-map-marker-alt 
+	{
+		height: 60px;
+		font-size: 1.5em;
 	}
 	
 	.recherche
@@ -2942,21 +2952,22 @@
 	
 	button.recherche_loupe  
 	{
-    width: 80px;
-    height: 50px;
+    width: 60px;
     color: white;
     background-color: #0065FC;
 	vertical-align: middle;
     display: inline-block;
-    height: 53px;
+    height: 60px;
     line-height: 50px;
-	border-radius: 0 10px 10px 0;
+	border-radius: 20px;
 	border: #0065FC;
 	}
 	
 	i.fas.fa-search 
 	{
 		color: white;
+		font-size: 150%;
+    	vertical-align: middle;
 	}
 	
 	i.fas.fa-chart-line 

@@ -321,7 +321,7 @@
 		border-radius: 20px;
 		margin: 10px 0px 10px 0px;
 		background-color: white;
-		box-shadow: 1px 1px 5px black;
+		box-shadow: 3px 1px 3px 3px #f7f7f7;
 	}
 
 	.auberge_texte
@@ -387,7 +387,7 @@
 		background-color: white;
 		margin-right: 5px;
 		border-radius: 10px;
-		box-shadow: 1px 1px 5px black;
+		box-shadow: 3px 1px 3px 3px #f7f7f7;
 	}
 
 
@@ -411,7 +411,7 @@
 	{
 		border-radius:10px 10px 10px 10px;
 		background-color: white;
-		box-shadow: 1px 1px 5px black;
+		box-shadow: 3px 1px 3px 3px #f7f7f7;
 		width: 40%;
 		margin-right: 20px;
 	}
@@ -431,7 +431,7 @@
 		
 		border-radius:10px 10px 10px 10px;
 		height: 210px;
-		box-shadow: 1px 1px 5px black;
+		box-shadow: 3px 1px 3px 3px #f7f7f7;
 		background-color: white;
 		width: 100%;
 	}
@@ -449,7 +449,7 @@
 		margin-top: 20px; 
 		height: 210px;
 		border-radius:10px 10px 10px 10px;
-		box-shadow: 1px 1px 5px black;
+		box-shadow: 3px 1px 3px 3px #f7f7f7;
 		background-color: white;
 		width: 100%
 	}
@@ -469,7 +469,7 @@
 		height: 440px;
 		padding: 0;
 		background-color: white;
-		box-shadow: 1px 1px 5px black;
+		box-shadow: 3px 1px 3px 3px #f7f7f7;
 		width: 40%;
 		margin-left: 20px;
 		margin-right: 20px;
@@ -489,7 +489,7 @@
 		
 		border-radius:10px 10px 10px 10px;
 		height: 210px;
-		box-shadow: 1px 1px 5px black;
+		box-shadow: 3px 1px 3px 3px #f7f7f7;
 		background-color: white;
 		width: 100%;
 	}
@@ -507,7 +507,7 @@
 		 
 		height: 210px;
 		border-radius:10px 10px 10px 10px;
-		box-shadow: 1px 1px 5px black;
+		box-shadow: 3px 1px 3px 3px #f7f7f7;
 		margin-top: 20px;
 		background-color: white;
 		width: 100%;
@@ -907,7 +907,7 @@
 		margin-right: 20px;
 		border-radius:10px 10px 10px 10px;
 		height: 300px;
-		box-shadow: 1px 1px 10px black;
+		box-shadow: 3px 1px 3px 3px #f7f7f7;
 		font-size: 1.3em;
 	}
 	
@@ -924,7 +924,7 @@
 		height: 300px;
 		margin-right: 20px;
 		border-radius:10px 10px 10px 10px;
-		box-shadow: 1px 1px 5px black;
+		box-shadow: 3px 1px 3px 3px #f7f7f7;
 		margin-top: 20px;
 		font-size: 1.3em;
 	}
@@ -959,7 +959,7 @@
 		margin-right: 20px;
 		border-radius:10px 10px 10px 10px;
 		height: 300px;
-		box-shadow: 1px 1px 5px black;
+		box-shadow: 3px 1px 3px 3px #f7f7f7;
 		font-size: 1.3em;
 	}
 	
@@ -976,7 +976,7 @@
 		height: 300px;
 		margin-right: 20px;
 		border-radius:10px 10px 10px 10px;
-		box-shadow: 1px 1px 5px black;
+		box-shadow: 3px 1px 3px 3px #f7f7f7;
 		margin-top: 20px;
 		font-size: 1.3em;
 	}
@@ -1287,7 +1287,7 @@
 		margin-right: 20px;
 		border-radius:10px 10px 10px 10px;
 		height: 230px;
-		box-shadow: 1px 1px 10px black;
+		box-shadow: 3px 1px 3px 3px #f7f7f7;
 	}
 	
 	#fort2 img
@@ -1303,7 +1303,7 @@
 		height: 230px;
 		margin-right: 20px;
 		border-radius:10px 10px 10px 10px;
-		box-shadow: 1px 1px 5px black;
+		box-shadow: 3px 1px 3px 3px #f7f7f7;
 		margin-top: 20px;
 	}
 	
@@ -1336,7 +1336,7 @@
 		margin-right: 20px;
 		border-radius:10px 10px 10px 10px;
 		height: 230px;
-		box-shadow: 1px 1px 5px black;
+		box-shadow: 3px 1px 3px 3px #f7f7f7;
 	}
 	
 	#monument2 img
@@ -1352,7 +1352,7 @@
 		height: 230px;
 		margin-right: 20px;
 		border-radius:10px 10px 10px 10px;
-		box-shadow: 1px 1px 5px black;
+		box-shadow: 3px 1px 3px 3px #f7f7f7;
 		margin-top: 20px;
 	}
 
@@ -1680,7 +1680,7 @@
 		margin-right: 20px;
 		border-radius:10px 10px 10px 10px;
 		height: 220px;
-		box-shadow: 1px 1px 10px black;
+		box-shadow: 3px 1px 3px 3px #f7f7f7;
 	}
 	
 	#fort2 img
@@ -1696,7 +1696,7 @@
 		height: 220px;
 		margin-right: 20px;
 		border-radius:10px 10px 10px 10px;
-		box-shadow: 1px 1px 5px black;
+		box-shadow: 3px 1px 3px 3px #f7f7f7;
 		margin-top: 20px;
 	}
 	
@@ -1728,7 +1728,7 @@
 		margin-right: 20px;
 		border-radius:10px 10px 10px 10px;
 		height: 220px;
-		box-shadow: 1px 1px 5px black;
+		box-shadow: 3px 1px 3px 3px #f7f7f7;
 	}
 	
 	#monument2 img
@@ -1744,7 +1744,7 @@
 		height: 220px;
 		margin-right: 20px;
 		border-radius:10px 10px 10px 10px;
-		box-shadow: 1px 1px 5px black;
+		box-shadow: 3px 1px 3px 3px #f7f7f7;
 		margin-top: 20px;
 	}
 
@@ -2100,7 +2100,7 @@
 		
 		border-radius:10px 10px 10px 10px;
 		height: 220px;
-		box-shadow: 1px 1px 10px black;
+		box-shadow: 3px 1px 3px 3px #f7f7f7;
 		width: 100%;
 	}
 	
@@ -2116,7 +2116,7 @@
 		width: 100%;
 		height: 220px;
 		border-radius:10px 10px 10px 10px;
-		box-shadow: 1px 1px 5px black;
+		box-shadow: 3px 1px 3px 3px #f7f7f7;
 		margin-top: 20px;
 	}
 	
@@ -2149,7 +2149,7 @@
 		
 		border-radius:10px 10px 10px 10px;
 		height: 220px;
-		box-shadow: 1px 1px 5px black;
+		box-shadow: 3px 1px 3px 3px #f7f7f7;
 		width: 100%;
 	}
 	
@@ -2165,7 +2165,7 @@
 		 
 		height: 220px;
 		border-radius:10px 10px 10px 10px;
-		box-shadow: 1px 1px 5px black;
+		box-shadow: 3px 1px 3px 3px #f7f7f7;
 		margin-top: 20px;
 		width: 100%;
 	}
@@ -3140,6 +3140,7 @@
 		width: 95%;
 		height: 150px;
 		border-radius: 25px;
+		box-shadow: 3px 3px 3px #f7f7f7;
 	}
 	
 	.soleil_texte
@@ -3201,13 +3202,15 @@
 	#auberge
 	{
 		width: 100%;
-		height: 240px;
-		border-radius: 10% 10% 10% 10%;
+		height: 220px;
+		border-radius: 20px;
+		padding: 5px;
 	}
 	
 	#auberge h3
 	{
 		margin: 0;
+		padding-bottom: 5px;
 	}
 	
 	#auberge p
@@ -3226,33 +3229,41 @@
 		padding: 0;
 		margin: 0;
 		height: 150px;
-	}	
+		border-radius: 20px 20px 0 0;
+	}
+	
+	#auberge i 
+	{
+    padding-top: 5px;
+	}
 
 	#activite
 	{
 		display: grid;
 		width: 100%;
+		margin: 0;
 	}
 	
 	#vieux
 	{
 		padding: 0;
 		margin-bottom: 20px;
-		border-radius: 10% 10% 10% 10%;
+		border-radius: 20px;
 		width: 98%;
 	}
 	
 	#vieux p 
 	{
 		padding-left: 20px;
+		font-weight: bold;
 	}
 	
 
 	#vieux img 
 	{
 		width: 100%;
-		height: 200px;
-		border-radius: 10% 10% 0% 0%;
+		height: 150px;
+		border-radius: 20px 20px 0 0;
 		padding: 0;
 	}
 	
@@ -3261,30 +3272,29 @@
 		
 		width: 98%;
 		padding: 0;
-		height: 270px;
-		border-radius: 10% 10% 10% 10%;
+		border-radius: 20px;
 	}
 
 	#fort1 img
 	{
 		width: 100%;
-		height: 200px;
+		height: 150px;
 		padding-top: 0;
-		border-radius: 10% 10% 0% 0%;
+		border-radius: 20px 20px 0 0;
 		margin: 0;
 	}
 	
 	#fort1 p 
 	{
 		padding-left: 20px;
+		font-weight: bold;
 	}
 	
 	#fort2
 	{
 		width: 98%;
-		height: 270px;
 		padding-top: 0;
-		border-radius: 10% 10% 10% 10%;
+		border-radius: 20px;
 		padding: 0;
 		
 	}
@@ -3292,24 +3302,25 @@
 	#fort2 img
 	{
 		width: 100%;
-		height: 200px;
+		height: 150px;
 		padding-top: 0;
-		border-radius: 10% 10% 0% 0%;
+		border-radius: 20px 20px 0 0;
 		margin: 0;
 	}
 	
 	#fort2 p 
 	{
 		padding-left: 20px;
+		font-weight: bold;
 	}
 	
 	#Calanques
 	{
 		
 		margin-bottom: 20px;
-		border-radius: 10% 10% 10% 10%;
+		border-radius: 20px;
 		width: 98%;
-		height: 270px;
+		height: 200px;
 		margin-top: 20px;
 		margin-left: 0;
 	}
@@ -3317,13 +3328,14 @@
 	#Calanques img 
 	{
 		width: 100%;
-		height: 200px;
-		border-radius: 10% 10% 0% 0%;
+		height: 150px;
+		border-radius: 20px 20px 0 0;
 	}
 	
 	#Calanques p 
 	{
 		padding-left: 20px;
+		font-weight: bold;
 	}
 	
 	#monument1
@@ -3331,20 +3343,20 @@
 		
 		width: 98%;
 		padding: 0;
-		height: 270px;
-		border-radius: 10% 10% 10% 10%;
+		border-radius: 20px;
 	}
 
 	#monument1 img 
 	{
 		width: 100%;
-		height: 200px;
-		border-radius: 10% 10% 0% 0%;
+		height: 150px;
+		border-radius: 20px 20px 0 0;
 	}
 	
 	#monument1 p
 	{
 		padding-left: 20px;
+		font-weight: bold;
 	}
 	
 	#monument2
@@ -3352,20 +3364,20 @@
 		
 		width: 98%;
 		padding: 0;
-		height: 270px;
-		border-radius: 10% 10% 10% 10%;
+		border-radius: 20px;
 	}
 	
 	#monument2 img
 	{
 		width: 100%;
-		height: 200px;
-		border-radius: 10% 10% 0% 0%;
+		height: 150px;
+		border-radius: 20px 20px 0 0;
 	}
 	
 	#monument2 p
 	{
 		padding-left: 20px;
+		font-weight: bold;
 	}
 	
 	footer
@@ -3381,8 +3393,18 @@
 	
 	#propos ul
 	{
-		
 		width: 100%;
+	}
+
+	#propos h2
+	{
+		font-size: 1.4em;
+	}
+
+	#propos li
+	{
+		padding-bottom: 10px;
+		font-size: 1.3em;
 	}
 	
 	#propos
@@ -3395,6 +3417,28 @@
 	{
 		margin: 0;
 		padding-top: 30px;
+	}
+
+	#heber h2
+	{
+		font-size: 1.4em;
+	}
+
+	#heber li 
+	{
+		padding-bottom: 10px;
+		font-size: 1.3em;
+	}
+
+	#assistance h2
+	{
+		font-size: 1.4em;
+	}
+
+	#assistance li 
+	{
+		padding-bottom: 10px;
+		font-size: 1.3em;
 	}
 	
 	#assistance

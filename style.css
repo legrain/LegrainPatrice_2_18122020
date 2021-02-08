@@ -3856,6 +3856,7 @@
 	#soleil p
 	{
 		margin: 0;
+		margin-top: 24px;
 		font-size: 0.7em;
 	}
 
@@ -3866,7 +3867,7 @@
 	
 	#soleil .nuit i
 	{
-		padding-top: 30px;
+		padding-top: 35px;
 	}
 	
 	#soleil .coeur i
@@ -3877,7 +3878,7 @@
 	
 	#soleil .blanc i
 	{
-		padding-top: 30px;
+		padding-top: 35px;
 	}
 
 	.soleil_texte

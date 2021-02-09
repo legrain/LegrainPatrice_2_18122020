@@ -321,7 +321,7 @@
 		border-radius: 20px;
 		margin: 10px 0px 10px 0px;
 		background-color: white;
-		box-shadow: 1px 5px 5px 5px #f9f9f9;
+		box-shadow: 1px 5px 5px 5px #e9e9e9;
 	}
 
 	.auberge_texte
@@ -387,11 +387,17 @@
 		background-color: white;
 		margin-right: 5px;
 		border-radius: 20px;
-		box-shadow: 1px 5px 5px 5px #f9f9f9;
+		box-shadow: 1px 5px 5px 5px #e9e9e9;
 	}
 
 
 /* la section marseille qui entourre toute la parti basse avant le footer*/
+
+	#Activites h2
+	{
+		font-size: 1.4em;
+		padding-left: 10px;
+	}
 
 	#activite img 
 	{
@@ -402,127 +408,117 @@
 	#activite
 	{
 		display: flex;
-		width: 98%;
-		margin: 10px;
+		justify-content: space-evenly;
+		width: 100%;
 		font-weight: bold;
+		
 	} 
 
 
 	#vieux
 	{
 		border-radius:20px;
-		background-color: white;
 		box-shadow: 1px 5px 5px 5px #f9f9f9;
-		width: 40%;
-		margin-right: 20px;
+		width: 20vw;
+		
 	}
 
 	#vieux img
 	{
-		height: 380px;
-		padding: 0;
+		height: 80%;
 		border-radius:20px 20px 0 0;
 		width: 100%;
-		margin: 0;
+	}
+
+	#vieux p 
+	{
+		padding-left: 10px;
 	}
 	
 	
 	#fort1 
 	{
-		
+		width: 20vw;
 		border-radius:20px;
-		height: 210px;
 		box-shadow: 1px 5px 5px 5px #f9f9f9;
-		background-color: white;
-		width: 100%;
+		height: 60vh;
 	}
 	
 	#fort1 img
 	{
-		width: 100%; 
-		height: 130px;
+		width: 100%;
 		border-radius:20px 20px 0px 0px;
-		
+		height: 70%;
+	}
+
+	#fort1 p 
+	{
+		padding-left: 10px;
 	}
 	
 	#fort2
 	{
-		margin-top: 20px; 
-		height: 210px;
+		width: 20vw;
 		border-radius:20px;
 		box-shadow: 1px 5px 5px 5px #f9f9f9;
-		background-color: white;
-		width: 100%
+		height: 60vh;
+		margin-top: 30px;
 	}
 	
 	#fort2 img
 	{
-		width: 100%; 
-		height: 130px;
+		height: 70%;
 		border-radius:20px 20px 0px 0px;
-		
-	}
-	
-	#Calanques
-	{
-		
-		border-radius:20px;
-		height: 440px;
-		padding: 0;
-		background-color: white;
-		box-shadow: 1px 5px 5px 5px #f9f9f9;
-		width: 40%;
-		margin-left: 20px;
-		margin-right: 20px;
+		width: 100%;
 	}
 
-	#Calanques img
+	#fort2 p 
 	{
-		width: 100%;
-		height: 380px;
-		padding: 0;
-		border-radius:20px 20px 0 0;
-	}
-	
-	
-	#monument1 
-	{
-		
-		border-radius:20px;
-		height: 210px;
-		box-shadow: 1px 5px 5px 5px #f9f9f9;
-		background-color: white;
-		width: 100%;
-	}
-	
-	#monument1 img
-	{
-		width: 100%;
-		height: 130px;
-		border-radius:20px 20px 0px 0px;
-	}
-	
-	
-	#monument2
-	{
-		 
-		height: 210px;
-		border-radius:20px;
-		box-shadow: 1px 5px 5px 5px #f9f9f9;
-		margin-top: 20px;
-		background-color: white;
-		width: 100%;
-		
+		padding-left: 10px;
 	}
 
-	#monument2 img
+	#monu1
 	{
-		width: 100%;
-		height: 130px;
+		width: 20vw;
+		border-radius:20px;
+		box-shadow: 1px 5px 5px 5px #f9f9f9;
+		height: 60vh;
+	}
+	
+	#monu1 img
+	{
+		height: 70%;
 		border-radius:20px 20px 0px 0px;
+		width: 100%;
 	}
 
-/* et le footer qui encadre 3 div*/
+	#monu1 p 
+	{
+		padding-left: 10px;
+	}
+
+	#monu2
+	{
+		width: 20vw;
+		border-radius:20px;
+		box-shadow: 1px 5px 5px 5px #f9f9f9;
+		height: 60vh;
+		margin-top: 30px;
+	}
+	
+	#monu2 img
+	{
+		height: 70%;
+		border-radius:20px 20px 0px 0px;
+		width: 100%;
+	}
+
+	#monu2 p 
+	{
+		padding-left: 10px;
+	}
+
+/*footer*/	
 	footer
 	{
 		display: flex;
@@ -947,127 +943,136 @@
 		font-size: 1.4em;
 	}
 	
-	section#Activites 
-	{
-		width: 98%;
-		margin-top: 50px;
-		margin-left: 10px;
-	}
-
 	#Activites h2
 	{
-		font-size: 1.6em;
-		margin-left: 10px;
+		font-size: 1.4em;
+		padding-left: 10px;
 	}
 
-	#Activites
+	#activite img 
 	{
-		justify-content: space-between;
+		
+		object-fit: cover;
 	}
 
-	#activite p
+	#activite
 	{
-		margin-left: 10px;
-		font-size: 1.2em;
+		display: flex;
+		justify-content: space-evenly;
+		width: 100%;
+		font-weight: bold;
+	} 
+
+	#activite p 
+	{
+		margin-left: 20px;
+		font-size: 1.3em;
 	}
-	
+
+
 	#vieux
 	{
-		width: 60%;
 		border-radius:20px;
-		height: 440px;
-		padding: 0;
+		box-shadow: 1px 5px 5px 5px #f9f9f9;
+		width: 20vw;
 		
 	}
 
 	#vieux img
 	{
-		height: 380px;
-		padding: 0;
+		height: 80%;
 		border-radius:20px 20px 0 0;
+		width: 100%;
+	}
+
+	#vieux p 
+	{
+		padding-left: 10px;
+	}
+	
+	
+	#fort1 
+	{
+		width: 20vw;
+		border-radius:20px;
+		box-shadow: 1px 5px 5px 5px #f9f9f9;
+		height: 60vh;
 	}
 	
 	#fort1 img
 	{
-		width: 100%; 
-		height: 150px;
-		border-radius:20px 20px 0px 0px;
-	}
-	
-	#fort1 
-	{
-		
-		border-radius:20px;
-		height: 210px;
-		box-shadow: 1px 5px 5px 5px #f9f9f9;
 		width: 100%;
-	}
-	
-	#fort2 img
-	{
-		width: 100%; 
-		height: 150px;
 		border-radius:20px 20px 0px 0px;
+		height: 70%;
+	}
+
+	#fort1 p 
+	{
+		padding-left: 10px;
 	}
 	
 	#fort2
 	{
-		width: 100%;
-		height: 210px;
+		width: 20vw;
 		border-radius:20px;
 		box-shadow: 1px 5px 5px 5px #f9f9f9;
-		margin-top: 20px;
+		height: 60vh;
+		margin-top: 30px;
 	}
 	
-	#Calanques
+	#fort2 img
 	{
-		width: 60%;
-		border-radius:20px;
-		height: 440px;
-		padding: 0;
-		
+		height: 70%;
+		border-radius:20px 20px 0px 0px;
+		width: 100%;
 	}
 
-	#Calanques img
+	#fort2 p 
 	{
-		height: 380px;
-		padding: 0;
-		border-radius:20px 20px 0 0;
-		width: 100%;
+		padding-left: 10px;
 	}
-	
-	#monument1 img
+
+	#monu1
 	{
-		width: 100%; 
-		height: 150px;
-		border-radius:10px 10px 0px 0px;
-	}
-	
-	#monument1 
-	{
-		
+		width: 20vw;
 		border-radius:20px;
-		height: 210px;
 		box-shadow: 1px 5px 5px 5px #f9f9f9;
-		width: 100%;
+		height: 60vh;
 	}
 	
-	#monument2 img
+	#monu1 img
 	{
-		width: 100%; 
-		height: 150px;
+		height: 70%;
 		border-radius:20px 20px 0px 0px;
-	}
-	
-	#monument2
-	{
-		 
-		height: 210px;
-		border-radius:20px;
-		box-shadow: 1px 5px 5px 5px #f9f9f9;
-		margin-top: 20px;
 		width: 100%;
 	}
+
+	#monu1 p 
+	{
+		padding-left: 10px;
+	}
+
+	#monu2
+	{
+		width: 20vw;
+		border-radius:20px;
+		box-shadow: 1px 5px 5px 5px #f9f9f9;
+		height: 60vh;
+		margin-top: 30px;
+	}
+	
+	#monu2 img
+	{
+		height: 70%;
+		border-radius:20px 20px 0px 0px;
+		width: 100%;
+	}
+
+	#monu2 p 
+	{
+		padding-left: 10px;
+	}
+
 
 	footer
 	{
@@ -1078,18 +1083,18 @@
 
 	#propos h2
 	{
-		font-size: 1.3em;
+		font-size: 1.4em;
 	}
 
 	#propos li 
 	{
-		font-size: 1.2em;
+		font-size: 1.3em;
 		margin-bottom: 10px;
 	}
 
 	#propos 
 	{
-		margin-left: 10px;
+		padding-left: 20px;
 		margin-right: 50px;
 	}
 
@@ -1101,23 +1106,23 @@
 
 	#heber h2
 	{
-		font-size: 1.3em;
+		font-size: 1.4em;
 	}
 
 	#heber li 
 	{
-		font-size: 1.2em;
+		font-size: 1.3em;
 		margin-bottom: 10px;
 	}
 
 	#assistance h2
 	{
-		font-size: 1.3em;
+		font-size: 1.4em;
 	}
 
 	#assistance li 
 	{
-		font-size: 1.2em;
+		font-size: 1.3em;
 		margin-bottom: 10px;
 	}
 }
@@ -1394,7 +1399,7 @@
 	{
 		
 		padding-bottom: 20px;
-		
+		padding-left: 10px;
 	}
 
 	#tp2
@@ -1438,6 +1443,7 @@
 	{
 		width: 100%;
 		margin-left: 5px;
+		padding-left: 5px;
 	}
 
 	p.nuit 
@@ -1487,127 +1493,131 @@
 		font-weight: bold;
 	}
 	
-	section#Activites 
-	{
-		width: 98%;
-		margin-top: 50px;
-		margin-left: 10px;
-	}
-
 	#Activites h2
 	{
-		font-size: 1.3em;
-		margin-left: 10px;
+		font-size: 1.4em;
+		padding-left: 10px;
 	}
 
-	#Activites
+	#activite img 
 	{
-		justify-content: space-between;
+		
+		object-fit: cover;
 	}
 
-	#activite p
+	#activite
 	{
-		margin-left: 10px;
-		font-size: 1em;
-	}
-	
+		display: flex;
+		justify-content: space-evenly;
+		width: 100%;
+		font-weight: bold;
+		
+	} 
+
+
 	#vieux
 	{
-		width: 60%;
-		border-radius:10px 10px 10px 10px;
-		height: 440px;
-		padding: 0;
+		border-radius:20px;
+		box-shadow: 1px 5px 5px 5px #f9f9f9;
+		width: 20vw;
 		
 	}
 
 	#vieux img
 	{
-		height: 380px;
-		padding: 0;
-		border-radius:10px 10px 0 0;
+		height: 80%;
+		border-radius:20px 20px 0 0;
+		width: 100%;
+	}
+
+	#vieux p 
+	{
+		padding-left: 10px;
+	}
+	
+	
+	#fort1 
+	{
+		width: 20vw;
+		border-radius:20px;
+		box-shadow: 1px 5px 5px 5px #f9f9f9;
+		height: 60vh;
 	}
 	
 	#fort1 img
 	{
-		width: 100%; 
-		height: 150px;
-		border-radius:10px 10px 0px 0px;
-	}
-	
-	#fort1 
-	{
-		
-		border-radius:10px 10px 10px 10px;
-		height: 210px;
-		box-shadow: 1px 5px 5px 5px #f9f9f9;
 		width: 100%;
+		border-radius:20px 20px 0px 0px;
+		height: 70%;
 	}
-	
-	#fort2 img
+
+	#fort1 p 
 	{
-		width: 100%; 
-		height: 150px;
-		border-radius:10px 10px 0px 0px;
+		padding-left: 10px;
 	}
 	
 	#fort2
 	{
-		width: 100%;
-		height: 210px;
-		border-radius:10px 10px 10px 10px;
+		width: 20vw;
+		border-radius:20px;
 		box-shadow: 1px 5px 5px 5px #f9f9f9;
-		margin-top: 20px;
+		height: 60vh;
+		margin-top: 30px;
 	}
 	
-	#Calanques
+	#fort2 img
 	{
-		width: 60%;
-		border-radius:10px 10px 10px 10px;
-		height: 440px;
-		padding: 0;
-		
+		height: 70%;
+		border-radius:20px 20px 0px 0px;
+		width: 100%;
 	}
 
-	#Calanques img
+	#fort2 p 
 	{
-		height: 380px;
-		padding: 0;
-		border-radius:10px 10px 0 0;
-		width: 100%;
+		padding-left: 10px;
 	}
-	
-	#monument1 img
+
+	#monu1
 	{
-		width: 100%; 
-		height: 150px;
-		border-radius:10px 10px 0px 0px;
-	}
-	
-	#monument1 
-	{
-		
-		border-radius:10px 10px 10px 10px;
-		height: 210px;
+		width: 20vw;
+		border-radius:20px;
 		box-shadow: 1px 5px 5px 5px #f9f9f9;
+		height: 60vh;
+	}
+	
+	#monu1 img
+	{
+		height: 70%;
+		border-radius:20px 20px 0px 0px;
 		width: 100%;
 	}
-	
-	#monument2 img
+
+	#monu1 p 
 	{
-		width: 100%; 
-		height: 150px;
-		border-radius:10px 10px 0px 0px;
+		padding-left: 10px;
 	}
-	
-	#monument2
+
+	#monu2
 	{
-		 
-		height: 210px;
-		border-radius:10px 10px 10px 10px;
+		width: 20vw;
+		border-radius:20px;
 		box-shadow: 1px 5px 5px 5px #f9f9f9;
-		margin-top: 20px;
+		height: 60vh;
+		margin-top: 30px;
+	}
+	
+	#monu2 img
+	{
+		height: 70%;
+		border-radius:20px 20px 0px 0px;
 		width: 100%;
 	}
+
+	#monu2 p 
+	{
+		padding-left: 10px;
+	}
+
 
 	footer
 	{
@@ -1618,18 +1628,18 @@
 
 	#propos h2
 	{
-		font-size: 1.3em;
+		font-size: 1.2em;
 	}
 
 	#propos li 
 	{
-		font-size: 1.2em;
+		font-size: 1em;
 		margin-bottom: 10px;
 	}
 
 	#propos 
 	{
-		margin-left: 10px;
+		padding-left: 20px;
 		margin-right: 50px;
 	}
 
@@ -1641,23 +1651,23 @@
 
 	#heber h2
 	{
-		font-size: 1.3em;
+		font-size: 1.2em;
 	}
 
 	#heber li 
 	{
-		font-size: 1.2em;
+		font-size: 1em;
 		margin-bottom: 10px;
 	}
 
 	#assistance h2
 	{
-		font-size: 1.3em;
+		font-size: 1.2em;
 	}
 
 	#assistance li 
 	{
-		font-size: 1.2em;
+		font-size: 1em;
 		margin-bottom: 10px;
 	}
 }
@@ -1919,6 +1929,7 @@
 	.auberge_texte
 	{
 		padding-bottom: 20px;
+		padding-left: 10px;
 	}
 
 	#auberge i
@@ -1967,6 +1978,7 @@
 	{
 		width: 100%;
 		margin-left: 5px;
+		padding-left: 5px;
 	}
 
 	p.nuit 
@@ -2016,124 +2028,131 @@
 		font-weight: bold;
 	}
 	
-	section#Activites 
-	{
-		width: 98%;
-	}
-
 	#Activites h2
 	{
-		font-size: 1.3em;
+		font-size: 1.4em;
+		padding-left: 10px;
 	}
 
-	#Activites
+	#activite img 
 	{
-		justify-content: space-between;
+		
+		object-fit: cover;
 	}
 
-	#activite p
+	#activite
 	{
-		margin-left: 10px;
-		font-size: 0.9em;
-	}
-	
+		display: flex;
+		justify-content: space-evenly;
+		width: 100%;
+		font-weight: bold;
+		
+	} 
+
+
 	#vieux
 	{
-		width: 60%;
-		border-radius:10px 10px 10px 10px;
-		height: 440px;
-		padding: 0;
+		border-radius:20px;
+		box-shadow: 1px 5px 5px 5px #f9f9f9;
+		width: 20vw;
 		
 	}
 
 	#vieux img
 	{
-		height: 380px;
-		padding: 0;
-		border-radius:10px 10px 0 0;
+		height: 80%;
+		border-radius:20px 20px 0 0;
+		width: 100%;
+	}
+
+	#vieux p 
+	{
+		padding-left: 10px;
+	}
+	
+	
+	#fort1 
+	{
+		width: 20vw;
+		border-radius:20px;
+		box-shadow: 1px 5px 5px 5px #f9f9f9;
+		height: 60vh;
 	}
 	
 	#fort1 img
 	{
-		width: 100%; 
-		height: 150px;
-		border-radius:10px 10px 0px 0px;
-	}
-	
-	#fort1 
-	{
-		
-		border-radius:10px 10px 10px 10px;
-		height: 210px;
-		box-shadow: 1px 5px 5px 5px #f9f9f9;
 		width: 100%;
+		border-radius:20px 20px 0px 0px;
+		height: 70%;
 	}
-	
-	#fort2 img
+
+	#fort1 p 
 	{
-		width: 100%; 
-		height: 150px;
-		border-radius:10px 10px 0px 0px;
+		padding-left: 10px;
 	}
 	
 	#fort2
 	{
-		width: 100%;
-		height: 210px;
-		border-radius:10px 10px 10px 10px;
+		width: 20vw;
+		border-radius:20px;
 		box-shadow: 1px 5px 5px 5px #f9f9f9;
-		margin-top: 20px;
+		height: 60vh;
+		margin-top: 30px;
 	}
 	
-	#Calanques
+	#fort2 img
 	{
-		width: 60%;
-		border-radius:10px 10px 10px 10px;
-		height: 440px;
-		padding: 0;
-		
+		height: 70%;
+		border-radius:20px 20px 0px 0px;
+		width: 100%;
 	}
 
-	#Calanques img
+	#fort2 p 
 	{
-		height: 380px;
-		padding: 0;
-		border-radius:10px 10px 0 0;
-		width: 100%;
+		padding-left: 10px;
 	}
-	
-	#monument1 img
+
+	#monu1
 	{
-		width: 100%; 
-		height: 150px;
-		border-radius:10px 10px 0px 0px;
-	}
-	
-	#monument1 
-	{
-		
-		border-radius:10px 10px 10px 10px;
-		height: 210px;
+		width: 20vw;
+		border-radius:20px;
 		box-shadow: 1px 5px 5px 5px #f9f9f9;
+		height: 60vh;
+	}
+	
+	#monu1 img
+	{
+		height: 70%;
+		border-radius:20px 20px 0px 0px;
 		width: 100%;
 	}
-	
-	#monument2 img
+
+	#monu1 p 
 	{
-		width: 100%; 
-		height: 150px;
-		border-radius:10px 10px 0px 0px;
+		padding-left: 10px;
 	}
-	
-	#monument2
+
+	#monu2
 	{
-		 
-		height: 210px;
-		border-radius:10px 10px 10px 10px;
+		width: 20vw;
+		border-radius:20px;
 		box-shadow: 1px 5px 5px 5px #f9f9f9;
-		margin-top: 20px;
+		height: 60vh;
+		margin-top: 30px;
+	}
+	
+	#monu2 img
+	{
+		height: 70%;
+		border-radius:20px 20px 0px 0px;
 		width: 100%;
 	}
+
+	#monu2 p 
+	{
+		padding-left: 10px;
+	}
+
 
 	footer
 	{
@@ -2155,7 +2174,7 @@
 
 	#propos 
 	{
-		margin-left: 10px;
+		padding-left: 20px;
 		margin-right: 50px;
 	}
 
@@ -2343,15 +2362,16 @@
 		vertical-align: initial;
 	}
 	
-	i.fas.fa-info {
-    background-color: initial;
-	border: 1px solid #DEEBFF;
-    width: 14px;
-    height: 20px;
-    text-align: center;
-    vertical-align: middle;
-    padding-top: 10px;
-	line-height: 0.5;
+	i.fas.fa-info 
+	{
+		background-color: initial;
+		border: 1px solid #DEEBFF;
+		width: 14px;
+		height: 20px;
+		text-align: center;
+		vertical-align: middle;
+		padding-top: 10px;
+		line-height: 0.5;
 	}
 
 	.logement
@@ -2447,7 +2467,7 @@
 	{
 		
 		padding-bottom: 20px;
-		
+		padding-left: 5px;
 	}
 
 	#tp2
@@ -2491,6 +2511,7 @@
 	{
 		width: 100%;
 		margin-left: 5px;
+		padding-left: 5px;
 	}
 
 	p.nuit 
@@ -2540,124 +2561,131 @@
 		font-weight: bold;
 	}
 	
-	section#Activites 
-	{
-		width: 98%;
-	}
-
 	#Activites h2
 	{
-		font-size: 1.3em;
+		font-size: 1.4em;
+		padding-left: 10px;
 	}
 
-	#Activites
+	#activite img 
 	{
-		justify-content: space-between;
+		
+		object-fit: cover;
 	}
 
-	#activite p
+	#activite
 	{
-		margin-left: 10px;
-		font-size: 0.9em;
-	}
-	
+		display: flex;
+		justify-content: space-evenly;
+		width: 100%;
+		font-weight: bold;
+		
+	} 
+
+
 	#vieux
 	{
-		width: 60%;
-		border-radius:10px 10px 10px 10px;
-		height: 460px;
-		padding: 0;
+		border-radius:20px;
+		box-shadow: 1px 5px 5px 5px #f9f9f9;
+		width: 20vw;
 		
 	}
 
 	#vieux img
 	{
-		height: 380px;
-		padding: 0;
-		border-radius:10px 10px 0 0;
+		height: 80%;
+		border-radius:20px 20px 0 0;
+		width: 100%;
+	}
+
+	#vieux p 
+	{
+		padding-left: 10px;
+	}
+	
+	
+	#fort1 
+	{
+		width: 20vw;
+		border-radius:20px;
+		box-shadow: 1px 5px 5px 5px #f9f9f9;
+		height: 60vh;
 	}
 	
 	#fort1 img
 	{
-		width: 100%; 
-		height: 150px;
-		border-radius:10px 10px 0px 0px;
-	}
-	
-	#fort1 
-	{
-		
-		border-radius:10px 10px 10px 10px;
-		height: 220px;
-		box-shadow: 1px 5px 5px 5px #f9f9f9;
 		width: 100%;
+		border-radius:20px 20px 0px 0px;
+		height: 70%;
 	}
-	
-	#fort2 img
+
+	#fort1 p 
 	{
-		width: 100%; 
-		height: 150px;
-		border-radius:10px 10px 0px 0px;
+		padding-left: 10px;
 	}
 	
 	#fort2
 	{
-		width: 100%;
-		height: 220px;
-		border-radius:10px 10px 10px 10px;
+		width: 20vw;
+		border-radius:20px;
 		box-shadow: 1px 5px 5px 5px #f9f9f9;
-		margin-top: 20px;
+		height: 60vh;
+		margin-top: 30px;
 	}
 	
-	#Calanques
+	#fort2 img
 	{
-		width: 60%;
-		border-radius:10px 10px 10px 10px;
-		height: 460px;
-		padding: 0;
-		
+		height: 70%;
+		border-radius:20px 20px 0px 0px;
+		width: 100%;
 	}
 
-	#Calanques img
+	#fort2 p 
 	{
-		height: 380px;
-		padding: 0;
-		border-radius:10px 10px 0 0;
-		width: 100%;
+		padding-left: 10px;
 	}
-	
-	#monument1 img
+
+	#monu1
 	{
-		width: 100%; 
-		height: 150px;
-		border-radius:10px 10px 0px 0px;
-	}
-	
-	#monument1 
-	{
-		
-		border-radius:10px 10px 10px 10px;
-		height: 220px;
+		width: 20vw;
+		border-radius:20px;
 		box-shadow: 1px 5px 5px 5px #f9f9f9;
+		height: 60vh;
+	}
+	
+	#monu1 img
+	{
+		height: 70%;
+		border-radius:20px 20px 0px 0px;
 		width: 100%;
 	}
-	
-	#monument2 img
+
+	#monu1 p 
 	{
-		width: 100%; 
-		height: 150px;
-		border-radius:10px 10px 0px 0px;
+		padding-left: 10px;
 	}
-	
-	#monument2
+
+	#monu2
 	{
-		 
-		height: 220px;
-		border-radius:10px 10px 10px 10px;
+		width: 20vw;
+		border-radius:20px;
 		box-shadow: 1px 5px 5px 5px #f9f9f9;
-		margin-top: 20px;
+		height: 60vh;
+		margin-top: 30px;
+	}
+	
+	#monu2 img
+	{
+		height: 70%;
+		border-radius:20px 20px 0px 0px;
 		width: 100%;
 	}
+
+	#monu2 p 
+	{
+		padding-left: 10px;
+	}
+
 
 	footer
 	{
@@ -2679,7 +2707,7 @@
 
 	#propos 
 	{
-		margin-left: 10px;
+		padding-left: 20px;
 		margin-right: 50px;
 	}
 
@@ -2813,7 +2841,7 @@
 
 	#filtre p 
 	{
-		font-size: 1.4em;
+		font-size: 1.3em;
 		font-weight: bold;
 	}
 
@@ -2833,6 +2861,11 @@
 		padding-left: 10px;
 		font-size: 1.2em;
 		font-weight: bold;
+	}
+
+	i.fas.fa-info
+	{
+		line-height: 1.3;
 	}
 
 	.logement
@@ -2884,7 +2917,7 @@
 	
 	.auberge_texte
 	{
-		margin-left: 5px;
+		margin-left: 10px;
 		font-size: 0.95em;
 	}
 	
@@ -2907,9 +2940,14 @@
 
 	aside 
 	{
-		width:99%;
+		width:98%;
 		display:grid;
-		
+		border-radius: initial;
+	}
+
+	.soleil_texte
+	{
+		padding-left: 10px;
 	}
 	
 	#tp
@@ -2933,11 +2971,6 @@
 		margin-top: 10px;
 	}
 
-	aside
-	{
-		border-radius: initial;
-	}
-
 	aside h2
 	{
 		font-size: 1.3em;
@@ -2947,7 +2980,8 @@
 	#soleil
 	{
 		padding: 5px;
-		width:40%;
+		margin: 5px;
+		width:38%;
 		display:grid;
 		height: 180px;
 		border-radius: 20px;
@@ -2988,12 +3022,6 @@
 		height: 100%;
 		display:flex;
 	}
-
-	#Activites h2
-	{
-		font-size: 1.3em;
-		margin-left: 20px;
-	}
 	
 
 	#monument img 
@@ -3007,111 +3035,171 @@
 		padding-left: 20px;
 	}
 	
+	#Activites h2
+	{
+		font-size: 1.4em;
+		padding-left: 20px;
+	}
+
+	#activite img 
+	{
+		
+		object-fit: cover;
+	}
+
+	#activite
+	{
+		display: flex;
+		justify-content: space-evenly;
+		width: 100%;
+		font-weight: bold;
+		
+	} 
+
+
 	#vieux
 	{
-		height: 340px;
-		width: 100%;
+		border-radius:20px;
+		box-shadow: 1px 5px 5px 5px #f9f9f9;
+		width: 20vw;
+		
 	}
 
 	#vieux img
 	{
-		height: 270px;
+		height: 80%;
+		border-radius:20px 20px 0 0;
+		width: 100%;
+	}
+
+	#vieux p 
+	{
+		padding-left: 10px;
 	}
 	
 	
 	#fort1 
 	{
-		height: 160px;
+		width: 20vw;
+		border-radius:20px;
+		box-shadow: 1px 5px 5px 5px #f9f9f9;
+		height: 60vh;
 	}
 	
 	#fort1 img
 	{
-		height: 100px;
+		width: 100%;
+		border-radius:20px 20px 0px 0px;
+		height: 60%;
+	}
+
+	#fort1 p 
+	{
+		padding-left: 10px;
 	}
 	
 	#fort2
 	{
-		height: 160px;
+		width: 20vw;
+		border-radius:20px;
+		box-shadow: 1px 5px 5px 5px #f9f9f9;
+		height: 60vh;
+		margin-top: 30px;
 	}
 	
 	#fort2 img
 	{
-		height: 100px;
-	}
-	
-	#Calanques
-	{
-		height: 340px;
+		height: 60%;
+		border-radius:20px 20px 0px 0px;
 		width: 100%;
 	}
 
-	#Calanques img
+	#fort2 p 
 	{
-		height: 270px;
-	}
-	
-	
-	#monument1 
-	{
-		height: 160px;
-	}
-	
-	#monument1 img
-	{
-		height: 100px;
-	}
-	
-	
-	#monument2
-	{
-		height: 160px;
+		padding-left: 10px;
 	}
 
-	#monument2 img
+	#monu1
 	{
-		height: 100px;
+		width: 20vw;
+		border-radius:20px;
+		box-shadow: 1px 5px 5px 5px #f9f9f9;
+		height: 60vh;
 	}
 	
-	#activite p 
+	#monu1 img
 	{
-		margin-left: 5px;
-		font-size: 0.8em;
+		height: 60%;
+		border-radius:20px 20px 0px 0px;
+		width: 100%;
 	}
+
+	#monu1 p 
+	{
+		padding-left: 10px;
+	}
+
+	#monu2
+	{
+		width: 20vw;
+		border-radius:20px;
+		box-shadow: 1px 5px 5px 5px #f9f9f9;
+		height: 60vh;
+		margin-top: 30px;
+	}
+	
+	#monu2 img
+	{
+		height: 60%;
+		border-radius:20px 20px 0px 0px;
+		width: 100%;
+	}
+
+	#monu2 p 
+	{
+		padding-left: 10px;
+	}
+
 
 	footer 
 	{
 		flex-wrap: nowrap;
 		margin-top: 30px;
+		width: 98%;
 	}
 
 	#propos
 	{
 		margin-right: 20px;
+		margin-left: 20px;
 	}
 	
 	#propos h2
 	{
-		font-size: 1.3em;
+		font-size: 1em;
 	}
 
 	#propos li 
 	{
 		margin-bottom: 10px;
+		font-size: 0.9em;
 	}
 
 	#heber
 	{
-		margin-right: 20px;
+		margin-right: 80px;
+		margin-left: 80px;
 	}
 
 	#heber h2
 	{
-		font-size: 1.3em;
+		font-size: 1em;
 	}
 
 	#heber li 
 	{
 		margin-bottom: 10px;
+		font-size: 0.9em;
 	}
 
 	#assistance
@@ -3121,12 +3209,13 @@
 
 	#assistance h2
 	{
-		font-size: 1.3em;
+		font-size: 1.1em;
 	}
 
 	#assistance li 
 	{
 		margin-bottom: 10px;
+		font-size: 1em;
 	}
 
 
@@ -3262,6 +3351,7 @@
 	i.fas.fa-chart-line
 	{
 		width: 5%;
+		line-height: 3.3;
 	}
 	
 	aside h2 
@@ -3291,6 +3381,7 @@
 		border-radius: 20px;
 		padding: 5px;
 		height: 160px;
+		box-shadow: 1px 5px 5px 5px #f9f9f9;
 	}
 
 	#auberge img 
@@ -3310,6 +3401,7 @@
 	{
 		width:100%;
 		margin: 0;
+		font-size: 1.1em;
 	}
 
 	#auberge p 
@@ -3325,7 +3417,7 @@
 
 	aside 
 	{
-		width:99%;
+		width:100%;
 		display:grid;
 		
 	}
@@ -3422,95 +3514,136 @@
 		display:flex;
 	}
 
-	#Activites h2
-	{
-		font-size: 1.3em;
-		margin-left: 20px;
-	}
-	
-
-	#monument img 
-	{
-		height: 110px;
-	}
-
-	
-	#Hebergement .plus
+	.plus
 	{
 		padding-left: 20px;
 	}
-	
+
+	#Activites h2
+	{
+		font-size: 1.4em;
+		padding-left: 20px;
+	}
+
+	#activite img 
+	{
+		
+		object-fit: cover;
+	}
+
+	#activite
+	{
+		display: flex;
+		justify-content: space-evenly;
+		width: 100%;
+		font-weight: bold;
+		
+	} 
+
+
 	#vieux
 	{
-		height: 300px;
-		width: 100%;
-		font-size: 1em;
+		border-radius:20px;
+		box-shadow: 1px 5px 5px 5px #f9f9f9;
+		width: 20vw;
+		
 	}
 
 	#vieux img
 	{
-		height: 240px;
+		height: 80%;
+		border-radius:20px 20px 0 0;
+		width: 100%;
+	}
+
+	#vieux p 
+	{
+		padding-left: 10px;
 	}
 	
 	
 	#fort1 
 	{
-		height: 140px;
+		width: 20vw;
+		border-radius:20px;
+		box-shadow: 1px 5px 5px 5px #f9f9f9;
+		height: 50vh;
 	}
 	
 	#fort1 img
 	{
-		height: 90px;
+		width: 100%;
+		border-radius:20px 20px 0px 0px;
+		height: 60%;
+	}
+
+	#fort1 p 
+	{
+		padding-left: 10px;
 	}
 	
 	#fort2
 	{
-		height: 140px;
+		width: 20vw;
+		border-radius:20px;
+		box-shadow: 1px 5px 5px 5px #f9f9f9;
+		height: 50vh;
+		margin-top: 30px;
 	}
 	
 	#fort2 img
 	{
-		height: 90px;
-	}
-	
-	#Calanques
-	{
-		height: 300px;
+		height: 60%;
+		border-radius:20px 20px 0px 0px;
 		width: 100%;
 	}
 
-	#Calanques img
+	#fort2 p 
 	{
-		height: 240px;
-	}
-	
-	
-	#monument1 
-	{
-		height: 140px;
-	}
-	
-	#monument1 img
-	{
-		height: 90px;
-	}
-	
-	
-	#monument2
-	{
-		height: 140px;
+		padding-left: 10px;
 	}
 
-	#monument2 img
+	#monu1
 	{
-		height: 90px;
+		width: 20vw;
+		border-radius:20px;
+		box-shadow: 1px 5px 5px 5px #f9f9f9;
+		height: 50vh;
 	}
 	
-	#activite p 
+	#monu1 img
 	{
-		margin-left: 5px;
-		font-size: 0.8em;
+		height: 60%;
+		border-radius:20px 20px 0px 0px;
+		width: 100%;
 	}
+
+	#monu1 p 
+	{
+		padding-left: 10px;
+	}
+
+	#monu2
+	{
+		width: 20vw;
+		border-radius:20px;
+		box-shadow: 1px 5px 5px 5px #f9f9f9;
+		height: 50vh;
+		margin-top: 30px;
+	}
+	
+	#monu2 img
+	{
+		height: 60%;
+		border-radius:20px 20px 0px 0px;
+		width: 100%;
+	}
+
+	#monu2 p 
+	{
+		padding-left: 10px;
+	}
+
 
 	footer 
 	{
@@ -3521,31 +3654,35 @@
 	#propos
 	{
 		margin-right: 0;
+		padding-left: 20px;
 	}
 	
 	#propos h2
 	{
-		font-size: 1.3em;
+		font-size: 1em;
 	}
 
 	#propos li 
 	{
 		margin-bottom: 10px;
+		font-size: 0.8;
 	}
 
 	#heber
 	{
-		margin-right: 0;
+		margin-right: 20px;
+    	margin-left: 30px;
 	}
 
 	#heber h2
 	{
-		font-size: 1.3em;
+		font-size: 1em;
 	}
 
 	#heber li 
 	{
 		margin-bottom: 10px;
+		font-size: 0.8;
 	}
 
 	#assistance
@@ -3555,12 +3692,13 @@
 
 	#assistance h2
 	{
-		font-size: 1.3em;
+		font-size: 1em;
 	}
 
 	#assistance li 
 	{
 		margin-bottom: 10px;
+		font-size: 0.8;
 	}
 }
 	
@@ -3651,7 +3789,9 @@
 	input
 	{
 		width: 60%;
-		font-size: 1.3em;
+		padding-left: 10px;
+		text-align: left;
+		font-size: 1.2em;
 		margin: 5px -20px 5px -5px;
 		height: 38px;
 		vertical-align: middle;
@@ -3661,20 +3801,21 @@
 	{
 		background-color: white;
 		border: 1px solid #e4e4e4;
-		width: 15px;
-		height: 20px;
+		width: 10px;
+		height: 15px;
 		text-align: center;
 		padding: 5px 10px 5px 10px;
 		vertical-align: middle;
 		margin-right: 5px;
-		line-height: 1.5;
+		line-height: 1;
 		font-size: 0.8em;
 	}
 
 	i.fas.fa-map-marker-alt 
 	{
 		height: 40px;
-		font-size: 1.5em;
+		width: 45px;
+		font-size: 1.1em;
 		line-height: 40px;
 	}
 	
@@ -3686,6 +3827,7 @@
 	button.recherche_loupe  
 	{
 		width: 40px;
+		
 		color: white;
 		background-color: #0065FC;
 		vertical-align: middle;
@@ -3699,13 +3841,13 @@
 	i.fas.fa-search 
 	{
 		color: white;
-		font-size: 150%;
+		font-size: 110%;
     	vertical-align: middle;
 	}
 	
 	i.fas.fa-chart-line 
 	{
-    	line-height: 2;
+    	line-height: 3;
 	}
 
 	nav
@@ -3719,14 +3861,6 @@
 	{ 
 		margin-left: 0;
 	}
-
-
-	#information h2
-	{
-		justify-content: space-between;
-	}
-
-	
 
 	.eco2
 	{
@@ -3744,13 +3878,14 @@
 	{
 		display: grid;
 		padding-left: 0;
+		margin-top: 0;
 	}
 
 	#filtre p
 	{
 		font-weight: bold;
-		font-size: larger;
-		margin-left: 30px;
+		font-size: 1.1em;
+    	margin: 20px 0 0 30px;
 	}
 	
 	#filtre i 
@@ -3759,17 +3894,17 @@
 		height: 45px;
 		text-align: center;
 		vertical-align: middle;
-		line-height: 2.2;
+		line-height: 2.5;
 		margin: -3px 0 -5px -5px;
-		font-size: 1.5em;
+		font-size: 1.1em;
 	}
 
 	#Economique
 	{
 		margin-left: 0;
-		width: 125px;
+		width: 150px;
 		margin-right: 5px;
-		font-size: 0.8em;
+		font-size: 1em;
 		height: 40px;
 	}
 	
@@ -3791,8 +3926,8 @@
 
 	.logement p 
 	{
-		margin: 7px 0 0 5px;
-		font-size: 0.9em;
+		margin: 5px 0 0 5px;
+		font-size: 1em;
 	}
 
 	.eco1 
@@ -3836,7 +3971,8 @@
 	
 	article h2
 	{
-		font-size: 1.1em;
+		font-size: 1.3em;
+		margin-left: 25px;
 	}
 	
 	aside
@@ -3853,13 +3989,13 @@
 
 	p.chart 
 	{
-		font-size: 0.76em;
+		font-size: 0.9em;
 	}
 	
 	#populaires h3
 	{
 		
-		font-size: 0.8em;
+		font-size: 0.7em;
 	}
 
 
@@ -3870,7 +4006,7 @@
 		width: 95%;
 		height: 150px;
 		border-radius: 25px;
-		box-shadow: 3px 3px 3px #f7f7f7;
+		box-shadow: 3px 3px 3px #e9e9e9;
 	}
 	
 	.soleil_texte
@@ -3932,7 +4068,8 @@
 
 	#auberge
 	{
-		width: 100%;
+		width: 90%;
+		margin-left: 20px;
 		height: 220px;
 		border-radius: 20px;
 		padding: 5px;
@@ -3953,6 +4090,8 @@
 	.auberge_texte
 	{
 		padding-left: 15px;
+		padding-top: 10px;
+    	font-size: 0.8em;
 	}
 	
 	#auberge img 
@@ -3965,7 +4104,19 @@
 	
 	#auberge i 
 	{
-    padding-top: 5px;
+    	padding-top: 5px;
+	}
+
+	.plus
+	{
+		margin-left: 20px;
+		font-weight: bold;
+	}
+
+	#Activites h2 
+	{
+		font-size: 1.3em;
+		padding-left: 20px;
 	}
 
 	#activite
@@ -3979,8 +4130,10 @@
 	{
 		padding: 0;
 		margin-bottom: 20px;
+		margin-top: 20px;
 		border-radius: 20px;
-		width: 98%;
+		width: 90%;
+		margin-left: 20px;
 	}
 	
 	#vieux p 
@@ -4000,9 +4153,9 @@
 	
 	#fort1 
 	{
-		
-		width: 98%;
-		padding: 0;
+		padding-bottom: 20px;
+		width: 90%;
+		margin-left: 20px;
 		border-radius: 20px;
 	}
 
@@ -4023,11 +4176,12 @@
 	
 	#fort2
 	{
-		width: 98%;
+		width: 90%;
+		margin-left: 20px;
 		padding-top: 0;
 		border-radius: 20px;
-		padding: 0;
-		
+		margin-top: 20px;
+		padding-bottom: 20px;
 	}
 	
 	#fort2 img
@@ -4045,67 +4199,44 @@
 		font-weight: bold;
 	}
 	
-	#Calanques
+	#monu1
 	{
 		
-		margin-bottom: 20px;
+		width: 90%;
+		margin-left: 20px;
+		padding-bottom: 20px;
 		border-radius: 20px;
-		width: 98%;
-		height: 200px;
-		margin-top: 20px;
-		margin-left: 0;
 	}
 
-	#Calanques img 
+	#monu1 img 
 	{
 		width: 100%;
 		height: 150px;
 		border-radius: 20px 20px 0 0;
 	}
 	
-	#Calanques p 
+	#monu1 p
 	{
 		padding-left: 20px;
 		font-weight: bold;
 	}
 	
-	#monument1
+	#monu2
 	{
-		
-		width: 98%;
-		padding: 0;
+		width: 90%;
+		margin-left: 20px;
 		border-radius: 20px;
+		padding-bottom: 20px;
 	}
-
-	#monument1 img 
+	
+	#monu2 img
 	{
 		width: 100%;
 		height: 150px;
 		border-radius: 20px 20px 0 0;
 	}
 	
-	#monument1 p
-	{
-		padding-left: 20px;
-		font-weight: bold;
-	}
-	
-	#monument2
-	{
-		
-		width: 98%;
-		padding: 0;
-		border-radius: 20px;
-	}
-	
-	#monument2 img
-	{
-		width: 100%;
-		height: 150px;
-		border-radius: 20px 20px 0 0;
-	}
-	
-	#monument2 p
+	#monu2 p
 	{
 		padding-left: 20px;
 		font-weight: bold;
@@ -4129,13 +4260,13 @@
 
 	#propos h2
 	{
-		font-size: 1.4em;
+		font-size: 1.25em;
 	}
 
 	#propos li
 	{
 		padding-bottom: 10px;
-		font-size: 1.3em;
+		font-size: 1.1em;
 	}
 	
 	#propos
@@ -4152,24 +4283,24 @@
 
 	#heber h2
 	{
-		font-size: 1.4em;
+		font-size: 1.25em;
 	}
 
 	#heber li 
 	{
 		padding-bottom: 10px;
-		font-size: 1.3em;
+		font-size: 1.1em;
 	}
 
 	#assistance h2
 	{
-		font-size: 1.4em;
+		font-size: 1.25em;
 	}
 
 	#assistance li 
 	{
 		padding-bottom: 10px;
-		font-size: 1.3em;
+		font-size: 1.1em;
 	}
 	
 	#assistance

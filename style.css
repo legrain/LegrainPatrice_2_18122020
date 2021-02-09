@@ -79,7 +79,7 @@
 		max-width: 100px;
 		float: left;
 		display: flex;
-		margin-top: -20px;
+		margin-top: -30px;
 	}
 
 
@@ -404,6 +404,7 @@
 		display: flex;
 		width: 98%;
 		margin: 10px;
+		font-weight: bold;
 	} 
 
 
@@ -735,7 +736,8 @@
 		margin: -10px 0 -5px -5px;
 	}
 	
-	i.fas.fa-info {
+	i.fas.fa-info 
+	{
 		background-color: initial;
 		border: 1px solid #DEEBFF;
 		width: 34px;
@@ -759,7 +761,8 @@
 		background-color: black;
 	}
 
-	#barre a {
+	#barre a 
+	{
 		padding-left: 10px;
 		font-size: 1em;
 	}
@@ -1505,7 +1508,7 @@
 	#activite p
 	{
 		margin-left: 10px;
-		font-size: 1.1em;
+		font-size: 1em;
 	}
 	
 	#vieux
@@ -1659,7 +1662,7 @@
 	}
 }
 
-@media all and (min-device-width: 1231px) and (max-device-width: 1439px)
+@media all and (min-device-width: 1251px) and (max-device-width: 1439px)
 {
 	
 
@@ -1810,6 +1813,7 @@
 	{
 		margin: -4px 0 -5px -5px;
 		line-height: 2.5;
+		vertical-align: initial;
 	}
 	
 	i.fas.fa-info {
@@ -1973,7 +1977,7 @@
 	
 	.nuit i.fas.fa-star 
 	{
-		margin-top: 25px;
+		margin-top: 40px;
 		font-size: 0.9em;
 	}
 
@@ -1997,7 +2001,7 @@
 
 	.blanc i.fas.fa-star
 	{
-		margin-top: 25px;
+		margin-top: 40px;
     	font-size: 0.9em;
 	}
 
@@ -2184,7 +2188,7 @@
 	}
 }
 
-@media all and (min-device-width: 1024px) and (max-device-width: 1230px)
+@media all and (min-device-width: 1024px) and (max-device-width: 1250px)
 {
 
 /* la section barre qui entourre toute la ligne du filtre*/
@@ -2336,6 +2340,7 @@
 	{
 		margin: -4px 0 -5px -5px;
 		line-height: 2.5;
+		vertical-align: initial;
 	}
 	
 	i.fas.fa-info {
@@ -3271,6 +3276,7 @@
 	{
 		flex-direction: column-reverse;
 		width: 99%;
+		flex-wrap: nowrap;
 	}
 
 	#Hebergement img 
@@ -3436,68 +3442,68 @@
 	
 	#vieux
 	{
-		height: 260px;
+		height: 300px;
 		width: 100%;
 		font-size: 1em;
 	}
 
 	#vieux img
 	{
-		height: 210px;
+		height: 240px;
 	}
 	
 	
 	#fort1 
 	{
-		height: 120px;
+		height: 140px;
 	}
 	
 	#fort1 img
 	{
-		height: 80px;
+		height: 90px;
 	}
 	
 	#fort2
 	{
-		height: 120px;
+		height: 140px;
 	}
 	
 	#fort2 img
 	{
-		height: 80px;
+		height: 90px;
 	}
 	
 	#Calanques
 	{
-		height: 260px;
+		height: 300px;
 		width: 100%;
 	}
 
 	#Calanques img
 	{
-		height: 210px;
+		height: 240px;
 	}
 	
 	
 	#monument1 
 	{
-		height: 120px;
+		height: 140px;
 	}
 	
 	#monument1 img
 	{
-		height: 80px;
+		height: 90px;
 	}
 	
 	
 	#monument2
 	{
-		height: 120px;
+		height: 140px;
 	}
 
 	#monument2 img
 	{
-		height: 80px;
+		height: 90px;
 	}
 	
 	#activite p 

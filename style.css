@@ -4166,6 +4166,7 @@
 		width: 90%;
 		margin-left: 20px;
 		border-radius: 20px;
+		height: 28vh;
 	}
 
 	#fort1 img
@@ -4191,6 +4192,7 @@
 		border-radius: 20px;
 		margin-top: 20px;
 		padding-bottom: 20px;
+		height: 28vh;
 	}
 	
 	#fort2 img
@@ -4215,6 +4217,7 @@
 		margin-left: 20px;
 		padding-bottom: 20px;
 		border-radius: 20px;
+		height: 28vh;
 	}
 
 	#monu1 img 
@@ -4236,6 +4239,7 @@
 		margin-left: 20px;
 		border-radius: 20px;
 		padding-bottom: 20px;
+		height: 28vh;
 	}
 	
 	#monu2 img

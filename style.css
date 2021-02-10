@@ -124,7 +124,7 @@
 	{
 		color: #0065FC;
 		border-top: 3px solid #0065FC;
-    	padding-top: 32px;
+    	padding-top: 34px;
 	}
 
 	li.two a
@@ -623,6 +623,7 @@
 		border-top: 4px solid #0065FC;
 		padding: 36px 20px 0 20px;
 	}
+	
 	
 	li.two
 	{
@@ -4015,7 +4016,7 @@
 		width: 95%;
 		height: 150px;
 		border-radius: 25px;
-		box-shadow: 3px 3px 3px #e9e9e9;
+		box-shadow: 1px 5px 5px 5px #e9e9e9;
 	}
 	
 	.soleil_texte
@@ -4082,6 +4083,7 @@
 		height: 220px;
 		border-radius: 20px;
 		padding: 5px;
+		box-shadow: 1px 5px 5px 5px #f9f9f9;
 	}
 	
 	#auberge h3
@@ -4166,7 +4168,7 @@
 		width: 90%;
 		margin-left: 20px;
 		border-radius: 20px;
-		height: 28vh;
+		height: 70vh;
 	}
 
 	#fort1 img
@@ -4192,7 +4194,7 @@
 		border-radius: 20px;
 		margin-top: 20px;
 		padding-bottom: 20px;
-		height: 28vh;
+		height: 70vh;
 	}
 	
 	#fort2 img
@@ -4217,7 +4219,8 @@
 		margin-left: 20px;
 		padding-bottom: 20px;
 		border-radius: 20px;
-		height: 28vh;
+		height: 70vh;
+		
 	}
 
 	#monu1 img 
@@ -4239,7 +4242,8 @@
 		margin-left: 20px;
 		border-radius: 20px;
 		padding-bottom: 20px;
-		height: 28vh;
+		height: 70vh;
+		
 	}
 	
 	#monu2 img

@@ -4143,7 +4143,7 @@
 		margin-bottom: 20px;
 		margin-top: 20px;
 		border-radius: 20px;
-		width: 90%;
+		width: 90vw;
 		margin-left: 20px;
 	}
 	
@@ -4188,7 +4188,7 @@
 	
 	#fort2
 	{
-		width: 90%;
+		width: 90vw;
 		margin-left: 20px;
 		padding-top: 0;
 		border-radius: 20px;
@@ -4215,7 +4215,7 @@
 	#monu1
 	{
 		
-		width: 90%;
+		width: 90vw;
 		margin-left: 20px;
 		padding-bottom: 20px;
 		border-radius: 20px;
@@ -4238,7 +4238,7 @@
 	
 	#monu2
 	{
-		width: 90%;
+		width: 90vw;
 		margin-left: 20px;
 		border-radius: 20px;
 		padding-bottom: 20px;

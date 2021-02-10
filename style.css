@@ -189,7 +189,7 @@
 		width: 45px;
 		height: 42px;
 		text-align: center;
-		vertical-align: middle;
+		vertical-align: unset;
 		line-height: 3;
 		margin: -5px 0 -5px -5px;
 	}

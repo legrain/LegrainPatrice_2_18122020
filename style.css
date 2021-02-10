@@ -2691,7 +2691,7 @@
 	{
 		flex-wrap: nowrap;
 		margin-top: 30px;
-		width: 98%;
+		width: 100%;
 	}
 
 	#propos h2
@@ -3165,7 +3165,7 @@
 	{
 		flex-wrap: nowrap;
 		margin-top: 30px;
-		width: 98%;
+		width: 100%;
 	}
 
 	#propos
@@ -4249,7 +4249,7 @@
 		flex-wrap: wrap;
 		background-color: #F2F2F2;
 		justify-content: space-between;
-		width: 95%;
+		width: 100%;
 		padding-left: 30px;
 	}	
 	

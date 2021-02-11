@@ -163,7 +163,7 @@
 	{
 		padding-left: 20px;
 		color: black;
-		font-size: 1.2vw;
+		font-size: 1.2em;
 	}
 
 	#barre a:hover
@@ -537,12 +537,12 @@
 
 	#propos h2
 	{
-		font-size: 1.4vw;
+		font-size: 1.4em;
 	}
 
 	#propos li 
 	{
-		font-size: 1.3vw;
+		font-size: 1.3em;
 		margin-bottom: 10px;
 	}
 
@@ -560,23 +560,23 @@
 
 	#heber h2
 	{
-		font-size: 1.4vw;
+		font-size: 1.4em;
 	}
 
 	#heber li 
 	{
-		font-size: 1.3vw;
+		font-size: 1.3em;
 		margin-bottom: 10px;
 	}
 
 	#assistance h2
 	{
-		font-size: 1.4vw;
+		font-size: 1.4em;
 	}
 
 	#assistance li 
 	{
-		font-size: 1.3vw;
+		font-size: 1.3em;
 		margin-bottom: 10px;
 	}
 
@@ -1368,7 +1368,7 @@
 		height: 180px;
 		padding: 5px;
 		margin-right: 10px;
-		font-size: 0.9vw;
+		font-size: 0.9em;
 	}
 	
 	#auberge img 
@@ -1398,14 +1398,14 @@
 	aside
 	{
 		width: 33vw;
-		font-size: 0.92vw;
+		font-size: 0.92em;
 	}
 
 	aside h2
 	{
 		margin-bottom: -20px;
 		margin-top: 0;
-		font-size: 1.4vw;
+		font-size: 1.4em;
 	}
 	
 	aside .chart 
@@ -1858,7 +1858,7 @@
 		height: 180px;
 		padding: 5px;
 		margin-right: 10px;
-		font-size: 1.1vw;
+		font-size: 1.1em;
 	}
 	
 	#auberge img 
@@ -1877,7 +1877,7 @@
 
 	article h2
 	{
-		font-size: 1.9vw;
+		font-size: 1.9em;
 	}
 
 	i.fas.fa-chart-line 
@@ -1888,14 +1888,14 @@
 	aside
 	{
 		width: 32vw;
-		font-size: 1.18vw;
+		font-size: 1.18em;
 	}
 
 	aside h2
 	{
 		margin-bottom: -20px;
 		margin-top: 0;
-		font-size: 1.9vw;
+		font-size: 1.9em;
 	}
 	
 	aside .chart 
@@ -2331,7 +2331,7 @@
 
 	#barre a {
 		padding-left: 10px;
-		font-size: 1.5vw;
+		font-size: 1.5em;
 	}
 
 	#Hebergement
@@ -2353,7 +2353,7 @@
 		height: 180px;
 		padding: 5px;
 		margin-right: 10px;
-		font-size: 1.3vw;
+		font-size: 1.3em;
 	}
 	
 	#auberge img 
@@ -2383,14 +2383,14 @@
 	aside
 	{
 		width: 32vw;
-		font-size: 1.3vw;
+		font-size: 1.3em;
 	}
 
 	aside h2
 	{
 		margin-bottom: -20px;
 		margin-top: 0;
-		font-size: 1.9vw;
+		font-size: 1.9em;
 	}
 	
 	aside .chart 

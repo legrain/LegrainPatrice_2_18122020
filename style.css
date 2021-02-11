@@ -524,7 +524,7 @@
 		display: flex;
 		flex-wrap: wrap;
 		background-color: #F2F2F2;
-		width: 100%;
+		width: 100vw;
 		
 	}
 
@@ -1628,7 +1628,7 @@
 	{
 		flex-wrap: nowrap;
 		margin-top: 30px;
-		width: 100%;
+		width: 100vw;
 	}
 
 	#propos h2

@@ -526,8 +526,7 @@
 		flex-wrap: wrap;
 		background-color: #F2F2F2;
 		width: 98vw;
-		
-	}
+}
 
 	footer ul
 	{
@@ -1652,6 +1651,7 @@
 	{
 		flex-wrap: nowrap;
 		margin-top: 30px;
+
 	}
 
 	

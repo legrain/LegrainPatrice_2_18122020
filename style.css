@@ -3991,8 +3991,8 @@
 	
 	aside
 	{
-		width: 100%;
-		border-radius: inherit;
+		width: 100vw;
+		border-radius: initial;
 		
 	}
 	

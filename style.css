@@ -198,7 +198,8 @@
 	i.fas.fa-info
 	{
 		padding-right: 10px;
-		background-color: #DEEBFF;
+		background-color: white;
+		border: 1px solid #e4e4e4;
 		width: 15px;
 		height: 30px;
 		text-align: center;
@@ -3237,6 +3238,11 @@
 		line-height: 0;
 	}
 
+	i.fas.fa-info
+	{
+		line-height: 1.5;
+	}
+
 	i.fas.fa-chart-line
 	{
 		width: 5%;
@@ -3598,6 +3604,7 @@
 	header
 	{
 		height: 150px;
+		width: 100%;
 	}
 
 	header img 
@@ -3648,7 +3655,6 @@
 		grid-row: 11; 
 		grid-template-rows: max-content;
 		margin-left: 20%;
-		text-align: left;
 		border-bottom: 2px solid #F2F2F2;
 		text-align: center;
 		margin: 0;
@@ -3715,7 +3721,7 @@
 		display: none;
 	}
 	
-	button.recherche_loupe  
+	button  
 	{
 		width: 40px;
 		color: white;
@@ -3817,7 +3823,7 @@
 	.logement p 
 	{
 		font-size: 0.9em;
-		margin-top: 5px;
+		margin-top: 10px;
 	}
 
 	.eco1 

@@ -1115,8 +1115,8 @@
 
 	#heber 
 	{
-		margin-right: 100px;
-		margin-left: 100px;
+		margin-right: 180px;
+		margin-left: 180px;
 	}
 
 	#heber h2
@@ -3261,7 +3261,7 @@
 	#auberge  
 	{
 		margin: 5px;
-		width:28.3vw;
+		width:28vw;
 		border-radius: 20px;
 		padding: 5px;
 		height: 160px;
@@ -3338,20 +3338,39 @@
 		padding: 5px;
 		margin: 5px;
 		display:grid;
-		height: 160px;
+		height: 180px;
 		border-radius: 20px;
 		margin-bottom: 20px;
-		width: 30vw;
+		width: 29vw;
 	}
 
 	#soleil img 
 	{
 		height: 100px;
-		width: 30vw;
+		width: 29vw;
 		border-radius: 20px 20px 0 0;
 	}
+
+	#soleil p 
+	{
+		margin: 0;
+		padding: 0;
+	}
 	
-	
+	#soleil i.fas.fa-star
+	{
+		margin: 0;
+	}
+
+	.nuit i.fas.fa-star
+	{
+		padding-top: 20px;
+	}
+
+	.blanc i.fas.fa-star
+	{
+		padding-top: 20px;
+	}
 	
 	#soleil h3
 	{

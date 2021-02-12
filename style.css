@@ -276,7 +276,6 @@
 
 	#Hebergement img
 	{
-		width: 100%;
 		height: 250px;
 		border-radius: 20px 20px 0 0;
 		object-fit: cover;
@@ -343,10 +342,8 @@
 	{
 		background-color: #F2F2F2;
 		padding: 5px;
-		border-radius: 30px;
 		margin-top: 50px;
 		flex-wrap: wrap;
-		width:100%;
 	}
 
 	aside .chart
@@ -375,18 +372,9 @@
 		margin-bottom: -13px;
 	}
 
-	#populaires img
-	{
-		width: 150px;
-		padding-right: 10px;
-	}
-
-
-
 	#soleil
 	{
 		background-color: white;
-		margin-right: 5px;
 		border-radius: 20px;
 		box-shadow: 1px 5px 5px 5px #e9e9e9;
 	}
@@ -2350,10 +2338,9 @@
 	#auberge
 	{
 		width: 18.6vw;
-		height: 180px;
+		height: 200px;
 		padding: 5px;
 		margin-right: 10px;
-		font-size: 1.3em;
 	}
 	
 	#auberge img 
@@ -2372,7 +2359,7 @@
 
 	article h2
 	{
-		font-size: 1.3em;
+		font-size: 1.4em;
 	}
 
 	i.fas.fa-chart-line 
@@ -2383,14 +2370,13 @@
 	aside
 	{
 		width: 32vw;
-		font-size: 1.3em;
 	}
 
 	aside h2
 	{
 		margin-bottom: -20px;
 		margin-top: 0;
-		font-size: 1.9em;
+		font-size: 1.3em;
 	}
 	
 	aside .chart 
@@ -2420,8 +2406,8 @@
 
 	#populaires h3
 	{
-		font-size: 1.15em;
-		margin-top: 7px;
+		font-size: 1em;
+		margin-top: 10px;
 	}
 
 	#populaires img
@@ -2433,7 +2419,7 @@
 	#soleil
 	{
 		display: flex;
-		height: 120px;
+		height: 150px;
 		margin: 30px 20px 10px 20px;
 		padding: 5px;
 		
@@ -2446,7 +2432,7 @@
 
 	#soleil img
 	{
-		height: 120px;
+		height: 150px;
 		border-radius: 20px 0 0 20px;
 		width: 100%;
 	}
@@ -2466,7 +2452,7 @@
 	
 	.nuit i.fas.fa-star 
 	{
-		margin-top: 25px;
+		margin-top: 35px;
 		font-size: 1em;
 	}
 
@@ -2478,7 +2464,7 @@
 
 	.coeur i.fas.fa-star
 	{
-		margin-top: 25px;
+		margin-top: 55px;
     	font-size: 1em;
 	}
 
@@ -2490,14 +2476,14 @@
 
 	.blanc i.fas.fa-star
 	{
-		margin-top: 25px;
+		margin-top: 55px;
     	font-size: 1em;
 	}
 
 	#auberge h3 
 	{
 		margin-bottom: -10px;
-		font-size: 1.13em;
+		font-size: 1em;
 	}
 
 	.plus a 
@@ -3269,11 +3255,6 @@
 		flex-wrap: nowrap;
 	}
 
-	#Hebergement img 
-	{
-		width: 100%;
-	}
-
 	#auberge  
 	{
 		margin-left: 10px;
@@ -3318,8 +3299,6 @@
 	aside 
 	{
 		width:100%;
-		display:grid;
-		
 	}
 	
 	#tp
@@ -3357,7 +3336,7 @@
 	#soleil
 	{
 		padding: 5px;
-		width:40%;
+		margin: 5px;
 		display:grid;
 		height: 190px;
 		border-radius: 20px;
@@ -3366,9 +3345,8 @@
 
 	#soleil img 
 	{
-		width: 100%;
 		height: 100px;
-		flex-wrap: wrap;
+		width: 100%;
 		border-radius: 20px 20px 0 0;
 	}
 	
@@ -3410,7 +3388,6 @@
 
 	#populaires
 	{
-		height: 100%;
 		display:flex;
 	}
 
@@ -3611,18 +3588,20 @@
 @media screen and (max-width:629px) 
 {
 
+	header
+	{
+		height: 150px;
+	}
+
 	header img 
 	{
-		max-width: 110px;
 		padding-left: 5px;
-		margin-top: -25px;
 	}
 	
 	#logo
 	{
 		display: flex;
 		position: absolute;
-		padding-top: 27px;
 	}
 
 	.top 
@@ -3633,6 +3612,7 @@
   		padding-left: 0;
 		font-size: 1em;
 		width: 100%;
+		height: 70px;
 	}
 	
 
@@ -3646,7 +3626,7 @@
 		padding-bottom: 20px;
 		text-align: center;
 		margin: 0;
-		width: 110%;
+		grid-template-rows: max-content;
 	}
 
  	li.one a 
@@ -3658,24 +3638,22 @@
 	{
 		grid-column: 2;
 		grid-row: 11; 
+		grid-template-rows: max-content;
 		margin-left: 20%;
 		text-align: left;
 		border-bottom: 2px solid #F2F2F2;
 		text-align: center;
 		margin: 0;
-		width: 100%;
+		
 	}
 
 	.tree
 	{
 		grid-column: 2;
-	 	margin-top: 40px;
 		margin-left: 10%;
 		text-align: right;
-		margin: 40px 0 0 0;
-		padding-left: 30px;
 		width: 80%;
-		font-weight: 600;
+		font-weight: bold;
 	}
 
 	.tree li 
@@ -3790,7 +3768,7 @@
 	{
 		font-weight: bold;
 		font-size: 1.1em;
-    	margin: 20px 0 0 30px;
+    	margin: 20px 0 20px 30px;
 	}
 	
 	#filtre i 
@@ -3807,7 +3785,7 @@
 	#Economique
 	{
 		margin-left: 0;
-		width: 130px;
+		width: 140px;
 		margin-right: 5px;
 		font-size: 0.9em;
 		height: 40px;
@@ -3831,8 +3809,7 @@
 
 	.logement p 
 	{
-		margin: 5px 0 0 5px;
-		font-size: 1em;
+		font-size: 0.9em;
 	}
 
 	.eco1 
@@ -3971,12 +3948,11 @@
 		font-size: 1.4em;
 	}
 
-	
-
 	#auberge
 	{
-		width: 90%;
+		width: 100vw;
 		margin-left: 20px;
+		max-width: fit-content;
 		height: 220px;
 		border-radius: 20px;
 		padding: 5px;

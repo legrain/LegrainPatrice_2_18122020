@@ -1471,7 +1471,7 @@
 	
 	.nuit i.fas.fa-star 
 	{
-		margin-top: 35px;
+		margin-top: 40px;
 		font-size: 1em;
 	}
 
@@ -1483,7 +1483,7 @@
 
 	.coeur i.fas.fa-star
 	{
-		margin-top: 15px;
+		margin-top: 25px;
     	font-size: 1em;
 	}
 
@@ -1495,7 +1495,7 @@
 
 	.blanc i.fas.fa-star
 	{
-		margin-top: 35px;
+		margin-top: 40px;
     	font-size: 1em;
 	}
 
@@ -1957,7 +1957,7 @@
 	
 	.nuit i.fas.fa-star 
 	{
-		margin-top: 40px;
+		margin-top: 35px;
 		font-size: 0.9em;
 	}
 
@@ -1969,7 +1969,7 @@
 
 	.coeur i.fas.fa-star
 	{
-		margin-top: 25px;
+		margin-top: 35px;
     	font-size: 0.9em;
 	}
 
@@ -1981,7 +1981,7 @@
 
 	.blanc i.fas.fa-star
 	{
-		margin-top: 40px;
+		margin-top: 35px;
     	font-size: 0.9em;
 	}
 
@@ -2413,7 +2413,7 @@
 	#soleil
 	{
 		display: flex;
-		height: 150px;
+		height: 140px;
 		margin: 30px 20px 10px 20px;
 		padding: 5px;
 		
@@ -2426,7 +2426,7 @@
 
 	#soleil img
 	{
-		height: 150px;
+		height: 140px;
 		border-radius: 20px 0 0 20px;
 		width: 100%;
 	}
@@ -2447,7 +2447,7 @@
 	.nuit i.fas.fa-star 
 	{
 		margin-top: 35px;
-		font-size: 1em;
+		font-size: 0.9em;
 	}
 
 	p.coeur 
@@ -2458,8 +2458,8 @@
 
 	.coeur i.fas.fa-star
 	{
-		margin-top: 55px;
-    	font-size: 1em;
+		margin-top: 35px;
+    	font-size: 0.9em;
 	}
 
 	p.blanc
@@ -2470,7 +2470,7 @@
 
 	.blanc i.fas.fa-star
 	{
-		margin-top: 55px;
+		margin-top: 35px;
     	font-size: 1em;
 	}
 
@@ -3585,10 +3585,9 @@
 	{
 		padding-left: 5px;
 	}
-	
+
 	#logo
 	{
-		display: flex;
 		position: absolute;
 	}
 
@@ -3599,8 +3598,9 @@
   		grid-gap: 5px;
   		padding-left: 0;
 		font-size: 1em;
-		width: 100%;
+		width: 100vw;
 		height: 70px;
+		margin: 0;
 	}
 	
 
@@ -3613,6 +3613,7 @@
 		border-bottom: 2px solid blue;
 		padding-bottom: 20px;
 		text-align: center;
+		width: 110%;
 		margin: 0;
 		grid-template-rows: max-content;
 	}
@@ -3632,6 +3633,7 @@
 		border-bottom: 2px solid #F2F2F2;
 		text-align: center;
 		margin: 0;
+		width: 100%;
 		
 	}
 
@@ -3697,11 +3699,9 @@
 	button.recherche_loupe  
 	{
 		width: 40px;
-		
 		color: white;
 		background-color: #0065FC;
 		vertical-align: middle;
-		display: inline-block;
 		height: 42px;
 		line-height: 42px;
 		border-radius: 12px;
@@ -3798,7 +3798,7 @@
 	.logement p 
 	{
 		font-size: 0.9em;
-		line-height: 0;
+		margin-top: 5px;
 	}
 
 	.eco1 
@@ -3828,7 +3828,7 @@
 	#Hebergement
 	{
 		flex-direction:column-reverse;
-		width: 98%;		
+		width:100%;		
 	}
 	
 	#Hergement img
@@ -3840,6 +3840,7 @@
 	article
 	{
 		background-color: white;
+		width: 90%;
 	}
 	
 	article h2

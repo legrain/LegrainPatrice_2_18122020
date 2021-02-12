@@ -284,7 +284,7 @@
 
 	article
 	{
-		
+		width: 90vw;
 		background-color: #F2F2F2;
 		margin-top: 50px;
 		border-radius: 30px;
@@ -344,6 +344,7 @@
 		padding: 5px;
 		margin-top: 50px;
 		flex-wrap: wrap;
+		border-radius: 30px;
 	}
 
 	aside .chart
@@ -1305,7 +1306,8 @@
 
 	#filtre i 
 	{
-		line-height: 2.7;
+		height: 49px;
+		width: 49px;
 	}
 	
 	i.fas.fa-info {
@@ -1846,7 +1848,6 @@
 		height: 180px;
 		padding: 5px;
 		margin-right: 10px;
-		font-size: 1.1em;
 	}
 	
 	#auberge img 
@@ -1863,11 +1864,6 @@
 		padding: 0 20px 0 10px;
 	}
 
-	article h2
-	{
-		font-size: 1.9em;
-	}
-
 	i.fas.fa-chart-line 
 	{
 		line-height: 3;
@@ -1875,15 +1871,13 @@
 
 	aside
 	{
-		width: 32vw;
-		font-size: 1.18em;
+		width: 31vw;
 	}
 
 	aside h2
 	{
 		margin-bottom: -20px;
 		margin-top: 0;
-		font-size: 1.9em;
 	}
 	
 	aside .chart 
@@ -2203,7 +2197,7 @@
 	{
 		color: #0065FC;
 		border-top: 4px solid #0065FC;
-		padding: 33px 20px 0 20px;
+		padding: 34px 20px 0 20px;
 	}
 	
 	li.two
@@ -2369,7 +2363,7 @@
 
 	aside
 	{
-		width: 32vw;
+		width: 30.5vw;
 	}
 
 	aside h2
@@ -2788,11 +2782,12 @@
 
 	#auberge  
 	{
-		margin-left: 10px;
 		height: 160px;
-		width:30%;
+		width: 28.5vw;
+		margin: 5px;
 		border-radius: 20px;
 		padding: 5px;
+		box-shadow: 1px 5px 5px #f9f9f9;
 	}
 
 	#auberge img 
@@ -2827,19 +2822,16 @@
 
 	aside 
 	{
-		width:98%;
+		width:99.9%;
 		display:grid;
 		border-radius: initial;
 	}
 
-	.soleil_texte
-	{
-		padding-left: 10px;
-	}
+	
 	
 	#tp
 	{
-		margin-left: 0;
+		margin-left: 20px;
 	}
 
 	p.hotel 
@@ -2854,7 +2846,7 @@
 	
 	#tp2
 	{
-		margin-left: 0;
+		margin-left: 20px;
 		margin-top: 10px;
 	}
 
@@ -2868,16 +2860,16 @@
 	{
 		padding: 5px;
 		margin: 5px;
-		width:38%;
+		width:30vw;
 		display:grid;
-		height: 180px;
+		height: 160px;
 		border-radius: 20px;
 		margin-bottom: 20px;
 	}
 
 	#soleil img 
 	{
-		width: 100%;
+		width: 30vw;
 		height: 100px;
 		flex-wrap: wrap;
 		border-radius: 20px 20px 0 0;
@@ -2888,7 +2880,7 @@
 	#soleil h3
 	{
 		margin: 0;
-		font-size: 1em;
+		font-size: 0.9em;
 	}
 	
 	#soleil p
@@ -2898,10 +2890,21 @@
 		font-size: 0.9em;
 	}
 
+	#soleil i 
+	{
+		margin-top: 0;
+	}
+
+	#soleil_texte
+	{
+		padding-left: 5px;
+	}
+
 	article
 	{
 		background-color: initial;
 		margin-top: 0;
+		width: 100%;
 	}
 
 	#populaires
@@ -3073,8 +3076,8 @@
 
 	#heber
 	{
-		margin-right: 80px;
-		margin-left: 80px;
+		margin-right: 130px;
+		margin-left: 130px;
 	}
 
 	#heber h2
@@ -3251,14 +3254,14 @@
 	#Hebergement
 	{
 		flex-direction: column-reverse;
-		width: 99%;
+		width: 100%;
 		flex-wrap: nowrap;
 	}
 
 	#auberge  
 	{
-		margin-left: 10px;
-		width:30%;
+		margin: 5px;
+		width:28.3vw;
 		border-radius: 20px;
 		padding: 5px;
 		height: 160px;
@@ -3298,12 +3301,14 @@
 
 	aside 
 	{
-		width:100%;
+		width:99%;
+		border-radius: initial;
+		display: grid;
 	}
 	
 	#tp
 	{
-		margin-left: 0;
+		margin-left: 20px;
 	}
 
 	p.hotel 
@@ -3318,13 +3323,8 @@
 	
 	#tp2
 	{
-		margin-left: 0;
+		margin-left: 20px;
 		margin-top: 10px;
-	}
-
-	aside
-	{
-		border-radius: initial;
 	}
 
 	aside h2
@@ -3338,15 +3338,16 @@
 		padding: 5px;
 		margin: 5px;
 		display:grid;
-		height: 190px;
+		height: 160px;
 		border-radius: 20px;
 		margin-bottom: 20px;
+		width: 30vw;
 	}
 
 	#soleil img 
 	{
 		height: 100px;
-		width: 100%;
+		width: 30vw;
 		border-radius: 20px 20px 0 0;
 	}
 	
@@ -3355,7 +3356,7 @@
 	#soleil h3
 	{
 		margin: 0;
-		font-size: 1em;
+		font-size: 0.9em;
 	}
 	
 	#soleil p
@@ -3365,30 +3366,17 @@
 		font-size: 0.9em;
 	}
 
-	#soleil .nuit
-	{
-		padding-top: 22px;
-	}
-
-	#soleil .coeur
-	{
-		padding-top: 5px;
-	}
-
-	#soleil .blanc
-	{
-		padding-top: 25px;
-	}
-
 	article
 	{
 		background-color: initial;
 		margin-top: 0;
+		width: 100%;
 	}
 
 	#populaires
 	{
 		display:flex;
+		height: 100%;
 	}
 
 	.plus
@@ -3547,13 +3535,13 @@
 	#propos li 
 	{
 		margin-bottom: 10px;
-		font-size: 0.8;
+		font-size: 0.8em;
 	}
 
 	#heber
 	{
-		margin-right: 20px;
-    	margin-left: 30px;
+		margin-right: 80px;
+    	margin-left: 90px;
 	}
 
 	#heber h2
@@ -3564,7 +3552,7 @@
 	#heber li 
 	{
 		margin-bottom: 10px;
-		font-size: 0.8;
+		font-size: 0.8em;
 	}
 
 	#assistance
@@ -3580,7 +3568,7 @@
 	#assistance li 
 	{
 		margin-bottom: 10px;
-		font-size: 0.8;
+		font-size: 0.8em;
 	}
 }
 	
@@ -3810,6 +3798,7 @@
 	.logement p 
 	{
 		font-size: 0.9em;
+		line-height: 0;
 	}
 
 	.eco1 
@@ -3889,7 +3878,7 @@
 		display: flex;
 		width: 95%;
 		height: 140px;
-		border-radius: 25px;
+		border-radius: 20px;
 		box-shadow: 1px 5px 5px 5px #e9e9e9;
 	}
 	
@@ -3903,7 +3892,7 @@
 	{
 		width: 100%;
 		height: 130px;
-		border-radius: 20% 0% 0% 20%;
+		border-radius: 20px 0 0 20px;
 		padding: 5px;
 		
 	}
@@ -3952,7 +3941,6 @@
 	{
 		width: 100vw;
 		margin-left: 20px;
-		max-width: fit-content;
 		height: 220px;
 		border-radius: 20px;
 		padding: 5px;
@@ -3982,6 +3970,7 @@
 	{
 		padding: 0;
 		margin: 0;
+		width: 100%;
 		height: 150px;
 		border-radius: 20px 20px 0 0;
 	}
@@ -4163,6 +4152,7 @@
 	{
 		margin: 0;
 		padding-top: 30px;
+		padding-left: 0;
 	}
 	
 	#heber

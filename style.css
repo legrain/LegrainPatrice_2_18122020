@@ -3825,7 +3825,7 @@
 	#Economique
 	{
 		margin-left: 0;
-		width: 140px;
+		width: 150px;
 		margin-right: 5px;
 		font-size: 0.85em;
 		height: 40px;
@@ -3834,6 +3834,11 @@
 	 #filtre .chien
 	{
 		width: 200px;
+	}
+
+	#filtre .famille
+	{
+		width: 110px;
 	}
 
 	#information p 

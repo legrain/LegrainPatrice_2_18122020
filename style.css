@@ -3827,6 +3827,7 @@
 		margin-left: 0;
 		width: 150px;
 		margin-right: 5px;
+		line-height: 0;
 		font-size: 0.85em;
 		height: 40px;
 	}

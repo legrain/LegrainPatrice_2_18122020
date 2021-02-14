@@ -3804,7 +3804,8 @@
 	
 	i.fas.fa-chart-line 
 	{
-    	line-height: 3;
+    	line-height: 2.5;
+		font-size: 0.9em;
 	}
 
 	nav
@@ -3936,7 +3937,7 @@
 	
 	article h2
 	{
-		font-size: 1.3em;
+		font-size: 1.1em;
 		margin-left: 25px;
 	}
 	
@@ -3954,7 +3955,7 @@
 
 	p.chart 
 	{
-		font-size: 0.9em;
+		font-size: 0.8em;
 	}
 	
 	#populaires h3
@@ -4086,11 +4087,12 @@
 	{
 		margin-left: 20px;
 		font-weight: bold;
+		font-size: 0.9em;
 	}
 
 	#Activites h2 
 	{
-		font-size: 1.3em;
+		font-size: 1.1em;
 		padding-left: 20px;
 	}
 

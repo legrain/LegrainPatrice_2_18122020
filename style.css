@@ -4243,13 +4243,13 @@
 
 	#propos h2
 	{
-		font-size: 1.25em;
+		font-size: 1.1em;
 	}
 
 	#propos li
 	{
 		padding-bottom: 10px;
-		font-size: 1.1em;
+		font-size: 0.9em;
 	}
 	
 	#propos
@@ -4267,24 +4267,24 @@
 
 	#heber h2
 	{
-		font-size: 1.25em;
+		font-size: 1.1em;
 	}
 
 	#heber li 
 	{
 		padding-bottom: 10px;
-		font-size: 1.1em;
+		font-size: 0.9em;
 	}
 
 	#assistance h2
 	{
-		font-size: 1.25em;
+		font-size: 1.1em;
 	}
 
 	#assistance li 
 	{
 		padding-bottom: 10px;
-		font-size: 1.1em;
+		font-size: 0.9em;
 	}
 	
 	#assistance

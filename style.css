@@ -3326,7 +3326,7 @@
 
 	#auberge  
 	{
-		width:27vw;
+		width:28vw;
 		border-radius: 20px;
 		padding: 5px;
 		height: 150px;
@@ -3343,7 +3343,7 @@
 	.auberge_texte
 	{
 		margin-left: 5px;
-		font-size: 0.8em;
+		font-size: 0.9em;
 	}
 	
 	#auberge h3

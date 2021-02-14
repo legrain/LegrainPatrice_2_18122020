@@ -1432,7 +1432,7 @@
 	#soleil
 	{
 		display: flex;
-		height: 130px;
+		height: 140px;
 		margin: 30px 20px 10px 20px;
 		padding: 5px;
 		
@@ -1445,7 +1445,7 @@
 
 	#soleil img
 	{
-		height: 130px;
+		height: 140px;
 		border-radius: 20px 0 0 20px;
 		width: 100%;
 	}
@@ -2917,7 +2917,7 @@
 	#soleil
 	{
 		padding: 5px;
-		width:29vw;
+		width:29.5vw;
 		display:grid;
 		height: 160px;
 		border-radius: 20px;
@@ -2925,13 +2925,16 @@
 
 	#soleil img 
 	{
-		width: 29vw;
+		width: 29.5vw;
 		height: 100px;
 		flex-wrap: wrap;
 		border-radius: 20px 20px 0 0;
 	}
 	
-	
+	#soleil_texte
+	{
+		font-size: 0.9em;
+	}
 	
 	#soleil h3
 	{
@@ -3340,7 +3343,7 @@
 	.auberge_texte
 	{
 		margin-left: 5px;
-		font-size: 0.95em;
+		font-size: 0.8em;
 	}
 	
 	#auberge h3
